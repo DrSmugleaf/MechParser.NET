@@ -24,21 +24,21 @@ namespace MechParser.NET.Smurfy
             using var parser = new CsvParser(reader, configuration);
             using var csvReader = new CsvReader(parser);
 
-            var mechName = string.Empty;
+            var variant = string.Empty;
 
             while (csvReader.Read())
             {
                 if (csvReader.GetField(1) == "Left Arm")
                 {
-                    mechName = csvReader.GetField(0);
-                    var tonnageOpeningParentheses = mechName.LastIndexOf('(');
-                    mechName = mechName.Substring(0, tonnageOpeningParentheses - 1).Trim();
+                    variant = csvReader.GetField(0);
+                    var tonnageOpeningParentheses = variant.LastIndexOf('(');
+                    variant = variant.Substring(0, tonnageOpeningParentheses - 1).Trim();
 
                     continue;
                 }
 
                 var mech = csvReader.GetRecord<SmurfyMech>();
-                mech.Name = mechName;
+                mech.Variant = variant;
 
                 yield return mech;
             }
@@ -155,7 +155,7 @@ namespace MechParser.NET.Smurfy
 
             foreach (var smurfyMech in smurfyMechs)
             {
-                var name = smurfyMech.Name;
+                var name = smurfyMech.Variant;
                 var model = smurfyMech.Model
                     .Replace("\nHero", string.Empty)
                     .Replace("\nChampion", string.Empty);
@@ -174,7 +174,7 @@ namespace MechParser.NET.Smurfy
                 var ecm = smurfyMech.ECM.Equals("yes", StringComparison.InvariantCultureIgnoreCase);
                 var masc = smurfyMech.MASC.Equals("no", StringComparison.InvariantCultureIgnoreCase);
 
-                yield return new Mech(smurfyMech.Name, model, parts, jumpJets, ecm, masc);
+                yield return new Mech(smurfyMech.Variant, model, parts, jumpJets, ecm, masc);
             }
         }
     }

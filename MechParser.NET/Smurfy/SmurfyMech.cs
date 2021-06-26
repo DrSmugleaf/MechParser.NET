@@ -6,7 +6,7 @@ namespace MechParser.NET.Smurfy
 {
     public record SmurfyMech
     {
-        public string Name { get; internal set; } = string.Empty;
+        public string Variant { get; internal set; } = string.Empty;
 
         [Index(0)]
         public string Model { get; set; } = string.Empty;

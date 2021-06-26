@@ -10,14 +10,14 @@ namespace MechParser.NET.Mechs
     public record Mech
     {
         public Mech(
-            string name,
+            string variant,
             string model,
             Dictionary<PartType, Part> parts,
             int jumpJets,
             bool ecm,
             bool masc)
         {
-            Name = name;
+            Variant = variant;
             Model = model;
             Parts = parts;
             JumpJets = jumpJets;
@@ -25,8 +25,8 @@ namespace MechParser.NET.Mechs
             Masc = masc;
         }
 
-        [JsonPropertyName("name")]
-        public string Name { get; set; }
+        [JsonPropertyName("variant")]
+        public string Variant { get; set; }
 
         [JsonPropertyName("model")]
         public string Model { get; set; }
