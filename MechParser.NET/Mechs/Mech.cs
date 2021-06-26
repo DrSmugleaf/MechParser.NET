@@ -15,7 +15,9 @@ namespace MechParser.NET.Mechs
             Dictionary<PartType, Part> parts,
             int jumpJets,
             bool ecm,
-            bool masc)
+            bool masc,
+            int minimumEngine,
+            int maximumEngine)
         {
             Variant = variant;
             Model = model;
@@ -23,6 +25,8 @@ namespace MechParser.NET.Mechs
             JumpJets = jumpJets;
             Ecm = ecm;
             Masc = masc;
+            MinimumEngine = minimumEngine;
+            MaximumEngine = maximumEngine;
         }
 
         [JsonPropertyName("variant")]
@@ -34,7 +38,7 @@ namespace MechParser.NET.Mechs
         [JsonPropertyName("parts")]
         public Dictionary<PartType, Part> Parts { get; set; }
 
-        [JsonPropertyName("jj")]
+        [JsonPropertyName("jumpjets")]
         public int JumpJets { get; set; }
 
         [JsonPropertyName("ecm")]
@@ -42,6 +46,15 @@ namespace MechParser.NET.Mechs
 
         [JsonPropertyName("masc")]
         public bool Masc { get; set; }
+
+        [JsonPropertyName("minimumEngine")]
+        public int MinimumEngine { get; set; }
+
+        [JsonPropertyName("maximumEngine")]
+        public int MaximumEngine { get; set; }
+
+        [JsonPropertyName("defaultEngine")]
+        public int DefaultEngine { get; set; }
 
         public override string ToString()
         {

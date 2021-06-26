@@ -155,7 +155,7 @@ namespace MechParser.NET.Smurfy
 
             foreach (var smurfyMech in smurfyMechs)
             {
-                var name = smurfyMech.Variant;
+                var variant = smurfyMech.Variant;
                 var model = smurfyMech.Model
                     .Replace("\nHero", string.Empty)
                     .Replace("\nChampion", string.Empty);
@@ -170,11 +170,38 @@ namespace MechParser.NET.Smurfy
                     parts.Add(type, part);
                 }
 
-                int.TryParse(smurfyMech.JJ, out var jumpJets);
-                var ecm = smurfyMech.ECM.Equals("yes", StringComparison.InvariantCultureIgnoreCase);
-                var masc = smurfyMech.MASC.Equals("no", StringComparison.InvariantCultureIgnoreCase);
+                int.TryParse(smurfyMech.JumpJets, out var jumpJets);
+                var ecm = smurfyMech.Ecm.Equals("yes", StringComparison.InvariantCultureIgnoreCase);
+                var masc = smurfyMech.Masc.Equals("no", StringComparison.InvariantCultureIgnoreCase);
 
-                yield return new Mech(smurfyMech.Variant, model, parts, jumpJets, ecm, masc);
+                int minEngine;
+                int maxEngine;
+
+                var engineLines = smurfyMech.Engines.Split('\n');
+
+                if (engineLines.Length == 1)
+                {
+                    var engineLevelString = engineLines[0]
+                        .SkipWhile(c => !char.IsDigit(c))
+                        .TakeWhile(char.IsDigit)
+                        .ToArray();
+                    var engineLevel = int.Parse(engineLevelString);
+
+                    minEngine = engineLevel;
+                    maxEngine = engineLevel;
+                }
+                else if (engineLines.Length == 2)
+                {
+                    var engineMinMax = engineLines[0].Split('-');
+                    minEngine = int.Parse(engineMinMax[0]);
+                    maxEngine = int.Parse(engineMinMax[1]);
+                }
+                else
+                {
+                    throw new ArgumentOutOfRangeException();
+                }
+
+                yield return new Mech(variant, model, parts, jumpJets, ecm, masc, minEngine, maxEngine);
             }
         }
     }

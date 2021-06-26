@@ -30,13 +30,13 @@ namespace MechParser.NET.Smurfy
         public string Head { get; set; } = string.Empty;
 
         [Index(7)]
-        public string JJ { get; set; } = string.Empty;
+        public string JumpJets { get; set; } = string.Empty;
 
         [Index(8)]
-        public string ECM { get; set; } = string.Empty;
+        public string Ecm { get; set; } = string.Empty;
 
         [Index(9)]
-        public string MASC { get; set; } = string.Empty;
+        public string Masc { get; set; } = string.Empty;
 
         [Index(10)]
         public string Engines { get; set; } = string.Empty;
