@@ -1,5 +1,6 @@
 ﻿using System;
 using CsvHelper.Configuration.Attributes;
+using MechParser.NET.Mechs.Engines;
 using MechParser.NET.Mechs.Parts;
 
 namespace MechParser.NET.Smurfy
@@ -64,6 +65,51 @@ namespace MechParser.NET.Smurfy
                 PartType.RightLeg => string.Empty,
                 _ => throw new ArgumentOutOfRangeException(nameof(type), type, null)
             };
+        }
+
+        private Engine ParseDefaultEngine(string line)
+        {
+            var engineStrings = line.Split(" ");
+            var engineType = engineStrings[0].ToLowerInvariant() switch
+            {
+                "std" => EngineType.STD,
+                "xl" => EngineType.XL,
+                "light" => EngineType.Light,
+                _ => throw new ArgumentOutOfRangeException()
+            };
+            var engineLevel = int.Parse(engineStrings[1]);
+
+            return new Engine(engineType, engineLevel);
+        }
+
+        public (int minEngine, int maxEngine, Engine defaultEngine) ParseEngine()
+        {
+            int minEngine;
+            int maxEngine;
+            Engine defaultEngine;
+
+            var engineLines = Engines.Split('\n');
+
+            if (engineLines.Length == 1)
+            {
+                defaultEngine = ParseDefaultEngine(engineLines[0]);
+                minEngine = defaultEngine.Level;
+                maxEngine = defaultEngine.Level;
+            }
+            else if (engineLines.Length == 2)
+            {
+                var engineMinMax = engineLines[0].Split('-');
+
+                minEngine = int.Parse(engineMinMax[0]);
+                maxEngine = int.Parse(engineMinMax[1]);
+                defaultEngine = ParseDefaultEngine(engineLines[1]);
+            }
+            else
+            {
+                throw new ArgumentOutOfRangeException();
+            }
+
+            return (minEngine, maxEngine, defaultEngine);
         }
     }
 }

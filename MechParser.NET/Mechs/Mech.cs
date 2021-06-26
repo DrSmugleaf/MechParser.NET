@@ -2,6 +2,7 @@
 using System.Text;
 using System.Text.Json.Serialization;
 using JetBrains.Annotations;
+using MechParser.NET.Mechs.Engines;
 using MechParser.NET.Mechs.Parts;
 
 namespace MechParser.NET.Mechs
@@ -17,7 +18,8 @@ namespace MechParser.NET.Mechs
             bool ecm,
             bool masc,
             int minimumEngine,
-            int maximumEngine)
+            int maximumEngine,
+            Engine defaultEngine)
         {
             Variant = variant;
             Model = model;
@@ -27,6 +29,7 @@ namespace MechParser.NET.Mechs
             Masc = masc;
             MinimumEngine = minimumEngine;
             MaximumEngine = maximumEngine;
+            DefaultEngine = defaultEngine;
         }
 
         [JsonPropertyName("variant")]
@@ -54,7 +57,7 @@ namespace MechParser.NET.Mechs
         public int MaximumEngine { get; set; }
 
         [JsonPropertyName("defaultEngine")]
-        public int DefaultEngine { get; set; }
+        public Engine DefaultEngine { get; set; }
 
         public override string ToString()
         {

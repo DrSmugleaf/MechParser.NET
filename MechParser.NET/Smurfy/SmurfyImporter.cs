@@ -173,35 +173,18 @@ namespace MechParser.NET.Smurfy
                 int.TryParse(smurfyMech.JumpJets, out var jumpJets);
                 var ecm = smurfyMech.Ecm.Equals("yes", StringComparison.InvariantCultureIgnoreCase);
                 var masc = smurfyMech.Masc.Equals("no", StringComparison.InvariantCultureIgnoreCase);
+                var (minEngine, maxEngine, defaultEngine) = smurfyMech.ParseEngine();
 
-                int minEngine;
-                int maxEngine;
-
-                var engineLines = smurfyMech.Engines.Split('\n');
-
-                if (engineLines.Length == 1)
-                {
-                    var engineLevelString = engineLines[0]
-                        .SkipWhile(c => !char.IsDigit(c))
-                        .TakeWhile(char.IsDigit)
-                        .ToArray();
-                    var engineLevel = int.Parse(engineLevelString);
-
-                    minEngine = engineLevel;
-                    maxEngine = engineLevel;
-                }
-                else if (engineLines.Length == 2)
-                {
-                    var engineMinMax = engineLines[0].Split('-');
-                    minEngine = int.Parse(engineMinMax[0]);
-                    maxEngine = int.Parse(engineMinMax[1]);
-                }
-                else
-                {
-                    throw new ArgumentOutOfRangeException();
-                }
-
-                yield return new Mech(variant, model, parts, jumpJets, ecm, masc, minEngine, maxEngine);
+                yield return new Mech(
+                    variant,
+                    model,
+                    parts,
+                    jumpJets,
+                    ecm,
+                    masc,
+                    minEngine,
+                    maxEngine,
+                    defaultEngine);
             }
         }
     }
