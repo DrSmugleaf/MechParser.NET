@@ -1,3612 +1,3598 @@
 FLEA (20),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-FLE-15,1 B 1 E,1 AMS 1 E,1 E,1 E,1 B 1 E,,,,,"100 - 170
+FLE-15,1 B 1 E,1 AMS 1 E,1 E,1 E,1 B 1 E,,No,No,No,"100 - 170
 STD 120",,"5
  2
  0","120° / 0°
 20° / 60°",n/a
-FLE-17,2 E,1 AMS 1 E,1 E,1 E,2 E,,,,,"100 - 170
+FLE-17,2 E,1 AMS 1 E,1 E,1 E,2 E,,No,No,Yes,"100 - 170
 STD 120",,"7
  0
  0","120° / 0°
 20° / 60°",n/a
-FLE-19,4 B,1 AMS,1 E,1 M (10),4 B,,,,,"100 - 170
+FLE-19,4 B,1 AMS,1 E,1 M (10),4 B,,No,No,No,"100 - 170
 STD 120",,"1
  8
  1","120° / 0°
 20° / 60°",n/a
-FLE-20,2 E,1 AMS 1 E,,1 ECM,2 E,,,,,"100 - 170
+FLE-20,2 E,1 AMS 1 E,,1 ECM,2 E,,No,Yes,Yes,"100 - 170
 STD 120",,"5
  0
  0","120° / 0°
 20° / 60°",n/a
-FLE-FA,3 B,1 AMS 1 E,,1 E,3 B,1 E,,,,"100 - 170
+FLE-FA,3 B,1 AMS 1 E,,1 E,3 B,1 E,No,No,Yes,"100 - 170
 STD 120",,"3
  6
  0","120° / 0°
 20° / 60°",n/a
 "ROMEO 5000
-Hero",2 E,1 AMS 1 M (10),1 E,1 M (10),2 E,,,,,"100 - 170
+Hero",2 E,1 AMS 1 M (10),1 E,1 M (10),2 E,,No,No,No,"100 - 170
 STD 120",,"5
  0
  2","120° / 0°
 20° / 60°",n/a
 LOCUST (20),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-LCT-1E,3 E,,,1 AMS,3 E,,,,,"100 - 190
+LCT-1E,3 E,,,1 AMS,3 E,,No,No,No,"100 - 190
 STD 160",,"6
  0
  0","120° / 0°
 20° / 60°","6,001,491,242"
 "LCT-1E(C)
-Champion",3 E,,,1 AMS,3 E,,,,,"100 - 190
+Champion",3 E,,,1 AMS,3 E,,No,No,No,"100 - 190
 XL 190",,"6
  0
  0","120° / 0°
 20° / 60°",760
-LCT-1M,1 M (6),,2 E,1 AMS,1 M (6),,,,,"100 - 190
+LCT-1M,1 M (6),,2 E,1 AMS,1 M (6),,No,No,No,"100 - 190
 STD 160",,"2
  0
  2","130° / 0°
 20° / 60°","5,951,486,254"
-LCT-1V,2 B,,1 E,1 AMS,2 B,,,,,"100 - 190
+LCT-1V,2 B,,1 E,1 AMS,2 B,,No,No,No,"100 - 190
 STD 160",,"1
  4
  0","130° / 0°
 20° / 60°","5,601,388,242"
-LCT-3M,1 AMS 2 E,,1 E,1 AMS,2 E,,,,,"100 - 190
+LCT-3M,1 AMS 2 E,,1 E,1 AMS,2 E,,No,No,No,"100 - 190
 STD 160",,"5
  0
  0","120° / 0°
 20° / 60°","7,151,777,326"
-LCT-3S,2 M (6x2),,1 E,1 AMS,2 M (6x2),,,,,"100 - 190
+LCT-3S,2 M (6x2),,1 E,1 AMS,2 M (6x2),,No,No,No,"100 - 190
 STD 160",,"1
  0
  4","130° / 0°
 20° / 60°","6,401,589,282"
-LCT-3V,1 B,,2 E,1 AMS,1 B,,,,,"100 - 190
+LCT-3V,1 B,,2 E,1 AMS,1 B,,No,No,No,"100 - 190
 STD 160",,"2
  2
  0","130° / 0°
 20° / 60°","5,951,478,234"
 "PIRATES' BANE
-Hero",,1 ECM 2 E,2 B,1 AMS 2 E,,,,,,"100 - 190
+Hero",,1 ECM 2 E,2 B,1 AMS 2 E,,,No,Yes,No,"100 - 190
 XL 190",,"4
  2
  0","120° / 0°
 20° / 60°","1,500"
 COMMANDO (25),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-COM-1B,1 E,,1 M (10),1 AMS,2 E,,,,,"100 - 240
+COM-1B,1 E,,1 M (10),1 AMS,2 E,,No,No,No,"100 - 240
 STD 150",,"3
  0
  1","90° / 40°
 20° / 30°","6,801,694,542"
-COM-1D,,,"2 M (10, 5)",1 AMS,2 E,,,,,"100 - 240
+COM-1D,,,"2 M (10, 5)",1 AMS,2 E,,No,No,No,"100 - 240
 STD 150",,"2
  0
  2","90° / 40°
 20° / 30°","7,001,744,526"
 "COM-1D(C)
-Champion",,,"2 M (10, 5)",1 AMS,2 E,,,,,"100 - 240
+Champion",,,"2 M (10, 5)",1 AMS,2 E,,No,No,No,"100 - 240
 STD 200",,"2
  0
  2","90° / 40°
 20° / 30°",885
-COM-2D,1 E,1 ECM,1 M (10),1 AMS,2 M (10x2),,,,,"100 - 210
+COM-2D,1 E,1 ECM,1 M (10),1 AMS,2 M (10x2),,No,Yes,No,"100 - 210
 STD 150",,"1
  0
  3","90° / 40°
 20° / 30°","7,151,781,542"
-COM-3A,1 E,,1 M (10),1 AMS,1 E 1 M (10),,,,,"100 - 240
+COM-3A,1 E,,1 M (10),1 AMS,1 E 1 M (10),,No,No,No,"100 - 240
 STD 150",,"2
  0
  2","90° / 40°
 20° / 30°","7,201,799,526"
 "DEATH'S KNELL
-Hero",2 E,,,1 AMS,2 E,,,,,"100 - 240
+Hero",2 E,,,1 AMS,2 E,,No,No,No,"100 - 240
 STD 175",,"4
  0
  0","90° / 40°
 20° / 30°","1,875"
 JAVELIN (30),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-JVN-10F,,1 AMS 2 E,,1 AMS 2 E,,,8,,,"100 - 285
+JVN-10F,,1 AMS 2 E,,1 AMS 2 E,,,8,No,No,"100 - 285
 STD 180",,"4
  0
  0","110° / 35°
 20° / 25°",950
-JVN-10N,,1 AMS 2 M (10x2),,1 AMS 2 M (10x2),,,8,,,"100 - 285
+JVN-10N,,1 AMS 2 M (10x2),,1 AMS 2 M (10x2),,,8,No,No,"100 - 285
 STD 180",,"0
  0
  4","110° / 35°
 20° / 25°",950
-JVN-10P,,"3 M (10x2, 6)",1 AMS,"3 M (10x2, 6)",,,6,,,"100 - 255
+JVN-10P,,"3 M (10x2, 6)",1 AMS,"3 M (10x2, 6)",,,6,No,No,"100 - 255
 STD 180",,"0
  0
  6","90° / 35°
 20° / 25°",925
-JVN-11A,,2 E,1 AMS,2 E,3 E,,6,,,"100 - 255
+JVN-11A,,2 E,1 AMS,2 E,3 E,,6,No,No,"100 - 255
 STD 180",,"7
  0
  0","90° / 35°
 20° / 25°","1,060"
-JVN-11B,,1 ECM 2 M (10x2),1 AMS,2 M (10x2),,,,,,"100 - 255
+JVN-11B,,1 ECM 2 M (10x2),1 AMS,2 M (10x2),,,No,Yes,No,"100 - 255
 STD 180",,"0
  0
  4","110° / 35°
 20° / 25°","1,250"
-JVN-11F,3 B,,1 AMS,2 E,3 B,,6,,,"100 - 255
+JVN-11F,3 B,,1 AMS,2 E,3 B,,6,No,No,"100 - 255
 XL 180",,"2
  6
  0","110° / 35°
 20° / 25°",n/a
 "HI THERE!
-Hero",2 E,1 M (10),1 AMS,1 M (10),2 E,,6,,,"100 - 255
+Hero",2 E,1 M (10),1 AMS,1 M (10),2 E,,6,No,No,"100 - 255
 XL 180",,"4
  0
  2","90° / 35°
 20° / 25°","2,250"
 OSIRIS (30),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-OSR-1P,2 B,1 AMS 1 M (10),2 E,1 M (10),2 B,,4,,,"100 - 285
+OSR-1P,2 B,1 AMS 1 M (10),2 E,1 M (10),2 B,,4,No,No,"100 - 285
 XL 240",,"2
  4
  2","110° / 0°
 25° / 30°",n/a
-OSR-1V,2 M (10x2),1 AMS 2 E,,1 M (10),2 E,,4,,,"100 - 285
+OSR-1V,2 M (10x2),1 AMS 2 E,,1 M (10),2 E,,4,No,No,"100 - 285
 XL 240",,"4
  0
  3","110° / 0°
 25° / 30°",n/a
 "OSR-1V(C)
-Champion",2 M (10x2),1 AMS 2 E,,1 M (10),2 E,,4,,,"100 - 285
+Champion",2 M (10x2),1 AMS 2 E,,1 M (10),2 E,,4,No,No,"100 - 285
 XL 245",,"4
  0
  3","110° / 0°
 25° / 30°",n/a
-OSR-2V,2 E,1 AMS 1 B,1 E,1 B,2 E,,4,,,"100 - 285
+OSR-2V,2 E,1 AMS 1 B,1 E,1 B,2 E,,4,No,No,"100 - 285
 XL 240",,"5
  2
  0","110° / 0°
 25° / 30°",n/a
-OSR-3D,1 M (10),1 AMS 2 B,2 E,1 E,2 E,,4,,,"100 - 285
+OSR-3D,1 M (10),1 AMS 2 B,2 E,1 E,2 E,,4,No,No,"100 - 285
 XL 240",,"5
  2
  1","110° / 0°
 25° / 30°",n/a
-OSR-4D,,1 AMS,2 E,2 E,2 E,,8,,,"100 - 285
+OSR-4D,,1 AMS,2 E,2 E,2 E,,8,No,No,"100 - 285
 XL 240",,"6
  0
  0","110° / 0°
 25° / 30°",n/a
 "SEKHMET
-Hero",1 B 1 E,1 AMS 1 E,,1 E,1 B 1 E,,6,,,"100 - 285
+Hero",1 B 1 E,1 AMS 1 E,,1 E,1 B 1 E,,6,No,No,"100 - 285
 XL 240",,"4
  2
  0","110° / 0°
 25° / 30°",n/a
 SPIDER (30),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-SDR-5D,,1 ECM 1 AMS,1 E,,2 E,,8,,,"100 - 255
+SDR-5D,,1 ECM 1 AMS,1 E,,2 E,,8,Yes,No,"100 - 255
 STD 240",,"3
  0
  0","110° / 40°
 20° / 30°","10,152,533,540"
-SDR-5K,2 B,1 AMS,1 E,,2 B,,6,,,"100 - 285
+SDR-5K,2 B,1 AMS,1 E,,2 B,,6,No,No,"100 - 285
 STD 240",,"1
  4
  0","110° / 40°
 20° / 30°","9,852,452,540"
 "SDR-5K(C)
-Champion",2 B,1 AMS,1 E,,2 B,,6,,,"100 - 285
+Champion",2 B,1 AMS,1 E,,2 B,,6,No,No,"100 - 285
 XL 280",,"1
  4
  0","110° / 40°
 20° / 30°","1,235"
-SDR-5V,,1 AMS,2 E,,,,12,,,"100 - 285
+SDR-5V,,1 AMS,2 E,,,,12,No,No,"100 - 285
 STD 240",,"2
  0
  0","110° / 40°
 20° / 30°","10,402,598,540"
 "ANANSI
-Hero",1 B 1 E,1 AMS,1 M (6),1 AMS,1 B 1 E,,6,,,"100 - 270
+Hero",1 B 1 E,1 AMS,1 M (6),1 AMS,1 B 1 E,,6,No,No,"100 - 270
 XL 240",,"2
  2
  1","110° / 40°
 20° / 30°","2,250"
 URBANMECH (30),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
 "K-9
-Hero",3 E,,2 E,1 AMS,1 B,,4,,,"60 - 180
+Hero",3 E,,2 E,1 AMS,1 B,,4,No,No,"60 - 180
 STD 60",,"5
  1
  0","360° / 0°
 25° / 30°",n/a
-UM-R60,2 E,,,1 AMS,4 B,,4,,,"60 - 180
+UM-R60,2 E,,,1 AMS,4 B,,4,No,No,"60 - 180
 STD 60",,"2
  4
  0","360° / 0°
 25° / 30°","6,251,560,113"
-UM-R60L,4 E,,,1 AMS,2 B,,4,,,"60 - 180
+UM-R60L,4 E,,,1 AMS,2 B,,4,No,No,"60 - 180
 STD 60",,"4
  2
  0","360° / 0°
 25° / 30°","7,001,744,084"
-UM-R63,1 E,2 E,,1 AMS,3 B,,4,,,"60 - 180
+UM-R63,1 E,2 E,,1 AMS,3 B,,4,No,No,"60 - 180
 STD 60",,"3
  3
  0","360° / 0°
 25° / 30°","8,052,006,108"
-UM-R68,2 E,1 E,,1 AMS,2 M (20x2),,4,,,"60 - 180
+UM-R68,2 E,1 E,,1 AMS,2 M (20x2),,4,No,No,"60 - 180
 STD 60",,"3
  0
  2","360° / 0°
 25° / 30°",n/a
 "UM-R68(L)
-Special",2 E,1 E,,1 AMS,2 M (20x2),,4,,,"60 - 180
+Special",2 E,1 E,,1 AMS,2 M (20x2),,4,No,No,"60 - 180
 STD 60",,"3
  0
  2","360° / 0°
 25° / 30°",n/a
 "STREET CLEANER
-Hero",3 E,,,1 AMS,2 B,,6,,,"60 - 210
+Hero",3 E,,,1 AMS,2 B,,6,No,No,"60 - 210
 STD 60",,"3
  2
  0","360° / 0°
 25° / 30°",n/a
 FIRESTARTER (35),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-FS9-A,2 E,1 E,2 E,1 AMS 1 E,2 E,,6,,,"100 - 295
+FS9-A,2 E,1 E,2 E,1 AMS 1 E,2 E,,6,No,No,"100 - 295
 STD 210",,"8
  0
  0","100° / 25°
 15° / 30°","10,652,662,358"
 "EMBER
-Hero",2 E,2 B,,1 AMS 2 B,2 E,,6,,,"100 - 295
+Hero",2 E,2 B,,1 AMS 2 B,2 E,,6,No,No,"100 - 295
 STD 210",,"4
  4
  0","100° / 25°
 15° / 30°","2,625"
 "FIRESTORM
-Hero",2 B,1 E,2 E,1 AMS 1 E,2 B,,6,,,"100 - 295
+Hero",2 B,1 E,2 E,1 AMS 1 E,2 B,,6,No,No,"100 - 295
 STD 210",,"4
  4
  0","100° / 25°
 15° / 30°",n/a
-FS9-H,2 E,1 B,2 E,1 AMS 1 B,2 E,,6,,,"100 - 295
+FS9-H,2 E,1 B,2 E,1 AMS 1 B,2 E,,6,No,No,"100 - 295
 STD 210",,"6
  2
  0","100° / 25°
 15° / 30°","10,552,629,342"
-FS9-K,3 E,,2 E,1 AMS,3 E,,6,,,"100 - 295
+FS9-K,3 E,,2 E,1 AMS,3 E,,6,No,No,"100 - 295
 STD 210",,"8
  0
  0","100° / 25°
 15° / 30°","10,652,662,342"
-FS9-S,2 E,1 AMS,2 E,1 AMS 1 E,2 E,,6,,,"100 - 295
+FS9-S,2 E,1 AMS,2 E,1 AMS 1 E,2 E,,6,No,No,"100 - 295
 STD 210",,"7
  0
  0","100° / 25°
 15° / 30°","12,953,231,842"
 "FS9-S(C)
-Champion",2 E,1 AMS,2 E,1 AMS 1 E,2 E,,6,,,"100 - 295
+Champion",2 E,1 AMS,2 E,1 AMS 1 E,2 E,,6,No,No,"100 - 295
 XL 295",,"7
  0
  0","100° / 25°
 15° / 30°","1,620"
 JENNER (35),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-JR7-D,2 E,1 AMS,"2 M (10, 5)",,2 E,,5,,,"100 - 300
+JR7-D,2 E,1 AMS,"2 M (10, 5)",,2 E,,5,No,No,"100 - 300
 STD 245",,"4
  0
  2","120° / 0°
 20° / 30°","12,053,010,018"
 "JR7-D(S)
-Sarah",2 E,1 AMS,"2 M (10, 5)",,2 E,,5,,,"100 - 300
+Sarah",2 E,1 AMS,"2 M (10, 5)",,2 E,,5,No,No,"100 - 300
 XL 300",,"4
  0
  2","120° / 0°
 20° / 30°",
-JR7-F,3 E,1 AMS,,,3 E,,5,,,"100 - 300
+JR7-F,3 E,1 AMS,,,3 E,,5,No,No,"100 - 300
 STD 245",,"6
  0
  0","120° / 0°
 20° / 30°","11,602,893,066"
 "JR7-F(C)
-Champion",3 E,1 AMS,,,3 E,,5,,,"100 - 300
+Champion",3 E,1 AMS,,,3 E,,5,No,No,"100 - 300
 XL 300",,"6
  0
  0","120° / 0°
 20° / 30°","1,450"
-JR7-K,2 E,1 AMS,1 M (10),,2 E,,5,,,"100 - 300
+JR7-K,2 E,1 AMS,1 M (10),,2 E,,5,No,No,"100 - 300
 STD 245",,"4
  0
  1","120° / 0°
 20° / 30°","12,603,139,704"
 "OXIDE
-Hero",1 M (10),1 AMS,"2 M (10, 5)",,1 M (10),,,,,"100 - 300
+Hero",1 M (10),1 AMS,"2 M (10, 5)",,1 M (10),,No,No,No,"100 - 300
 STD 235",,"0
  0
  4","120° / 0°
 20° / 30°","2,625"
 PANTHER (35),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-PNT-10K,,1 AMS,"2 M (10, 5)",1 AMS,2 E,,8,,,"100 - 250
+PNT-10K,,1 AMS,"2 M (10, 5)",1 AMS,2 E,,8,No,No,"100 - 250
 STD 140",,"2
  0
  2","110° / 40°
 20° / 30°","11,552,878,413"
 "PNT-10K(C)
-Champion",,1 AMS,"2 M (10, 5)",1 AMS,2 E,,8,,,"100 - 250
+Champion",,1 AMS,"2 M (10, 5)",1 AMS,2 E,,8,No,No,"100 - 250
 XL 235",,"2
  0
  2","110° / 40°
 20° / 30°","1,445"
-PNT-10P,,1 AMS,"2 M (10, 5)",,2 B,,4,,,"100 - 300
+PNT-10P,,1 AMS,"2 M (10, 5)",,2 B,,4,No,No,"100 - 300
 XL 175",,"0
  2
  2","110° / 40°
 20° / 30°","17,104,264,458"
-PNT-8Z,,1 AMS,"2 M (10, 5)",,3 E,,4,,,"100 - 250
+PNT-8Z,,1 AMS,"2 M (10, 5)",,3 E,,4,No,No,"100 - 250
 STD 140",,"3
  0
  2","110° / 40°
 20° / 30°","9,052,255,413"
-PNT-9R,,1 AMS,1 M (10),,4 E,,4,,,"100 - 250
+PNT-9R,,1 AMS,1 M (10),,4 E,,4,No,No,"100 - 250
 STD 140",,"4
  0
  1","110° / 40°
 20° / 30°","9,852,451,413"
 "KATANA KAT
-Hero",2 E,1 AMS,1 M (10),,2 E,,8,,,"100 - 250
+Hero",2 E,1 AMS,1 M (10),,2 E,,8,No,No,"100 - 250
 XL 140",,"4
  0
  1","110° / 40°
 20° / 30°",n/a
 RAVEN (35),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-RVN-2X,,1 AMS 2 E,,1 M (20),2 E,,,,,"100 - 275
+RVN-2X,,1 AMS 2 E,,1 M (20),2 E,,No,No,No,"100 - 275
 STD 175",,"4
  0
  1","120° / 0°
 20° / 30°","9,902,473,658"
-RVN-3L,1 M (20),1 ECM 1 AMS,,1 E 1 M (10),2 E,,,,,"100 - 295
+RVN-3L,1 M (20),1 ECM 1 AMS,,1 E 1 M (10),2 E,,No,Yes,No,"100 - 295
 XL 210",,"3
  0
  2","120° / 0°
 20° / 30°","23,505,862,992"
 "RVN-3L(C)
-Champion",1 M (20),1 ECM 1 AMS,,1 E 1 M (10),2 E,,,,,"100 - 295
+Champion",1 M (20),1 ECM 1 AMS,,1 E 1 M (10),2 E,,No,Yes,No,"100 - 295
 XL 295",,"3
  0
  2","120° / 0°
 20° / 30°","2,940"
-RVN-4X,2 B,1 AMS,,1 M (20),2 E,,5,,,"100 - 275
+RVN-4X,2 B,1 AMS,,1 M (20),2 E,,5,No,No,"100 - 275
 STD 175",,"2
  2
  1","120° / 0°
 20° / 30°","10,102,520,666"
 "HUGINN
-Hero",2 B,1 AMS 1 M (20),,1 M (20),2 B,,2,,,"100 - 300
+Hero",2 B,1 AMS 1 M (20),,1 M (20),2 B,,2,No,No,"100 - 300
 XL 280",,"0
  4
  2","120° / 0°
 20° / 30°","2,625"
 WOLFHOUND (35),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-WLF-1,,1 AMS 1 E,2 E,1 E,1 E,,,,,"100 - 315
+WLF-1,,1 AMS 1 E,2 E,1 E,1 E,,No,No,No,"100 - 315
 STD 210",,"5
  0
  0","110° / 40°
 25° / 25°","10,702,670,748"
-WLF-1A,,1 AMS 2 E,1 E,2 E,1 E,,,,,"100 - 295
+WLF-1A,,1 AMS 2 E,1 E,2 E,1 E,,No,No,No,"100 - 295
 STD 210",,"6
  0
  0","110° / 40°
 25° / 25°","10,402,594,748"
-WLF-1B,,1 AMS 1 E,2 E,1 AMS 1 E,1 E,,,,,"100 - 295
+WLF-1B,,1 AMS 1 E,2 E,1 AMS 1 E,1 E,,No,No,No,"100 - 295
 STD 210",,"5
  0
  0","110° / 40°
 25° / 25°","10,702,670,748"
 "WLF-1(C)
-Champion",,1 AMS 1 E,2 E,1 E,1 E,,,,,"100 - 315
+Champion",,1 AMS 1 E,2 E,1 E,1 E,,No,No,No,"100 - 315
 XL 295",,"5
  0
  0","110° / 40°
 25° / 25°",n/a
-WLF-2,,1 AMS 1 E,2 E,1 E,2 E,,,,,"100 - 295
+WLF-2,,1 AMS 1 E,2 E,1 E,2 E,,No,No,No,"100 - 295
 STD 210",,"6
  0
  0","110° / 40°
 25° / 25°","11,552,886,748"
 "GRINNER
-Hero",,1 AMS 1 E,2 E,1 ECM 1 E,1 E,,,,,"100 - 295
+Hero",,1 AMS 1 E,2 E,1 ECM 1 E,1 E,,No,Yes,No,"100 - 295
 STD 210",,"5
  0
  0","110° / 40°
 25° / 25°",n/a
-"Light
-Clan",,,,,,,,,,,,,,
 PIRANHA (20),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-PIR-1,1 E,1 AMS 6 B,1 E,6 B,1 E,,,,,"100 - 180
+PIR-1,1 E,1 AMS 6 B,1 E,6 B,1 E,,No,No,No,"100 - 180
 XL 180",,"3
  12
  0","100° / 30°
 20° / 30°",n/a
-PIR-2,1 E,1 AMS 6 E,1 E,6 E,1 E,,,,,"100 - 180
+PIR-2,1 E,1 AMS 6 E,1 E,6 E,1 E,,No,No,No,"100 - 180
 XL 180",,"15
  0
  0","100° / 30°
 20° / 30°",n/a
-PIR-3,2 E,1 AMS 5 E,,5 E,2 E,,,,,"100 - 180
+PIR-3,2 E,1 AMS 5 E,,5 E,2 E,,No,No,No,"100 - 180
 XL 180",,"14
  0
  0","110° / 30°
 20° / 30°",n/a
-PIR-A,1 E,2 AMS 4 B,1 E,2 AMS 4 B,1 E,,,,,"100 - 180
+PIR-A,1 E,2 AMS 4 B,1 E,2 AMS 4 B,1 E,,No,No,No,"100 - 180
 XL 180",,"3
  8
  0","120° / 30°
 25° / 30°",n/a
-PIR-B,2 E,1 AMS 2 B,2 E,2 B,2 E,,,,,"100 - 180
+PIR-B,2 E,1 AMS 2 B,2 E,2 B,2 E,,No,No,No,"100 - 180
 XL 180",,"6
  4
  0","120° / 30°
 25° / 30°",n/a
 "CIPHER
-Hero",1 E,1 AMS 3 B 3 E,1 E,3 B 3 E,1 E,,,,,"100 - 180
+Hero",1 E,1 AMS 3 B 3 E,1 E,3 B 3 E,1 E,,No,No,No,"100 - 180
 XL 180",,"9
  6
  0","100° / 30°
 20° / 30°",n/a
 MIST LYNX (25),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-MLX-A,2 AMS 1 E,,,,2 B 1 E,,6,,,XL 175,,"2
+MLX-A,2 AMS 1 E,,,,2 B 1 E,,6,No,No,XL 175,,"2
  2
  0","120° / 20°
 30° / 30°","23,255,810,750"
-MLX-B,2 E,,,,1 E 2 M (10x2),,6,,,XL 175,,"3
+MLX-B,2 E,,,,1 E 2 M (10x2),,6,No,No,XL 175,,"3
  0
  2","120° / 20°
 30° / 30°","23,905,964,046"
-MLX-C,1 ECM 1 AMS,,,,2 E,,6,,,XL 175,,"2
+MLX-C,1 ECM 1 AMS,,,,2 E,,6,Yes,No,XL 175,,"2
  0
  0","120° / 20°
 30° / 30°","25,656,409,546"
-MLX-D,1 B,,,,2 E,,6,,,XL 175,,"2
+MLX-D,1 B,,,,2 E,,6,No,No,XL 175,,"2
  1
  0","120° / 20°
 30° / 30°","22,705,671,096"
 "EBON DRAGOON
-Hero","2 M (12, 10)",,,2 E,2 E,,6,,,XL 175,,"4
+Hero","2 M (12, 10)",,,2 E,2 E,,6,No,No,XL 175,,"4
  0
  2","120° / 20°
 30° / 30°",n/a
-MLX-G,4 B 1 E,,,2 E,4 B 1 E,,6,,,XL 175,,"4
+MLX-G,4 B 1 E,,,2 E,4 B 1 E,,6,No,No,XL 175,,"4
  8
  0","120° / 20°
 30° / 30°",n/a
-MLX-PRIME,1 M (10),,,,2 B 1 M (10),,6,,,XL 175,,"0
+MLX-PRIME,1 M (10),,,,2 B 1 M (10),,6,No,No,XL 175,,"0
  2
  2","120° / 20°
 30° / 30°","22,955,732,606"
 "MLX-PRIME(C)
-Champion",2 E,,,,2 E,,6,,,XL 175,,"4
+Champion",2 E,,,,2 E,,6,No,No,XL 175,,"4
  0
  0","120° / 20°
 30° / 30°","2,870"
 ARCTIC CHEETAH (30),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-ACH-A,1 E 1 M (10),,,1 AMS,1 E 1 M (10),,6,,,XL 240,,"2
+ACH-A,1 E 1 M (10),,,1 AMS,1 E 1 M (10),,6,No,No,XL 240,,"2
  0
  2","110° / 30°
 30° / 30°","27,856,957,336"
-ACH-B,2 E,,,,1 B 1 E,,6,,,XL 240,,"3
+ACH-B,2 E,,,,1 B 1 E,,6,No,No,XL 240,,"3
  1
  0","110° / 30°
 30° / 30°","27,706,920,636"
-ACH-C,2 E,2 E,,1 E,2 E,,6,,,XL 240,,"7
+ACH-C,2 E,2 E,,1 E,2 E,,6,No,No,XL 240,,"7
  0
  0","110° / 30°
 30° / 30°","30,507,617,336"
-ACH-E,3 B,2 E,,1 E,3 B,,6,,,XL 240,,"3
+ACH-E,3 B,2 E,,1 E,3 B,,6,No,No,XL 240,,"3
  6
  0","110° / 30°
 30° / 30°",n/a
-ACH-PRIME,1 E 1 M (10),1 ECM 1 E,,1 E,1 E 1 M (10),,6,,,XL 240,,"4
+ACH-PRIME,1 E 1 M (10),1 ECM 1 E,,1 E,1 E 1 M (10),,6,Yes,No,XL 240,,"4
  0
  2","110° / 30°
 30° / 30°","30,957,737,456"
 "ACH-PRIME(C)
-Champion",2 E,1 ECM 1 E,,1 E,2 E,,6,,,XL 240,,"6
+Champion",2 E,1 ECM 1 E,,1 E,2 E,,6,Yes,No,XL 240,,"6
  0
  0","110° / 30°
 30° / 30°","3,870"
 "SHARD
-Hero",2 E,1 M (12),,2 B,2 E,,6,,,XL 240,,"4
+Hero",2 E,1 M (12),,2 B,2 E,,6,No,No,XL 240,,"4
  2
  1","110° / 30°
 30° / 30°",n/a
 INCUBUS (30),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-INC-1,,2 B 1 E,1 AMS,2 B 1 E,2 E,,,,,"100 - 285
+INC-1,,2 B 1 E,1 AMS,2 B 1 E,2 E,,No,No,No,"100 - 285
 XL 270",,"4
  4
  0","110° / 30°
 30° / 30°",n/a
-INC-2,,3 B 1 E,1 AMS,2 B 1 E,1 E,,,,,"100 - 285
+INC-2,,3 B 1 E,1 AMS,2 B 1 E,1 E,,No,No,No,"100 - 285
 XL 270",,"3
  5
  0","110° / 30°
 30° / 30°",n/a
-INC-3,,2 B 1 E,1 AMS,2 B 1 E,2 M (20x2),,,,,"100 - 285
+INC-3,,2 B 1 E,1 AMS,2 B 1 E,2 M (20x2),,No,No,No,"100 - 285
 XL 270",,"2
  4
  2","110° / 30°
 30° / 30°",n/a
-INC-4,,3 E,1 AMS,3 E,1 E,,,,,"100 - 285
+INC-4,,3 E,1 AMS,3 E,1 E,,No,No,No,"100 - 285
 XL 270",,"7
  0
  0","110° / 30°
 30° / 30°",n/a
-INC-5,,2 B 2 E,1 AMS,2 B 1 E,1 M (20),,,,,"100 - 285
+INC-5,,2 B 2 E,1 AMS,2 B 1 E,1 M (20),,No,No,No,"100 - 285
 XL 270",,"3
  4
  1","110° / 30°
 30° / 30°",n/a
 "SABRE
-Hero",,1 AMS 1 B 1 E,1 M (15),2 B 1 E,2 M (20x2),,,,,"100 - 285
+Hero",,1 AMS 1 B 1 E,1 M (15),2 B 1 E,2 M (20x2),,No,No,No,"100 - 285
 XL 270",,"2
  3
  3","110° / 30°
 30° / 30°",n/a
 KIT FOX (30),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-KFX-C,2 B 2 E,,,,1 ECM 3 AMS 1 E,,,,,XL 180,,"3
+KFX-C,2 B 2 E,,,,1 ECM 3 AMS 1 E,,No,Yes,No,XL 180,,"3
  2
  0","120° / 40°
 20° / 30°","27,256,810,335"
-KFX-D,"2 M (20, 15)",,,,"2 M (20, 15)",,,,,XL 180,,"0
+KFX-D,"2 M (20, 15)",,,,"2 M (20, 15)",,No,No,No,XL 180,,"0
  0
  4","120° / 40°
 20° / 30°","23,805,949,429"
-KFX-G,1 ECM,1 M (15),,1 M (20),2 E,,,,,XL 180,,"2
+KFX-G,1 ECM,1 M (15),,1 M (20),2 E,,No,Yes,No,XL 180,,"2
  0
  2","120° / 40°
 20° / 30°",n/a
 "KFX-G(L)
-Special",1 ECM,1 M (15),,1 M (20),2 E,,,,,XL 180,,"2
+Special",1 ECM,1 M (15),,1 M (20),2 E,,No,Yes,No,XL 180,,"2
  0
  2","120° / 40°
 20° / 30°",n/a
 "PURIFIER
-Hero",1 B,2 E,,2 E,1 B,,,,,XL 180,,"4
+Hero",1 B,2 E,,2 E,1 B,,No,No,No,XL 180,,"4
  2
  0","120° / 40°
 20° / 30°",n/a
-KFX-PRIME,2 E,,,,1 B 1 M (20),,,,,XL 180,,"2
+KFX-PRIME,2 E,,,,1 B 1 M (20),,No,No,No,XL 180,,"2
  1
  1","120° / 40°
 20° / 30°","24,056,008,129"
-KFX-S,1 E 1 M (20),1 B,,1 B,2 E,,,,,XL 180,,"3
+KFX-S,1 E 1 M (20),1 B,,1 B,2 E,,No,No,No,XL 180,,"3
  2
  1","120° / 40°
 20° / 30°","23,405,848,129"
 ADDER (35),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-ADR-A,1 M (20),1 E,1 E,1 E,1 M (20),,,,,XL 210,,"3
+ADR-A,1 M (20),1 E,1 E,1 E,1 M (20),,No,No,No,XL 210,,"3
  0
  2","120° / 40°
 20° / 30°","27,756,937,211"
-ADR-B,1 B,1 E,1 E,1 E,1 E,,,,,XL 210,,"4
+ADR-B,1 B,1 E,1 E,1 E,1 E,,No,No,No,XL 210,,"4
  1
  0","120° / 40°
 20° / 30°","27,806,938,004"
 "CINDER
-Hero",1 E,1 B,1 E,1 B,1 E,,,,,XL 210,,"3
+Hero",1 E,1 B,1 E,1 B,1 E,,No,No,No,XL 210,,"3
  2
  0","120° / 40°
 20° / 30°",n/a
-ADR-D,1 E,1 M (20),1 E,1 M (20),1 B,,,,,XL 210,,"2
+ADR-D,1 E,1 M (20),1 E,1 M (20),1 B,,No,No,No,XL 210,,"2
  1
  2","120° / 40°
 20° / 30°","26,956,729,971"
-ADR-PRIME,1 E,,1 E,1 AMS,1 E,,,,,XL 210,,"3
+ADR-PRIME,1 E,,1 E,1 AMS,1 E,,No,No,No,XL 210,,"3
  0
  0","120° / 40°
 20° / 30°","28,107,024,974"
 "ADR-PRIME(C)
-Champion",1 E,1 E,1 E,1 E,1 E,,,,,XL 210,,"5
+Champion",1 E,1 E,1 E,1 E,1 E,,No,No,No,XL 210,,"5
  0
  0","120° / 40°
 20° / 30°",n/a
 COUGAR (35),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
 "BLOOD ADDER
-Hero",1 M (20),1 B,,1 B,1 M (20),1 AMS,,,,XL 175,,"0
+Hero",1 M (20),1 B,,1 B,1 M (20),1 AMS,No,No,No,XL 175,,"0
  2
  2","120° / 40°
 20° / 30°",n/a
-COU-C,1 B,,,,4 E,1 E,,,,XL 175,,"5
+COU-C,1 B,,,,4 E,1 E,No,No,No,XL 175,,"5
  1
  0","120° / 40°
 20° / 30°",n/a
-COU-D,1 E,1 M (20),,1 M (20),1 B,,,,,XL 175,,"1
+COU-D,1 E,1 M (20),,1 M (20),1 B,,No,No,No,XL 175,,"1
  1
  2","120° / 40°
 20° / 30°",n/a
-COU-E,1 M (20),1 E,,1 E,1 M (20),1 E,,,,XL 175,,"3
+COU-E,1 M (20),1 E,,1 E,1 M (20),1 E,No,No,No,XL 175,,"3
  0
  2","120° / 40°
 20° / 30°",n/a
-COU-H,1 B,,,,3 E,1 ECM,,,,XL 175,,"3
+COU-H,1 B,,,,3 E,1 ECM,No,Yes,No,XL 175,,"3
  1
  0","120° / 40°
 20° / 30°",n/a
-COU-PRIME,1 E,1 AMS 1 M (20),,1 M (20),1 E,,,,,XL 175,,"2
+COU-PRIME,1 E,1 AMS 1 M (20),,1 M (20),1 E,,No,No,No,XL 175,,"2
  0
  2","120° / 40°
 20° / 30°",n/a
 JENNER IIC (35),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-JR7-IIC,2 M (12x2),1 AMS,"2 M (15, 10)",,2 M (12x2),,7,,,"100 - 315
+JR7-IIC,2 M (12x2),1 AMS,"2 M (15, 10)",,2 M (12x2),,7,No,No,"100 - 315
 XL 315",,"0
  0
  6","100° / 0°
 20° / 30°","27,706,916,093"
-JR7-IIC-2,2 E,1 AMS,1 M (15),,2 E,,10,,,"100 - 315
+JR7-IIC-2,2 E,1 AMS,1 M (15),,2 E,,10,No,No,"100 - 315
 XL 315",,"4
  0
  1","100° / 0°
 20° / 30°","27,706,918,153"
-JR7-IIC-3,2 E,1 AMS,"2 M (15, 10)",,2 E,,7,,,"100 - 315
+JR7-IIC-3,2 E,1 AMS,"2 M (15, 10)",,2 E,,7,No,No,"100 - 315
 XL 315",,"4
  0
  2","100° / 0°
 20° / 30°","26,656,660,093"
-JR7-IIC-A,3 E,1 AMS,,,3 E,,7,,,"100 - 315
+JR7-IIC-A,3 E,1 AMS,,,3 E,,7,No,No,"100 - 315
 XL 315",,"6
  0
  0","100° / 0°
 20° / 30°","26,106,524,093"
 "FURY
-Hero",3 B,1 AMS,2 E,1 AMS,3 B,,7,,,"100 - 315
+Hero",3 B,1 AMS,2 E,1 AMS,3 B,,7,No,No,"100 - 315
 XL 280",,"2
  6
  0","100° / 0°
 20° / 30°",n/a
 "JR7-IIC(C)
-Champion",2 M (12x2),1 AMS,"2 M (15, 10)",,2 M (12x2),,7,,,"100 - 315
+Champion",2 M (12x2),1 AMS,"2 M (15, 10)",,2 M (12x2),,7,No,No,"100 - 315
 XL 295",,"0
  0
  6","100° / 0°
 20° / 30°","3,465"
-"Medium
-InnerSphere",,,,,,,,,,,,,,
 ASSASSIN (40),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-ASN-101,,1 E 1 M (10),1 AMS,1 E 1 M (10),1 E,1 E,5,,,"100 - 380
+ASN-101,,1 E 1 M (10),1 AMS,1 E 1 M (10),1 E,1 E,5,No,No,"100 - 380
 STD 280",,"4
  0
  2","130° / 30°
 30° / 30°",n/a
 "ASN-101(C)
-Champion",,1 E 1 M (10),1 AMS,1 E 1 M (10),1 E,1 E,5,,,"100 - 380
+Champion",,1 E 1 M (10),1 AMS,1 E 1 M (10),1 E,1 E,5,No,No,"100 - 380
 XL 280",,"4
  0
  2","130° / 30°
 30° / 30°",n/a
-ASN-21,,2 M (10x2),1 AMS,2 M (10x2),2 E,,7,,,"100 - 365
+ASN-21,,2 M (10x2),1 AMS,2 M (10x2),2 E,,7,No,No,"100 - 365
 STD 280",,"2
  0
  4","130° / 30°
 30° / 30°",n/a
-ASN-23,,,1 AMS,3 M (10x3),3 E,,7,,,"100 - 365
+ASN-23,,,1 AMS,3 M (10x3),3 E,,7,No,No,"100 - 365
 STD 280",,"3
  0
  3","130° / 30°
 30° / 30°",n/a
-ASN-26,,2 E,1 AMS,2 B,2 E,,7,,,"100 - 365
+ASN-26,,2 E,1 AMS,2 B,2 E,,7,No,No,"100 - 365
 XL 280",,"4
  2
  0","130° / 30°
 30° / 30°",n/a
-ASN-27,,1 ECM 1 M (10),1 AMS,1 M (10),2 E,1 E,7,,,"100 - 365
+ASN-27,,1 ECM 1 M (10),1 AMS,1 M (10),2 E,1 E,7,Yes,No,"100 - 365
 XL 280",,"3
  0
  2","130° / 30°
 30° / 30°",n/a
 "DARKDEATH
-Hero",,1 ECM 1 E,1 AMS,2 M (10x2),1 B,1 E,7,,,"100 - 365
+Hero",,1 ECM 1 E,1 AMS,2 M (10x2),1 B,1 E,7,Yes,No,"100 - 365
 XL 280",,"2
  1
  2","130° / 30°
 30° / 30°",n/a
 CICADA (40),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-CDA-2A,,2 E,2 E,1 AMS 2 E,,,,,,"100 - 340
+CDA-2A,,2 E,2 E,1 AMS 2 E,,,No,No,No,"100 - 340
 STD 320",,"6
  0
  0","125° / 0°
 30° / 30°","12,803,194,944"
 "CDA-2A(C)
-Champion",,2 E,2 E,1 AMS 2 E,,,,,,"100 - 340
+Champion",,2 E,2 E,1 AMS 2 E,,,No,No,No,"100 - 340
 XL 340",,"6
  0
  0","125° / 0°
 30° / 30°","1,600"
-CDA-2B,2 E,,1 E,1 AMS,2 E,,,,,"100 - 340
+CDA-2B,2 E,,1 E,1 AMS,2 E,,No,No,No,"100 - 340
 STD 320",,"5
  0
  0","125° / 0°
 30° / 30°","12,753,182,436"
-CDA-3C,,2 B,,1 AMS 2 B 1 E,,,,,,"100 - 340
+CDA-3C,,2 B,,1 AMS 2 B 1 E,,,No,No,No,"100 - 340
 STD 280",,"1
  4
  0","125° / 0°
 30° / 30°","12,803,193,110"
-CDA-3F,,2 E,,1 AMS 2 E,,,8,,,"100 - 340
+CDA-3F,,2 E,,1 AMS 2 E,,,8,No,No,"100 - 340
 XL 320",,"4
  0
  0","125° / 0°
 30° / 30°","30,957,733,836"
 "CDA-3F(L)
-Special",,2 E,,1 AMS 2 E,,,8,,,"100 - 340
+Special",,2 E,,1 AMS 2 E,,,8,No,No,"100 - 340
 XL 320",,"4
  0
  0","125° / 0°
 30° / 30°",n/a
-CDA-3M,,1 ECM 1 B 1 E,2 E,1 AMS 1 E,,,,,,"100 - 340
+CDA-3M,,1 ECM 1 B 1 E,2 E,1 AMS 1 E,,,No,Yes,No,"100 - 340
 XL 320",,"4
  1
  0","125° / 0°
 30° / 30°","28,407,097,444"
 "X-5
-Hero",1 E,1 E 1 M (20),,1 E 1 M (20),1 E,,,,,"100 - 340
+Hero",1 E,1 E 1 M (20),,1 E 1 M (20),1 E,,No,No,No,"100 - 340
 XL 330",,"4
  0
  2","125° / 0°
 30° / 30°","3,000"
 VULCAN (40),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-VL-2T,1 B,2 E,1 AMS,2 B,1 E,,6,,,"100 - 315
+VL-2T,1 B,2 E,1 AMS,2 B,1 E,,6,No,No,"100 - 315
 STD 240",,"3
  3
  0","130° / 45°
 30° / 45°",n/a
-VL-5T,1 B,1 E,1 AMS,3 E,1 E,,6,,,"100 - 315
+VL-5T,1 B,1 E,1 AMS,3 E,1 E,,6,No,No,"100 - 315
 STD 240",,"5
  1
  0","130° / 45°
 30° / 45°",n/a
 "BLOODLUST
-Hero",2 B,1 M (20),1 AMS 1 M (10),1 M (20),1 B 1 E,1 M (5),6,,,"100 - 315
+Hero",2 B,1 M (20),1 AMS 1 M (10),1 M (20),1 B 1 E,1 M (5),6,No,No,"100 - 315
 XL 240",,"1
  3
  4","130° / 45°
 30° / 45°",n/a
-VT-5M,2 B,1 E,1 AMS,2 E,1 E,,6,,,"100 - 315
+VT-5M,2 B,1 E,1 AMS,2 E,1 E,,6,No,No,"100 - 315
 STD 240",,"4
  2
  0","130° / 45°
 30° / 45°",n/a
-VT-5S,1 B,2 E,1 AMS,2 B,1 E,,6,,,"100 - 315
+VT-5S,1 B,2 E,1 AMS,2 B,1 E,,6,No,Yes,"100 - 315
 XL 240",,"3
  3
  0","130° / 45°
 30° / 45°",n/a
-VT-6M,2 B,1 E,1 AMS,2 B,1 E,,6,,,"100 - 315
+VT-6M,2 B,1 E,1 AMS,2 B,1 E,,6,No,No,"100 - 315
 XL 240",,"2
  4
  0","130° / 45°
 30° / 45°",n/a
 BLACKJACK (45),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-BJ-1,1 B 1 E,1 AMS 1 E,,1 E,1 B 1 E,,4,,,"100 - 235
+BJ-1,1 B 1 E,1 AMS 1 E,,1 E,1 B 1 E,,4,No,No,"100 - 235
 STD 180",,"4
  2
  0","110° / 0°
 30° / 30°","13,553,385,436"
 "BJ-1(C)
-Champion",1 B 1 E,1 AMS 1 E,,1 E,1 B 1 E,,4,,,"100 - 235
+Champion",1 B 1 E,1 AMS 1 E,,1 E,1 B 1 E,,4,No,No,"100 - 235
 XL 235",,"4
  2
  0","110° / 0°
 30° / 30°","1,695"
-BJ-1DC,1 B 1 E,1 AMS 2 E,,2 E,1 B 1 E,,,,,"100 - 235
+BJ-1DC,1 B 1 E,1 AMS 2 E,,2 E,1 B 1 E,,No,No,No,"100 - 235
 STD 180",,"6
  2
  0","90° / 0°
 30° / 30°","12,553,130,436"
-BJ-1X,3 E,1 AMS 1 E,,1 E,3 E,,,,,"100 - 295
+BJ-1X,3 E,1 AMS 1 E,,1 E,3 E,,No,No,No,"100 - 295
 STD 225",,"8
  0
  0","80° / 0°
 30° / 30°","12,603,144,528"
-BJ-2,1 E,1 AMS 2 M (20x2),,2 M (20x2),1 E,,4,,,"100 - 235
+BJ-2,1 E,1 AMS 2 M (20x2),,2 M (20x2),1 E,,4,No,No,"100 - 235
 STD 180",,"2
  0
  4","110° / 0°
 30° / 30°",n/a
 "BJ-2(L)
-Special",1 E,1 AMS 2 M (20x2),,2 M (20x2),1 E,,4,,,"100 - 235
+Special",1 E,1 AMS 2 M (20x2),,2 M (20x2),1 E,,4,No,No,"100 - 235
 STD 180",,"2
  0
  4","110° / 0°
 30° / 30°",n/a
-BJ-3,2 E,1 AMS 1 E,,1 E,2 E,,4,,,"100 - 235
+BJ-3,2 E,1 AMS 1 E,,1 E,2 E,,4,No,No,"100 - 235
 STD 180",,"6
  0
  0","110° / 0°
 30° / 30°","16,054,000,461"
 "ARROW
-Hero",3 B,1 AMS 1 E,1 E,1 E,3 B,,4,,,"100 - 235
+Hero",3 B,1 AMS 1 E,1 E,1 E,3 B,,4,No,No,"100 - 235
 STD 235",,"3
  6
  0","90° / 0°
 30° / 30°","3,375"
 HELLSPAWN (45),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-HSN-7D,2 E,1 M (20),1 ECM,1 AMS 1 E,1 E 1 M (20),,6,,,"100 - 355
+HSN-7D,2 E,1 M (20),1 ECM,1 AMS 1 E,1 E 1 M (20),,6,Yes,No,"100 - 355
 XL 270",,"4
  0
  2","110° / 30°
 25° / 30°",n/a
 "PARALYZER
-Hero",2 E 1 M (20),1 E,1 ECM,1 AMS 1 E,2 E 1 M (20),,6,,,"100 - 355
+Hero",2 E 1 M (20),1 E,1 ECM,1 AMS 1 E,2 E 1 M (20),,6,Yes,No,"100 - 355
 XL 270",,"6
  0
  2","110° / 30°
 25° / 30°",n/a
 "HSN-7P
-Special",1 E,2 M (20x2),1 E,1 AMS 2 E,1 E,,,,,"100 - 355
+Special",1 E,2 M (20x2),1 E,1 AMS 2 E,1 E,,No,No,No,"100 - 355
 XL 270",,"5
  0
  2","110° / 30°
 25° / 30°",n/a
-HSN-8E,1 E,2 M (20x2),1 ECM,1 AMS 1 E,1 E 1 M (20),,6,,,"100 - 355
+HSN-8E,1 E,2 M (20x2),1 ECM,1 AMS 1 E,1 E 1 M (20),,6,Yes,No,"100 - 355
 XL 270",,"3
  0
  3","110° / 30°
 25° / 30°",n/a
 "HSN-8P
-Special",2 M (20x2),1 M (20),,1 AMS 2 E,2 M (20x2),,6,,,"100 - 355
+Special",2 M (20x2),1 M (20),,1 AMS 2 E,2 M (20x2),,6,No,No,"100 - 355
 XL 270",,"2
  0
  5","110° / 30°
 25° / 30°",n/a
 "HSN-9F
-Special",2 E,2 M (20x2),,1 AMS,1 E 2 M (20x2),,6,,,"100 - 355
+Special",2 E,2 M (20x2),,1 AMS,1 E 2 M (20x2),,6,No,No,"100 - 355
 XL 270",,"3
  0
  4","110° / 30°
 25° / 30°",n/a
 PHOENIX HAWK (45),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-PXH-1,2 B 1 E,1 AMS,,,1 B 2 E,,8,,,"100 - 355
+PXH-1,2 B 1 E,1 AMS,,,1 B 2 E,,8,No,No,"100 - 355
 STD 270",,"3
  3
  0","110° / 30°
 25° / 35°","15,403,841,553"
-PXH-1B,1 B 1 E,1 AMS,1 ECM,1 E,1 B 2 E,,6,,,"100 - 355
+PXH-1B,1 B 1 E,1 AMS,1 ECM,1 E,1 B 2 E,,6,Yes,No,"100 - 355
 XL 270",,"4
  2
  0","110° / 30°
 25° / 35°","31,607,895,553"
-PXH-1K,3 E,1 AMS,2 E,,3 E,,,,,"100 - 355
+PXH-1K,3 E,1 AMS,2 E,,3 E,,No,No,No,"100 - 355
 STD 270",,"8
  0
  0","110° / 30°
 25° / 35°","13,703,413,077"
-PXH-2,3 E,1 AMS,1 ECM,,3 E,,6,,,"100 - 355
+PXH-2,3 E,1 AMS,1 ECM,,3 E,,6,Yes,No,"100 - 355
 STD 270",,"6
  0
  0","110° / 30°
 25° / 35°","16,904,224,561"
 "PXH-2(C)
-Champion",3 E,1 AMS,1 ECM,,3 E,,6,,,"100 - 355
+Champion",3 E,1 AMS,1 ECM,,3 E,,6,Yes,No,"100 - 355
 XL 345",,"6
  0
  0","110° / 30°
 25° / 35°",n/a
-PXH-3S,2 B 1 E,1 AMS,,,1 AMS 2 E,,6,,,"100 - 355
+PXH-3S,2 B 1 E,1 AMS,,,1 AMS 2 E,,6,No,Yes,"100 - 355
 XL 270",,"3
  2
  0","110° / 30°
 25° / 35°","28,657,154,013"
 "KUROI KIRI
-Hero",2 B 2 E,1 AMS,,,1 AMS 2 E,,6,,,"100 - 355
+Hero",2 B 2 E,1 AMS,,,1 AMS 2 E,,6,No,No,"100 - 355
 XL 270",,"4
  2
  0","110° / 30°
 25° / 35°","3,375"
 "ROC
-Hero",1 B 1 E 2 M (20x2),1 AMS,,,1 AMS 2 E,,6,,,"100 - 355
+Hero",1 B 1 E 2 M (20x2),1 AMS,,,1 AMS 2 E,,6,No,No,"100 - 355
 XL 270",,"3
  1
  2","110° / 30°
 25° / 35°","3,375"
 VINDICATOR (45),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-VND-1AA,1 E,1 AMS 1 M (20),,1 AMS,2 E,1 E,6,,,"100 - 295
+VND-1AA,1 E,1 AMS 1 M (20),,1 AMS,2 E,1 E,6,No,No,"100 - 295
 STD 225",,"4
  0
  1","125° / 35°
 30° / 30°","14,803,693,024"
 "VND-1AA(C)
-Champion",1 E,1 AMS 1 M (20),,1 AMS,2 E,1 E,6,,,"100 - 295
+Champion",1 E,1 AMS 1 M (20),,1 AMS,2 E,1 E,6,No,No,"100 - 295
 XL 295",,"4
  0
  1","125° / 35°
 30° / 30°","1,850"
-VND-1R,2 E,1 M (20),,1 AMS,2 E,1 E,4,,,"100 - 235
+VND-1R,2 E,1 M (20),,1 AMS,2 E,1 E,4,No,No,"100 - 235
 STD 180",,"5
  0
  1","125° / 35°
 30° / 30°","13,603,394,029"
 "ST. IVES' BLUES
-Hero",1 E,"2 M (20, 10)",,1 AMS,1 E,1 E,5,,,"100 - 250
+Hero",1 E,"2 M (20, 10)",,1 AMS,1 E,1 E,5,No,No,"100 - 250
 STD 180",,"3
  0
  2","125° / 35°
 30° / 30°","3,375"
-VND-1X,3 B,1 M (20),,1 AMS,1 E,1 E,4,,,"100 - 235
+VND-1X,3 B,1 M (20),,1 AMS,1 E,1 E,4,No,No,"100 - 235
 STD 180",,"2
  3
  1","125° / 35°
 30° / 30°","13,603,388,529"
 CENTURION (50),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-CN9-A,,"3 M (20x2, 15)",2 E,1 AMS,1 B,,,,,"100 - 275
+CN9-A,,"3 M (20x2, 15)",2 E,1 AMS,1 B,,No,No,No,"100 - 275
 STD 200",,"2
  1
  3","100° / 35°
 25° / 35°","14,803,697,080"
 "CN9-A(C)
-Champion",,"3 M (20x2, 15)",2 E,1 AMS,1 B,,,,,"100 - 275
+Champion",,"3 M (20x2, 15)",2 E,1 AMS,1 B,,No,No,No,"100 - 275
 STD 275",,"2
  1
  3","100° / 35°
 25° / 35°","1,850"
-CN9-AH,,"3 M (20x2, 15)",,1 AMS,3 B,,,,,"100 - 275
+CN9-AH,,"3 M (20x2, 15)",,1 AMS,3 B,,No,No,No,"100 - 275
 STD 200",,"0
  3
  3","100° / 0°
 25° / 35°","15,053,753,086"
-CN9-AL,,2 M (20x2),2 E,1 AMS,2 E,,,,,"100 - 275
+CN9-AL,,2 M (20x2),2 E,1 AMS,2 E,,No,No,No,"100 - 275
 STD 200",,"4
  0
  2","100° / 35°
 25° / 35°","14,253,552,238"
 "CN9-A(NCIX)
-Special",,3 M (20x3),2 E,1 AMS,1 B,,,,,"100 - 275
+Special",,3 M (20x3),2 E,1 AMS,1 B,,No,No,No,"100 - 275
 STD 200",,"2
  1
  3","100° / 35°
 25° / 35°",n/a
-CN9-D,,2 M (20x2),2 E,1 AMS,2 B,,,,,"100 - 390
+CN9-D,,2 M (20x2),2 E,1 AMS,2 B,,No,No,No,"100 - 390
 XL 300",,"2
  2
  2","90° / 35°
 25° / 35°","32,658,158,590"
 "YEN-LO-WANG
-Hero",,,2 E,1 AMS,2 B,,,,,"100 - 300
+Hero",,,2 E,1 AMS,2 B,,No,No,No,"100 - 300
 STD 215",,"2
  2
  0","120° / 0°
 25° / 35°","3,750"
 CRAB (50),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-CRB-20,1 E,,2 E,1 AMS,1 E,1 E,,,,"100 - 350
+CRB-20,1 E,,2 E,1 AMS,1 E,1 E,No,No,No,"100 - 350
 STD 250",,"5
  0
  0","115° / 35°
 25° / 30°","14,853,703,201"
-CRB-27,1 E,1 AMS,2 E,1 AMS,1 E,1 E,,,,"100 - 325
+CRB-27,1 E,1 AMS,2 E,1 AMS,1 E,1 E,No,No,No,"100 - 325
 STD 250",,"5
  0
  0","115° / 35°
 25° / 30°","15,203,792,733"
-CRB-27B,2 E,,1 E,1 AMS,2 E,1 E,,,,"100 - 325
+CRB-27B,2 E,,1 E,1 AMS,2 E,1 E,No,No,No,"100 - 325
 STD 250",,"6
  0
  0","115° / 35°
 25° / 30°","17,004,240,733"
 "CRB-27B(C)
-Champion",2 E,,1 E,1 AMS,2 E,1 E,,,,"100 - 325
+Champion",2 E,,1 E,1 AMS,2 E,1 E,No,No,No,"100 - 325
 XL 280",,"6
  0
  0","115° / 35°
 25° / 30°","2,125"
-CRB-27SL,1 E,,2 E,1 AMS,1 E,1 E,5,,,"100 - 325
+CRB-27SL,1 E,,2 E,1 AMS,1 E,1 E,5,No,No,"100 - 325
 XL 250",,"5
  0
  0","115° / 35°
 25° / 30°","28,607,144,233"
 "FLORENTINE
-Hero",1 B,2 M (20x2),,1 AMS 2 E,1 B,,,,,"100 - 325
+Hero",1 B,2 M (20x2),,1 AMS 2 E,1 B,,No,No,No,"100 - 325
 XL 250",,"2
  2
  2","115° / 35°
 25° / 30°",n/a
 ENFORCER (50),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-ENF-4P,2 E,2 E,,1 AMS,2 B,,,,,"100 - 350
+ENF-4P,2 E,2 E,,1 AMS,2 B,,No,No,No,"100 - 350
 STD 250",,"4
  2
  0","125° / 10°
 20° / 30°","16,354,080,698"
-ENF-4R,3 E,2 E,,1 AMS,1 B,,4,,,"100 - 260
+ENF-4R,3 E,2 E,,1 AMS,1 B,,4,No,No,"100 - 260
 STD 200",,"5
  1
  0","125° / 35°
 20° / 30°","15,303,818,468"
 "ENF-4R(C)
-Champion",3 E,2 E,,1 AMS,1 B,,4,,,"100 - 260
+Champion",3 E,2 E,,1 AMS,1 B,,4,No,No,"100 - 260
 XL 255",,"5
  1
  0","125° / 35°
 20° / 30°","1,915"
-ENF-5D,1 E,2 E,,1 AMS,2 B,,5,,,"100 - 325
+ENF-5D,1 E,2 E,,1 AMS,2 B,,5,No,No,"100 - 325
 XL 250",,"3
  2
  0","125° / 35°
 20° / 30°","30,307,566,723"
-ENF-5P,2 B,1 E,,1 AMS,2 B,,2,,,"100 - 325
+ENF-5P,2 B,1 E,,1 AMS,2 B,,2,No,No,"100 - 325
 XL 250",,"1
  4
  0","125° / 35°
 20° / 30°","27,006,743,201"
 "GHILLIE
-Hero",2 E,2 E,,1 ECM 1 AMS,1 B,,5,,,"100 - 300
+Hero",2 E,2 E,,1 ECM 1 AMS,1 B,,5,Yes,No,"100 - 300
 XL 250",,"4
  1
  0","125° / 35°
 20° / 30°",n/a
 HUNCHBACK (50),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-HBK-4G,1 E,1 AMS,,3 B,1 E,1 E,,,,"100 - 275
+HBK-4G,1 E,1 AMS,,3 B,1 E,1 E,No,No,No,"100 - 275
 STD 200",,"3
  3
  0","125° / 40°
 25° / 35°","14,803,694,490"
-HBK-4H,1 E,1 AMS,,1 B 2 E,1 E,1 E,,,,"100 - 275
+HBK-4H,1 E,1 AMS,,1 B 2 E,1 E,1 E,No,No,No,"100 - 275
 STD 200",,"5
  1
  0","125° / 40°
 20° / 35°","14,603,646,484"
-HBK-4J,1 E,1 AMS,,3 E 2 M (10x2),1 E,1 E,,,,"100 - 275
+HBK-4J,1 E,1 AMS,,3 E 2 M (10x2),1 E,1 E,No,No,No,"100 - 275
 STD 200",,"6
  0
  2","125° / 40°
 20° / 35°","15,153,778,604"
-HBK-4P,1 E,1 AMS,,6 E,1 E,1 E,,,,"100 - 275
+HBK-4P,1 E,1 AMS,,6 E,1 E,1 E,No,No,No,"100 - 275
 STD 200",,"9
  0
  0","125° / 40°
 20° / 35°","14,403,594,484"
 "HBK-4P(C)
-Champion",1 E,1 AMS,,6 E,1 E,1 E,,,,"100 - 275
+Champion",1 E,1 AMS,,6 E,1 E,1 E,No,No,No,"100 - 275
 STD 275",,"9
  0
  0","125° / 40°
 20° / 35°","1,800"
-HBK-4SP,2 E,1 AMS 1 M (10),,1 M (10),2 E,1 E,,,,"100 - 275
+HBK-4SP,2 E,1 AMS 1 M (10),,1 M (10),2 E,1 E,No,No,No,"100 - 275
 STD 200",,"5
  0
  2","125° / 40°
 20° / 35°","14,553,632,484"
 "GRID IRON
-Hero",1 E,1 AMS 1 M (10),,2 B,1 E,1 E,,,,"100 - 275
+Hero",1 E,1 AMS 1 M (10),,2 B,1 E,1 E,No,No,No,"100 - 275
 XL 200",,"3
  2
  1","125° / 40°
 25° / 35°","3,750"
 TREBUCHET (50),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-TBT-3C,1 E 1 M (20),,1 E,1 AMS 1 M (20),2 E,,,,,"100 - 390
+TBT-3C,1 E 1 M (20),,1 E,1 AMS 1 M (20),2 E,,No,No,No,"100 - 390
 XL 300",,"4
  0
  2","115° / 35°
 35° / 40°","34,058,503,816"
-TBT-5J,2 E,,,1 AMS 1 M (20),3 E,,5,,,"100 - 325
+TBT-5J,2 E,,,1 AMS 1 M (20),3 E,,5,No,No,"100 - 325
 STD 250",,"5
  0
  1","115° / 35°
 35° / 40°","16,754,186,745"
-TBT-5N,1 E 1 M (20),,,1 AMS 1 M (20),3 E,,,,,"100 - 325
+TBT-5N,1 E 1 M (20),,,1 AMS 1 M (20),3 E,,No,No,No,"100 - 325
 STD 250",,"4
  0
  2","115° / 35°
 35° / 40°","16,654,161,797"
-TBT-7K,,2 B,,1 AMS 2 E,"2 M (20, 15)",,,,,"100 - 325
+TBT-7K,,2 B,,1 AMS 2 E,"2 M (20, 15)",,No,No,No,"100 - 325
 STD 250",,"2
  2
  2","115° / 35°
 35° / 40°","15,503,867,177"
-TBT-7M,1 E 1 M (20),1 M (20),,1 AMS 1 M (20),2 E,,5,,,"100 - 325
+TBT-7M,1 E 1 M (20),1 M (20),,1 AMS 1 M (20),2 E,,5,No,No,"100 - 325
 XL 250",,"3
  0
  3","115° / 35°
 35° / 40°","30,507,623,797"
 "TBT-7M(C)
-Champion",1 E 1 M (20),1 M (20),,1 AMS 1 M (20),2 E,,5,,,"100 - 325
+Champion",1 E 1 M (20),1 M (20),,1 AMS 1 M (20),2 E,,5,No,No,"100 - 325
 XL 255",,"3
  0
  3","115° / 35°
 35° / 40°","3,815"
 "LOUP DE GUERRE
-Hero",1 E 1 M (20),1 M (20),,1 AMS 1 M (20),1 E 1 M (20),,5,,,"100 - 325
+Hero",1 E 1 M (20),1 M (20),,1 AMS 1 M (20),1 E 1 M (20),,5,No,No,"100 - 325
 XL 325",,"2
  0
  4","115° / 35°
 35° / 40°","3,750"
 UZIEL (50),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-UZL-2S,2 E,1 B,1 M (10),1 AMS 1 B,1 E,,6,,,"100 - 390
+UZL-2S,2 E,1 B,1 M (10),1 AMS 1 B,1 E,,6,No,No,"100 - 390
 XL 300",,"3
  2
  1","125° / 40°
 35° / 35°",n/a
-UZL-3P,1 B,1 E,1 M (10),1 AMS 1 E,2 B,,6,,,"100 - 390
+UZL-3P,1 B,1 E,1 M (10),1 AMS 1 E,2 B,,6,No,No,"100 - 390
 XL 300",,"2
  3
  1","125° / 40°
 35° / 35°",n/a
 "UZL-3P(C)
-Champion",1 B,1 E,1 M (10),1 AMS 1 E,2 B,,6,,,"100 - 390
+Champion",1 B,1 E,1 M (10),1 AMS 1 E,2 B,,6,No,No,"100 - 390
 STD 250",,"2
  3
  1","125° / 40°
 35° / 35°",n/a
-UZL-3S,1 E,1 E,1 M (10),1 AMS 1 E,1 B 1 E,,6,,,"100 - 390
+UZL-3S,1 E,1 E,1 M (10),1 AMS 1 E,1 B 1 E,,6,No,No,"100 - 390
 XL 300",,"4
  1
  1","125° / 40°
 35° / 35°",n/a
-UZL-5P,1 E,1 M (20),1 E,1 AMS 1 M (20),2 B,,6,,,"100 - 390
+UZL-5P,1 E,1 M (20),1 E,1 AMS 1 M (20),2 B,,6,No,No,"100 - 390
 XL 300",,"2
  2
  2","125° / 40°
 35° / 35°",n/a
-UZL-6P,2 E,1 E,,1 AMS 1 E,2 E,,6,,,"100 - 325
+UZL-6P,2 E,1 E,,1 AMS 1 E,2 E,,6,No,No,"100 - 325
 XL 250",,"6
  0
  0","125° / 40°
 35° / 35°",n/a
 "BELIAL
-Hero",2 E,1 M (20),,1 AMS 1 M (20),2 E,,6,,,"100 - 390
+Hero",2 E,1 M (20),,1 AMS 1 M (20),2 E,,6,No,No,"100 - 390
 XL 300",,"4
  0
  2","125° / 40°
 35° / 35°",n/a
 BUSHWACKER (55),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
 "HIGH ROLLER
-Hero",3 E,1 B 1 M (20),1 E,1 B,1 B,1 AMS,,,,"200 - 360
+Hero",3 E,1 B 1 M (20),1 E,1 B,1 B,1 AMS,No,No,No,"200 - 360
 XL 275",,"4
  3
  1","110° / 35°
 30° / 30°",n/a
-BSW-P1,"2 M (20, 15)",2 M (20x2),1 E,2 M (20x2),1 B,1 AMS,,,,"200 - 360
+BSW-P1,"2 M (20, 15)",2 M (20x2),1 E,2 M (20x2),1 B,1 AMS,No,No,No,"200 - 360
 XL 275",,"1
  1
  6","110° / 35°
 30° / 30°",n/a
-BSW-P2,1 M (20),1 B 1 M (20),2 E,1 B,2 E,1 AMS,,,,"200 - 360
+BSW-P2,1 M (20),1 B 1 M (20),2 E,1 B,2 E,1 AMS,No,No,No,"200 - 360
 XL 275",,"4
  2
  2","110° / 35°
 30° / 30°",n/a
-BSW-S2,"2 M (20, 15)",1 AMS 2 M (20x2),2 E,,1 B,1 AMS,,,,"200 - 360
+BSW-S2,"2 M (20, 15)",1 AMS 2 M (20x2),2 E,,1 B,1 AMS,No,No,No,"200 - 360
 XL 275",,"2
  1
  4","110° / 35°
 30° / 30°",n/a
 "BSW-S2(C)
-Champion","2 M (20, 15)",1 AMS 2 M (20x2),2 E,,1 B,1 AMS,,,,"200 - 360
+Champion","2 M (20, 15)",1 AMS 2 M (20x2),2 E,,1 B,1 AMS,No,No,No,"200 - 360
 STD 245",,"2
  1
  4","110° / 35°
 30° / 30°",n/a
-BSW-X1,"2 M (20, 15)",1 B 1 M (20),1 E,2 B,1 B,1 AMS,,,,"200 - 360
+BSW-X1,"2 M (20, 15)",1 B 1 M (20),1 E,2 B,1 B,1 AMS,No,No,No,"200 - 360
 XL 275",,"1
  4
  3","110° / 35°
 30° / 30°",n/a
-BSW-X2,1 M (20),1 B 2 M (20x2),2 E,1 B,1 B,1 AMS,,,,"200 - 360
+BSW-X2,1 M (20),1 B 2 M (20x2),2 E,1 B,1 B,1 AMS,No,No,No,"200 - 360
 XL 275",,"2
  3
  3","110° / 35°
 30° / 30°",n/a
 DERVISH (55),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-DV-6M,2 E 1 M (20),1 M (20),1 AMS,1 M (20),2 E 1 M (20),,5,,,"110 - 360
+DV-6M,2 E 1 M (20),1 M (20),1 AMS,1 M (20),2 E 1 M (20),,5,No,No,"110 - 360
 STD 275",,"4
  0
  4","130° / 20°
 20° / 20°",n/a
-DV-6MR,3 E,1 M (20),1 AMS,1 M (20),3 E,,5,,,"110 - 360
+DV-6MR,3 E,1 M (20),1 AMS,1 M (20),3 E,,5,No,No,"110 - 360
 STD 275",,"6
  0
  2","130° / 20°
 20° / 20°",n/a
-DV-7D,1 E 2 M (20x2),1 M (20),1 AMS,1 M (20),1 E 2 M (20x2),,5,,,"110 - 360
+DV-7D,1 E 2 M (20x2),1 M (20),1 AMS,1 M (20),1 E 2 M (20x2),,5,No,No,"110 - 360
 STD 275",,"2
  0
  6","130° / 20°
 20° / 20°",n/a
-DV-7P,1 E 2 M (20x2),1 E,1 AMS,1 E,1 E 2 M (20x2),,5,,,"110 - 360
+DV-7P,1 E 2 M (20x2),1 E,1 AMS,1 E,1 E 2 M (20x2),,5,No,No,"110 - 360
 XL 275",,"4
  0
  4","130° / 20°
 20° / 20°",n/a
-DV-8D,2 E,2 M (20x2),1 AMS,2 M (20x2),2 E,,5,,,"110 - 360
+DV-8D,2 E,2 M (20x2),1 AMS,2 M (20x2),2 E,,5,No,No,"110 - 360
 XL 275",,"4
  0
  4","130° / 20°
 20° / 20°",n/a
 "FRENZY
-Hero",2 M (20x2),2 M (20x2),1 AMS,2 M (20x2),2 M (20x2),,5,,,"110 - 360
+Hero",2 M (20x2),2 M (20x2),1 AMS,2 M (20x2),2 M (20x2),,5,No,No,"110 - 360
 XL 275",,"0
  0
  8","130° / 20°
 20° / 20°",n/a
 GRIFFIN (55),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
 "SPARKY
-Hero",2 E,1 AMS 1 E,,1 E,2 E,,7,,,"110 - 360
+Hero",2 E,1 AMS 1 E,,1 E,2 E,,7,No,No,"110 - 360
 STD 275",,"6
  0
  0","130° / 35°
 25° / 30°","4,125"
-GRF-1N,,1 AMS,,"3 M (20, 10x2)",3 E,,7,,,"110 - 360
+GRF-1N,,1 AMS,,"3 M (20, 10x2)",3 E,,7,No,No,"110 - 360
 STD 275",,"3
  0
  3","130° / 35°
 25° / 30°","18,804,696,843"
-GRF-1S,,"2 M (20, 10)",,1 AMS,4 E,,7,,,"110 - 360
+GRF-1S,,"2 M (20, 10)",,1 AMS,4 E,,7,No,No,"110 - 360
 STD 275",,"4
  0
  2","130° / 35°
 25° / 30°","17,954,486,783"
 "GRF-1S(C)
-Champion",,"2 M (20, 10)",,1 AMS,4 E,,7,,,"110 - 360
+Champion",,"2 M (20, 10)",,1 AMS,4 E,,7,No,No,"110 - 360
 XL 325",,"4
  0
  2","130° / 35°
 25° / 30°","2,245"
-GRF-2N,,"1 ECM 2 M (20, 10)",,"1 AMS 2 M (20, 10)",2 E,,5,,,"110 - 360
+GRF-2N,,"1 ECM 2 M (20, 10)",,"1 AMS 2 M (20, 10)",2 E,,5,Yes,No,"110 - 360
 STD 275",,"2
  0
  4","130° / 35°
 25° / 30°","22,505,619,335"
-GRF-3M,,1 AMS 1 E,,"4 M (20, 10x3)",1 E,,7,,,"110 - 360
+GRF-3M,,1 AMS 1 E,,"4 M (20, 10x3)",1 E,,7,No,No,"110 - 360
 XL 275",,"2
  0
  4","130° / 35°
 25° / 30°","33,158,277,351"
-GRF-5M,,1 AMS 2 E,,"2 M (20, 10)",4 B,,7,,,"110 - 360
+GRF-5M,,1 AMS 2 E,,"2 M (20, 10)",4 B,,7,No,No,"110 - 360
 XL 275",,"2
  4
  2","130° / 35°
 25° / 30°",n/a
 "GRF-5M(L)
-Special",,1 AMS 2 E,,"2 M (20, 10)",4 B,,7,,,"110 - 360
+Special",,1 AMS 2 E,,"2 M (20, 10)",4 B,,7,No,No,"110 - 360
 XL 275",,"2
  4
  2","130° / 35°
 25° / 30°",n/a
 "ARES
-Hero",2 E,1 AMS,,"2 M (20, 10)",2 E,,7,,,"110 - 360
+Hero",2 E,1 AMS,,"2 M (20, 10)",2 E,,7,No,No,"110 - 360
 STD 275",,"4
  0
  2","130° / 35°
 25° / 30°",n/a
 KINTARO (55),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-KTO-18,"1 E 2 M (20, 15)",1 AMS,1 M (10),2 M (20x2),1 E,,,,,"110 - 360
+KTO-18,"1 E 2 M (20, 15)",1 AMS,1 M (10),2 M (20x2),1 E,,No,No,No,"110 - 360
 STD 275",,"2
  0
  5","90° / 20°
 30° / 30°","17,904,474,807"
 "KTO-18(C)
-Champion","1 E 2 M (20, 15)",1 AMS,1 M (10),2 M (20x2),1 E,,,,,"110 - 360
+Champion","1 E 2 M (20, 15)",1 AMS,1 M (10),2 M (20x2),1 E,,No,No,No,"110 - 360
 XL 300",,"2
  0
  5","90° / 20°
 30° / 30°","2,240"
-KTO-19,"1 E 2 M (20, 15)",1 AMS,1 M (10),1 M (20),2 E,,,,,"110 - 360
+KTO-19,"1 E 2 M (20, 15)",1 AMS,1 M (10),1 M (20),2 E,,No,No,No,"110 - 360
 STD 275",,"3
  0
  4","90° / 20°
 30° / 30°","18,404,589,395"
-KTO-20,1 M (20),1 AMS,2 E,2 M (20x2),2 E,,,,,"110 - 360
+KTO-20,1 M (20),1 AMS,2 E,2 M (20x2),2 E,,No,No,No,"110 - 360
 STD 275",,"4
  0
  3","90° / 20°
 30° / 30°","18,804,697,395"
 "GOLDEN BOY
-Hero","1 E 2 M (20, 15)",1 AMS,"2 M (10, 5)",1 M (20),2 E,,,,,"110 - 290
+Hero","1 E 2 M (20, 15)",1 AMS,"2 M (10, 5)",1 M (20),2 E,,No,No,No,"110 - 290
 XL 220",,"3
  0
  5","90° / 20°
 30° / 30°","4,125"
 SHADOW HAWK (55),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-SHD-2D,2 E,1 AMS 1 B,1 M (6),1 M (10),1 E,1 M (5),3,,,"110 - 360
+SHD-2D,2 E,1 AMS 1 B,1 M (6),1 M (10),1 E,1 M (5),3,No,No,"110 - 360
 STD 275",,"3
  1
  3","90° / 35°
 30° / 30°","17,804,441,203"
-SHD-2D2,1 E,1 AMS 1 B,1 M (6),2 M (10x2),1 E,1 M (5),3,,,"110 - 360
+SHD-2D2,1 E,1 AMS 1 B,1 M (6),2 M (10x2),1 E,1 M (5),3,No,No,"110 - 360
 STD 275",,"2
  1
  4","90° / 35°
 30° / 30°","17,904,473,235"
-SHD-2H,,1 AMS 3 B,,2 M (10x2),1 E,1 M (5),3,,,"110 - 360
+SHD-2H,,1 AMS 3 B,,2 M (10x2),1 E,1 M (5),3,No,No,"110 - 360
 STD 275",,"1
  3
  3","90° / 35°
 30° / 30°","17,454,356,283"
 "SHD-2H(C)
-Champion",,1 AMS 3 B,,2 M (10x2),1 E,1 M (5),3,,,"110 - 360
+Champion",,1 AMS 3 B,,2 M (10x2),1 E,1 M (5),3,No,No,"110 - 360
 XL 265",,"1
  3
  3","90° / 35°
 30° / 30°","2,185"
-SHD-2K,,1 AMS 3 E,,3 M (10x3),,,5,,,"110 - 360
+SHD-2K,,1 AMS 3 E,,3 M (10x3),,,5,No,No,"110 - 360
 STD 275",,"3
  0
  3","90° / 35°
 30° / 30°","17,604,394,783"
-SHD-5M,,1 AMS 2 B,,1 M (10),2 E,1 M (5),5,,,"110 - 360
+SHD-5M,,1 AMS 2 B,,1 M (10),2 E,1 M (5),5,No,No,"110 - 360
 XL 275",,"2
  2
  2","90° / 35°
 30° / 30°","32,708,166,799"
 "GRAY DEATH
-Hero",2 E,1 AMS 1 B,,1 M (10),2 E,1 M (5),4,,,"110 - 360
+Hero",2 E,1 AMS 1 B,,1 M (10),2 E,1 M (5),4,No,No,"110 - 360
 XL 275",,"4
  1
  2","90° / 35°
 30° / 30°","4,125"
 WOLVERINE (55),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-WVR-6K,,1 M (10),,1 AMS,4 E,1 E,,,,"110 - 375
+WVR-6K,,1 M (10),,1 AMS,4 E,1 E,No,No,No,"110 - 375
 STD 275",,"5
  0
  1","125° / 30°
 30° / 35°","17,154,281,255"
 "WVR-6K(C)
-Champion",,1 M (10),,1 AMS,4 E,1 E,,,,"110 - 375
+Champion",,1 M (10),,1 AMS,4 E,1 E,No,No,No,"110 - 375
 XL 340",,"5
  0
  1","125° / 30°
 30° / 35°","2,145"
-WVR-6R,,3 M (10x3),,1 AMS,2 B,1 E,7,,,"110 - 360
+WVR-6R,,3 M (10x3),,1 AMS,2 B,1 E,7,No,No,"110 - 360
 STD 275",,"1
  2
  3","110° / 40°
 25° / 25°","18,254,558,223"
-WVR-7D,,2 M (10x2),,1 AMS,2 B,1 E,5,,,"110 - 360
+WVR-7D,,2 M (10x2),,1 AMS,2 B,1 E,5,No,Yes,"110 - 360
 XL 275",,"1
  2
  2","125° / 30°
 30° / 35°","31,707,916,335"
 "WVR-7D(L)
-Special",,2 M (10x2),,1 AMS,2 B,1 E,5,,,"110 - 360
+Special",,2 M (10x2),,1 AMS,2 B,1 E,5,No,Yes,"110 - 360
 XL 275",,"1
  2
  2","125° / 30°
 30° / 35°",n/a
-WVR-7K,,2 M (10x2),,1 AMS 1 M (10),2 E,1 E,7,,,"110 - 360
+WVR-7K,,2 M (10x2),,1 AMS 1 M (10),2 E,1 E,7,No,No,"110 - 360
 XL 275",,"3
  0
  3","125° / 30°
 30° / 35°","30,057,506,381"
 "QUARANTINE
-Hero",,,,1 AMS 2 M (10x2),1 B 3 E,,7,,,"110 - 360
+Hero",,,,1 AMS 2 M (10x2),1 B 3 E,,7,No,No,"110 - 360
 XL 275",,"3
  1
  2","125° / 30°
 30° / 35°","4,125"
-"Medium
-Clan",,,,,,,,,,,,,,
 ARCTIC WOLF (40),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-ACW-1,2 M (10x2),1 AMS 2 M (10x2),1 M (10),2 M (10x2),2 M (10x2),,,,,"100 - 365
+ACW-1,2 M (10x2),1 AMS 2 M (10x2),1 M (10),2 M (10x2),2 M (10x2),,No,No,No,"100 - 365
 XL 280",,"0
  0
  9","130° / 30°
 25° / 30°",n/a
-ACW-2,1 M (10),1 AMS 2 E,2 M (10x2),2 M (10x2),1 M (10),,,,,"100 - 365
+ACW-2,1 M (10),1 AMS 2 E,2 M (10x2),2 M (10x2),1 M (10),,No,No,No,"100 - 365
 XL 280",,"2
  0
  6","130° / 30°
 25° / 30°",n/a
-ACW-A,1 E 1 M (10),1 AMS 1 M (10),,1 ECM 1 M (10),1 E 1 M (10),,,,,XL 240,,"2
+ACW-A,1 E 1 M (10),1 AMS 1 M (10),,1 ECM 1 M (10),1 E 1 M (10),,No,Yes,No,XL 240,,"2
  0
  4","130° / 30°
 25° / 30°",n/a
 "BLOOD KIT
-Hero",2 E,1 AMS 1 B,1 M (10),1 B,2 E,,4,,,"100 - 365
+Hero",2 E,1 AMS 1 B,1 M (10),1 B,2 E,,4,No,No,"100 - 365
 XL 280",,"4
  2
  1","130° / 30°
 25° / 30°",n/a
-ACW-P,2 E,2 M (10x2),,2 E,2 E,,,,,XL 240,,"6
+ACW-P,2 E,2 M (10x2),,2 E,2 E,,No,No,No,XL 240,,"6
  0
  2","130° / 30°
 25° / 30°",n/a
-ACW-PRIME,1 M (10),1 M (10),,1 M (10),1 M (10),,,,,XL 240,,"0
+ACW-PRIME,1 M (10),1 M (10),,1 M (10),1 M (10),,No,No,No,XL 240,,"0
  0
  4","130° / 30°
 25° / 30°",n/a
 VIPER (40),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-VPR-A,1 M (10),2 E,,2 E,1 E,,8,,,XL 320,,"5
+VPR-A,1 M (10),2 E,,2 E,1 E,,8,No,No,XL 320,,"5
  0
  1","130° / 30°
 20° / 30°","402,010,046,887"
-VPR-B,1 E,1 E,,1 E,1 E,,8,,,XL 320,,"4
+VPR-B,1 E,1 E,,1 E,1 E,,8,No,No,XL 320,,"4
  0
  0","130° / 30°
 20° / 30°","38,459,611,887"
-VPR-C,2 E,2 B,1 E,2 B,2 E,,8,,,XL 320,,"5
+VPR-C,2 E,2 B,1 E,2 B,2 E,,8,No,No,XL 320,,"5
  4
  0","130° / 30°
 20° / 30°","39,009,743,887"
-VPR-D,1 M (10),1 E,,1 M (15),2 E,,8,,,XL 320,,"3
+VPR-D,1 M (10),1 E,,1 M (15),2 E,,8,No,No,XL 320,,"3
  0
  2","130° / 30°
 20° / 30°","38,659,659,447"
 "MEDUSA
-Hero",3 E,1 M (15),1 AMS,,3 E,,8,,,XL 320,,"6
+Hero",3 E,1 M (15),1 AMS,,3 E,,8,No,No,XL 320,,"6
  0
  1","130° / 30°
 20° / 30°","3,750"
-VPR-PRIME,1 M (10),1 AMS,,2 B,2 E,,8,,,XL 320,,"2
+VPR-PRIME,1 M (10),1 AMS,,2 B,2 E,,8,No,No,XL 320,,"2
  2
  1","130° / 30°
 20° / 30°","38,209,542,887"
 ICE FERRET (45),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-IFR-A,1 B,,1 E,,1 AMS 1 E,,,,,XL 360,,"2
+IFR-A,1 B,,1 E,,1 AMS 1 E,,No,No,No,XL 360,,"2
  1
  0","135° / 25°
 20° / 25°","408,510,208,350"
-IFR-B,1 E 1 M (20),,1 E,,1 M (20),,,,,XL 360,,"2
+IFR-B,1 E 1 M (20),,1 E,,1 M (20),,No,No,No,XL 360,,"2
  0
  2","135° / 25°
 20° / 25°","406,010,149,049"
-IFR-C,1 M (20),1 M (20),1 E,,1 M (20),,,,,XL 360,,"1
+IFR-C,1 M (20),1 M (20),1 E,,1 M (20),,No,No,No,XL 360,,"1
  0
  3","135° / 25°
 20° / 25°","403,010,065,910"
-IFR-D,1 AMS 1 E,,1 E,,2 E,,,,,XL 360,,"4
+IFR-D,1 AMS 1 E,,1 E,,2 E,,No,No,No,XL 360,,"4
  0
  0","135° / 25°
 20° / 25°","403,010,065,049"
-IFR-P,1 E 1 M (20),,1 ECM,1 E,2 E,,,,,XL 360,,"4
+IFR-P,1 E 1 M (20),,1 ECM,1 E,2 E,,No,Yes,No,XL 360,,"4
  0
  1","135° / 25°
 20° / 25°",n/a
-IFR-PRIME,2 E,,,,1 M (20),,,,,XL 360,,"2
+IFR-PRIME,2 E,,,,1 M (20),,No,No,No,XL 360,,"2
  0
  1","135° / 25°
 20° / 25°","420,010,489,550"
 "RAINBOW CROW
-Hero",2 E,,1 ECM,1 M (20),1 B,,,,,XL 360,,"2
+Hero",2 E,,1 ECM,1 M (20),1 B,,No,Yes,No,XL 360,,"2
  1
  1","135° / 25°
 20° / 25°",n/a
 SHADOW CAT (45),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-SHC-A,1 E,,,1 M (20),1 E,,6,,,XL 270,,"2
+SHC-A,1 E,,,1 M (20),1 E,,6,No,Yes,XL 270,,"2
  0
  1","135° / 20°
 20° / 40°","39,409,838,177"
-SHC-B,1 E 1 M (20),1 ECM,,,1 E 1 M (20),,6,,,XL 270,,"2
+SHC-B,1 E 1 M (20),1 ECM,,,1 E 1 M (20),,6,Yes,Yes,XL 270,,"2
  0
  2","135° / 20°
 20° / 40°","421,010,514,657"
-SHC-H,,1 M (20),,,1 E,,6,,,XL 270,,"1
+SHC-H,,1 M (20),,,1 E,,6,No,Yes,XL 270,,"1
  0
  1","135° / 20°
 20° / 40°",n/a
 "MISHIPESHU
-Hero",1 E,,,1 M (20),1 B 1 E,,6,,,XL 270,,"2
+Hero",1 E,,,1 M (20),1 B 1 E,,6,No,Yes,XL 270,,"2
  1
  1","135° / 20°
 20° / 40°",n/a
-SHC-P,3 B,3 B,,,1 B,,6,,,XL 270,,"0
+SHC-P,3 B,3 B,,,1 B,,6,No,Yes,XL 270,,"0
  7
  0","135° / 20°
 20° / 40°","35,858,957,177"
-SHC-PRIME,1 E,1 AMS,,1 E,1 B,,6,,,XL 270,,"2
+SHC-PRIME,1 E,1 AMS,,1 E,1 B,,6,No,Yes,XL 270,,"2
  1
  0","135° / 20°
 20° / 40°","38,509,614,177"
 "SHC-PRIME(C)
-Champion",1 E,1 ECM,,1 E,1 E,,6,,,XL 270,,"3
+Champion",1 E,1 ECM,,1 E,1 E,,6,Yes,Yes,XL 270,,"3
  0
  0","135° / 20°
 20° / 40°","4,815"
 HUNCHBACK IIC (50),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-HBK-IIC,,1 AMS 2 B,2 E,2 B,,,4,,,"100 - 275
+HBK-IIC,,1 AMS 2 B,2 E,2 B,,,4,No,No,"100 - 275
 XL 200",,"2
  4
  0","95° / 40°
 25° / 35°","30,057,511,790"
-HBK-IIC-A,,1 AMS 3 E,2 E,3 E,,,4,,,"100 - 275
+HBK-IIC-A,,1 AMS 3 E,2 E,3 E,,,4,No,No,"100 - 275
 XL 200",,"8
  0
  0","80° / 40°
 20° / 35°","27,806,947,852"
-HBK-IIC-B,,1 AMS 2 M (20x2),2 E,2 M (20x2),,,4,,,"100 - 275
+HBK-IIC-B,,1 AMS 2 M (20x2),2 E,2 M (20x2),,,4,No,No,"100 - 275
 XL 200",,"2
  0
  4","115° / 40°
 25° / 35°","27,306,823,852"
-HBK-IIC-C,1 E,1 AMS 1 B,2 E,1 B,1 E,,4,,,"100 - 275
+HBK-IIC-C,1 E,1 AMS 1 B,2 E,1 B,1 E,,4,No,No,"100 - 275
 XL 200",,"4
  2
  0","115° / 40°
 25° / 35°","28,807,199,820"
 "DEATHWISH
-Hero",2 E,1 AMS 1 E,,1 B,2 E,,,,,"100 - 275
+Hero",2 E,1 AMS 1 E,,1 B,2 E,,No,No,No,"100 - 275
 XL 200",,"5
  1
  0","115° / 40°
 25° / 35°",n/a
 "HBK-IIC(C)
-Champion",,1 AMS 2 B,2 E,2 B,,,4,,,"100 - 275
+Champion",,1 AMS 2 B,2 E,2 B,,,4,No,No,"100 - 275
 XL 255",,"2
  4
  0","95° / 40°
 25° / 35°","3,760"
 HUNTSMAN (50),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-HMN-A,1 E 1 M (10),,,,1 B 1 E,,5,,,XL 250,,"2
+HMN-A,1 E 1 M (10),,,,1 B 1 E,,5,No,No,XL 250,,"2
  1
  1","95° / 35°
 20° / 20°","37,809,445,923"
-HMN-B,1 B,,,2 B,3 E,,5,,,XL 250,,"3
+HMN-B,1 B,,,2 B,3 E,,5,No,No,XL 250,,"3
  3
  0","95° / 35°
 20° / 20°","39,609,890,523"
-HMN-C,1 B,2 E 1 M (10),,1 E 1 M (10),1 M (10),,5,,,XL 250,,"3
+HMN-C,1 B,2 E 1 M (10),,1 E 1 M (10),1 M (10),,5,No,No,XL 250,,"3
  1
  3","95° / 35°
 20° / 20°","39,809,939,183"
-HMN-P,2 M (10x2),1 B,,2 E,2 M (10x2),,5,,,XL 250,,"2
+HMN-P,2 M (10x2),1 B,,2 E,2 M (10x2),,5,No,No,XL 250,,"2
  1
  4","95° / 35°
 20° / 20°","39,509,867,123"
 "PAKHET
-Hero",1 E,2 M (10x2),,1 AMS 2 M (10x2),2 E,,5,,,XL 250,,"3
+Hero",1 E,2 M (10x2),,1 AMS 2 M (10x2),2 E,,5,No,No,XL 250,,"3
  0
  4","95° / 35°
 20° / 20°","4,690"
-HMN-PRIME,2 E 1 M (10),1 AMS 2 E,,1 M (10),1 B 2 E,,5,,,XL 250,,"6
+HMN-PRIME,2 E 1 M (10),1 AMS 2 E,,1 M (10),1 B 2 E,,5,No,No,XL 250,,"6
  1
  2","95° / 35°
 20° / 20°","418,510,452,733"
 NOVA (50),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-NVA-A,1 E,1 AMS 1 E,,1 AMS,1 E,,5,,,XL 250,,"3
+NVA-A,1 E,1 AMS 1 E,,1 AMS,1 E,,5,No,No,XL 250,,"3
  0
  0","100° / 35°
 20° / 30°","38,909,722,437"
-NVA-B,1 E,2 B,,1 E,1 B,,5,,,XL 250,,"2
+NVA-B,1 E,2 B,,1 E,1 B,,5,No,No,XL 250,,"2
  3
  0","100° / 35°
 20° / 30°","35,258,803,938"
 "BREAKER
-Hero",2 M (20x2),2 E,,2 B,3 E,,5,,,XL 250,,"5
+Hero",2 M (20x2),2 E,,2 B,3 E,,5,No,No,XL 250,,"5
  2
  2","100° / 35°
 20° / 30°",n/a
-NVA-C,1 B,1 M (20),,1 E,,,5,,,XL 250,,"1
+NVA-C,1 B,1 M (20),,1 E,,,5,No,No,XL 250,,"1
  1
  1","100° / 35°
 20° / 30°","35,208,799,437"
-NVA-D,1 B,,,,1 M (20),,5,,,XL 250,,"0
+NVA-D,1 B,,,,1 M (20),,5,No,No,XL 250,,"0
  1
  1","100° / 35°
 20° / 30°","36,409,090,617"
 "NVA-D(L)
-Special",1 B,,,,1 M (20),,5,,,XL 250,,"0
+Special",1 B,,,,1 M (20),,5,No,No,XL 250,,"0
  1
  1","100° / 35°
 20° / 30°",n/a
-NVA-PRIME,6 E,,,,6 E,,5,,,XL 250,,"12
+NVA-PRIME,6 E,,,,6 E,,5,No,No,XL 250,,"12
  0
  0","100° / 35°
 20° / 30°","39,909,968,438"
-NVA-S,3 E,2 B,1 AMS,2 B,3 E,,5,,,XL 250,,"6
+NVA-S,3 E,2 B,1 AMS,2 B,3 E,,5,No,No,XL 250,,"6
  4
  0","100° / 35°
 20° / 30°","37,509,363,437"
 "NVA-S(C)
-Champion",3 E,1 AMS 1 E,1 AMS,1 AMS,3 E,,5,,,XL 250,,"7
+Champion",3 E,1 AMS 1 E,1 AMS,1 AMS,3 E,,5,No,No,XL 250,,"7
  0
  0","100° / 35°
 20° / 30°",n/a
 BLACK LANNER (55),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-BKL-A,2 E,1 E,,1 AMS,1 E,1 ECM,,,,XL 385,,"4
+BKL-A,2 E,1 E,,1 AMS,1 E,1 ECM,No,Yes,Yes,XL 385,,"4
  0
  0","125° / 0°
 25° / 30°",n/a
 "BELLONARIUS
-Hero",3 B,1 E 1 M (20),,1 M (20),3 B,1 E,,,,XL 385,,"2
+Hero",3 B,1 E 1 M (20),,1 M (20),3 B,1 E,No,No,Yes,XL 385,,"2
  6
  2","125° / 0°
 25° / 30°",n/a
-BKL-C,6 E,,,,1 M (20),,,,,XL 385,,"6
+BKL-C,6 E,,,,1 M (20),,No,No,Yes,XL 385,,"6
  0
  1","125° / 0°
 25° / 30°",n/a
-BKL-D,2 B 2 E,1 E 1 M (20),,1 M (20),2 B 2 E,,,,,XL 385,,"5
+BKL-D,2 B 2 E,1 E 1 M (20),,1 M (20),2 B 2 E,,No,No,Yes,XL 385,,"5
  4
  2","125° / 0°
 25° / 30°",n/a
-BKL-E,1 M (20),,,,3 E,,,,,XL 385,,"3
+BKL-E,1 M (20),,,,3 E,,No,No,Yes,XL 385,,"3
  0
  1","125° / 0°
 25° / 30°",n/a
-BKL-PRIME,2 E,1 M (20),,1 M (20),1 E,1 ECM,,,,XL 385,,"3
+BKL-PRIME,2 E,1 M (20),,1 M (20),1 E,1 ECM,No,Yes,Yes,XL 385,,"3
  0
  2","125° / 0°
 25° / 30°",n/a
 STORMCROW (55),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-SCR-A,4 E,1 M (20),,1 M (20),1 M (20),,,,,XL 330,,"4
+SCR-A,4 E,1 M (20),,1 M (20),1 M (20),,No,No,No,XL 330,,"4
  0
  3","130° / 35°
 20° / 30°","453,011,317,504"
-SCR-B,1 B,,,,6 E,,,,,XL 330,,"6
+SCR-B,1 B,,,,6 E,,No,No,No,XL 330,,"6
  1
  0","130° / 35°
 20° / 30°","467,511,685,354"
-SCR-C,1 B,1 E,,1 E,1 E,,,,,XL 330,,"3
+SCR-C,1 B,1 E,,1 E,1 E,,No,No,No,XL 330,,"3
  1
  0","130° / 35°
 20° / 30°","446,011,139,367"
-SCR-D,1 M (20),"2 M (20, 15)",,1 M (20),1 M (20),,,,,XL 330,,"0
+SCR-D,1 M (20),"2 M (20, 15)",,1 M (20),1 M (20),,No,No,No,XL 330,,"0
  0
  5","130° / 35°
 20° / 30°","448,011,187,742"
 "LACERATOR
-Hero",1 B,1 AMS,,1 AMS 1 E,1 B 1 E,,,,,XL 330,,"2
+Hero",1 B,1 AMS,,1 AMS 1 E,1 B 1 E,,No,No,No,XL 330,,"2
  2
  0","130° / 35°
 20° / 30°",n/a
-SCR-PRIME,2 E,,,1 AMS,2 E,1 E,,,,XL 330,,"5
+SCR-PRIME,2 E,,,1 AMS,2 E,1 E,No,No,No,XL 330,,"5
  0
  0","130° / 35°
 20° / 30°","445,011,113,382"
 "SCR-PRIME(C)
-Champion",2 E,1 E,,1 E,1 M (20),1 E,,,,XL 330,,"5
+Champion",2 E,1 E,,1 E,1 M (20),1 E,No,No,No,XL 330,,"5
  0
  1","130° / 35°
 20° / 30°","5,565"
 VAPOR EAGLE (55),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-VGL-1,3 B,1 B 1 E 1 M (20),1 AMS,2 E 1 M (20),1 E,,6,,,"110 - 400
+VGL-1,3 B,1 B 1 E 1 M (20),1 AMS,2 E 1 M (20),1 E,,6,No,No,"110 - 400
 XL 330",,"4
  4
  2","125° / 35°
 20° / 30°",n/a
-VGL-2,3 B,2 B,1 AMS,1 E,1 E,,6,,,"110 - 400
+VGL-2,3 B,2 B,1 AMS,1 E,1 E,,6,No,No,"110 - 400
 XL 330",,"2
  5
  0","125° / 35°
 20° / 30°",n/a
-VGL-3,1 M (20),1 E 1 M (20),1 AMS,2 E 1 M (20),1 E,,6,,,"110 - 400
+VGL-3,1 M (20),1 E 1 M (20),1 AMS,2 E 1 M (20),1 E,,6,No,No,"110 - 400
 XL 330",,"4
  0
  3","125° / 35°
 20° / 30°",n/a
-VGL-4,3 E,1 M (20),1 AMS,1 M (20),4 E,,,,,"110 - 400
+VGL-4,3 E,1 M (20),1 AMS,1 M (20),4 E,,No,No,No,"110 - 400
 XL 330",,"7
  0
  2","125° / 35°
 20° / 30°",n/a
-VGL-A,2 M (20x2),1 B 1 E,1 AMS,1 E,2 M (20x2),,6,,,"110 - 400
+VGL-A,2 M (20x2),1 B 1 E,1 AMS,1 E,2 M (20x2),,6,No,No,"110 - 400
 XL 330",,"2
  1
  4","125° / 35°
 20° / 30°",n/a
 "RIVAL
-Hero",3 B,,1 AMS,1 M (20),2 E,,6,,,"110 - 400
+Hero",3 B,,1 AMS,1 M (20),2 E,,6,No,Yes,"110 - 400
 XL 330",,"2
  3
  1","125° / 35°
 20° / 30°",n/a
-"Heavy
-InnerSphere",,,,,,,,,,,,,,
 CHAMPION (60),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-CHP-1N,1 AMS,2 E 2 M (20x2),2 E,2 B,,,,,,"120 - 360
+CHP-1N,1 AMS,2 E 2 M (20x2),2 E,2 B,,,No,No,No,"120 - 360
 STD 300",,"4
  2
  2","100° / 0°
 20° / 35°",n/a
-CHP-1N2,1 AMS,3 E 2 M (20x2),2 E,1 B,,,,,,"120 - 360
+CHP-1N2,1 AMS,3 E 2 M (20x2),2 E,1 B,,,No,No,No,"120 - 360
 STD 300",,"5
  1
  2","100° / 0°
 20° / 35°",n/a
-CHP-1NB,1 AMS,4 E,,4 B,,,,,,"120 - 360
+CHP-1NB,1 AMS,4 E,,4 B,,,No,No,No,"120 - 360
 STD 300",,"4
  4
  0","100° / 0°
 20° / 35°",n/a
-CHP-2N,1 AMS,2 E 1 M (20),2 E,3 B,,,,,,"120 - 360
+CHP-2N,1 AMS,2 E 1 M (20),2 E,3 B,,,No,No,No,"120 - 360
 STD 300",,"4
  3
  1","100° / 0°
 20° / 35°",n/a
-CHP-3N,1 AMS 1 E,2 E 1 M (20),2 E,1 B,1 E,,,,,"120 - 360
+CHP-3N,1 AMS 1 E,2 E 1 M (20),2 E,1 B,1 E,,No,No,No,"120 - 360
 XL 300",,"6
  1
  1","100° / 0°
 20° / 35°",n/a
 "INVICTUS
-Hero",1 AMS 1 E 1 M (20),1 M (20),,1 M (20),1 E 1 M (20),,5,,,"120 - 360
+Hero",1 AMS 1 E 1 M (20),1 M (20),,1 M (20),1 E 1 M (20),,5,No,No,"120 - 360
 XL 300",,"2
  0
  4","100° / 0°
 20° / 35°",n/a
 DRAGON (60),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-DRG-1C,2 E,2 E,1 M (10),1 AMS,1 B,,,,,"120 - 360
+DRG-1C,2 E,2 E,1 M (10),1 AMS,1 B,,No,No,No,"120 - 360
 STD 300",,"4
  1
  1","90° / 40°
 20° / 30°","19,004,745,200"
-DRG-1N,1 E,1 E,"2 M (10, 5)",1 AMS,2 B,,,,,"120 - 360
+DRG-1N,1 E,1 E,"2 M (10, 5)",1 AMS,2 B,,No,No,No,"120 - 360
 STD 300",,"2
  2
  2","90° / 40°
 20° / 30°","19,354,827,559"
-DRG-5N,2 E,,1 M (10),1 AMS,3 B,,,,,"120 - 360
+DRG-5N,2 E,,1 M (10),1 AMS,3 B,,No,No,No,"120 - 360
 STD 300",,"2
  3
  1","90° / 40°
 20° / 30°","20,405,097,559"
 "DRG-5N(C)
-Champion",2 E,,1 M (10),1 AMS,3 B,,,,,"120 - 360
+Champion",2 E,,1 M (10),1 AMS,3 B,,No,No,No,"120 - 360
 XL 300",,"2
  3
  1","90° / 40°
 20° / 30°","2,550"
 "FANG
-Hero",2 E,1 E,1 M (6),1 AMS,2 B,,,,,"120 - 360
+Hero",2 E,1 E,1 M (6),1 AMS,2 B,,No,No,No,"120 - 360
 STD 300",,"3
  2
  1","90° / 40°
 20° / 30°","4,500"
 "FLAME
-Hero",2 E,1 B,1 M (5),1 AMS,2 E,,,,,"120 - 360
+Hero",2 E,1 B,1 M (5),1 AMS,2 E,,No,No,No,"120 - 360
 STD 300",,"4
  1
  1","90° / 40°
 20° / 30°","4,500"
 QUICKDRAW (60),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-QKD-4G,1 E,1 AMS 1 M (10),1 M (4),2 E,1 E,,7,,,"120 - 360
+QKD-4G,1 E,1 AMS 1 M (10),1 M (4),2 E,1 E,,7,No,No,"120 - 360
 STD 300",,"4
  0
  2","90° / 30°
 20° / 35°","21,555,377,467"
 "QKD-4G(C)
-Champion",1 E,1 AMS 1 M (10),1 M (4),2 E,1 E,,7,,,"120 - 360
+Champion",1 E,1 AMS 1 M (10),1 M (4),2 E,1 E,,7,No,No,"120 - 360
 STD 310",,"4
  0
  2","90° / 30°
 20° / 35°","2,695"
-QKD-4H,1 E,"1 AMS 2 M (10, 5)",1 M (4),2 E,1 E,,5,,,"120 - 360
+QKD-4H,1 E,"1 AMS 2 M (10, 5)",1 M (4),2 E,1 E,,5,No,No,"120 - 360
 STD 300",,"4
  0
  3","90° / 30°
 20° / 35°","21,555,377,467"
-QKD-5K,1 E,1 AMS 2 E,1 M (4),2 E,1 E,,5,,,"120 - 360
+QKD-5K,1 E,1 AMS 2 E,1 M (4),2 E,1 E,,5,No,No,"120 - 360
 STD 300",,"6
  0
  1","90° / 30°
 20° / 35°","22,355,578,867"
 "IV-FOUR
-Hero",1 B,1 AMS 1 M (10),2 E,1 M (10),1 B,,4,,,"120 - 290
+Hero",1 B,1 AMS 1 M (10),2 E,1 M (10),1 B,,4,No,No,"120 - 290
 XL 240",,"2
  2
  2","100° / 35°
 25° / 40°","4,500"
 RIFLEMAN (60),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-RFL-3C,2 B,2 E,1 AMS,2 E,2 B,,,,,"120 - 290
+RFL-3C,2 B,2 E,1 AMS,2 E,2 B,,No,No,No,"120 - 290
 STD 240",,"4
  4
  0","100° / 0°
 20° / 50°","19,004,741,382"
-RFL-3N,1 B 1 E,2 E,1 AMS,2 E,1 B 1 E,,,,,"120 - 290
+RFL-3N,1 B 1 E,2 E,1 AMS,2 E,1 B 1 E,,No,No,No,"120 - 290
 STD 240",,"6
  2
  0","100° / 0°
 20° / 50°","19,304,823,866"
-RFL-5D,3 E,,2 E,1 AMS,3 E,,,,,"120 - 290
+RFL-5D,3 E,,2 E,1 AMS,3 E,,No,No,No,"120 - 290
 XL 240",,"8
  0
  0","100° / 0°
 20° / 50°","32,308,074,340"
-RFL-8D,1 B 2 E,,1 AMS,,1 B 2 E,,4,,,"120 - 290
+RFL-8D,1 B 2 E,,1 AMS,,1 B 2 E,,4,No,No,"120 - 290
 XL 240",,"4
  2
  0","100° / 0°
 20° / 50°",n/a
 "DAO BREAKER
-Hero",1 B 2 E,1 E,1 AMS,1 E,2 B 1 E,,,,,"120 - 290
+Hero",1 B 2 E,1 E,1 AMS,1 E,2 B 1 E,,No,No,No,"120 - 290
 STD 240",,"5
  3
  0","100° / 0°
 20° / 50°",n/a
 "LEGEND-KILLER
-Hero",2 B 1 E,1 E,1 AMS,1 E,2 B 1 E,,,,,"120 - 290
+Hero",2 B 1 E,1 E,1 AMS,1 E,2 B 1 E,,No,No,No,"120 - 290
 XL 240",,"4
  4
  0","100° / 0°
 20° / 50°","4,500"
 CATAPULT (65),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-CPLT-A1,"3 M (20, 10x2)",,,1 AMS,"3 M (20, 10x2)",,4,,,"130 - 315
+CPLT-A1,"3 M (20, 10x2)",,,1 AMS,"3 M (20, 10x2)",,4,No,No,"130 - 315
 STD 260",,"0
  0
  6","120° / 0°
 16° / 35°","22,305,564,279"
 "CPLT-A1(C)
-Champion","3 M (20, 10x2)",,,1 AMS,"3 M (20, 10x2)",,4,,,"130 - 315
+Champion","3 M (20, 10x2)",,,1 AMS,"3 M (20, 10x2)",,4,No,No,"130 - 315
 XL 255",,"0
  0
  6","120° / 0°
 16° / 35°","2,790"
 "BUTTERBEE
-Hero",2 M (20x2),1 E,2 E,1 AMS 1 E,2 M (20x2),,4,,,"130 - 315
+Hero",2 M (20x2),1 E,2 E,1 AMS 1 E,2 M (20x2),,4,No,No,"130 - 315
 STD 260",,"4
  0
  4","120° / 0°
 16° / 35°","4,875"
-CPLT-C1,1 M (20),1 E,2 E,1 AMS 1 E,1 M (20),,4,,,"130 - 315
+CPLT-C1,1 M (20),1 E,2 E,1 AMS 1 E,1 M (20),,4,No,No,"130 - 315
 STD 260",,"4
  0
  2","120° / 0°
 16° / 35°","23,255,804,127"
-CPLT-C4,"2 M (20, 10)",,2 E,1 AMS,"2 M (20, 10)",,4,,,"130 - 315
+CPLT-C4,"2 M (20, 10)",,2 E,1 AMS,"2 M (20, 10)",,4,No,No,"130 - 315
 STD 260",,"2
  0
  4","120° / 0°
 16° / 35°","23,505,869,247"
 "JESTER
-Hero",1 E,1 AMS 1 E,2 E,1 AMS 1 E,1 E,,4,,,"130 - 355
+Hero",1 E,1 AMS 1 E,2 E,1 AMS 1 E,1 E,,4,No,No,"130 - 355
 STD 295",,"6
  0
  0","120° / 0°
 16° / 35°","4,875"
-CPLT-K2,1 E,1 B 1 E,,1 AMS 1 B 1 E,1 E,,,,,"130 - 315
+CPLT-K2,1 E,1 B 1 E,,1 AMS 1 B 1 E,1 E,,No,No,No,"130 - 315
 STD 260",,"4
  2
  0","110° / 0°
 16° / 45°","21,255,304,023"
 JAGERMECH (65),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-JM6-A,1 B 2 M (20x2),1 AMS 1 E,,1 E,1 B 2 M (20x2),,,,,"130 - 315
+JM6-A,1 B 2 M (20x2),1 AMS 1 E,,1 E,1 B 2 M (20x2),,No,No,No,"130 - 315
 STD 260",,"2
  2
  4","90° / 0°
 20° / 35°","21,905,473,070"
 "JM6-A(C)
-Champion",1 B 2 M (20x2),1 AMS 1 E,,1 E,1 B 2 M (20x2),,,,,"130 - 315
+Champion",1 B 2 M (20x2),1 AMS 1 E,,1 E,1 B 2 M (20x2),,No,No,No,"130 - 315
 XL 265",,"2
  2
  4","90° / 0°
 20° / 35°","2,740"
-JM6-DD,3 B,1 AMS 1 E,,1 E,3 B,,,,,"130 - 315
+JM6-DD,3 B,1 AMS 1 E,,1 E,3 B,,No,No,No,"130 - 315
 XL 260",,"2
  6
  0","110° / 0°
 20° / 35°","34,108,513,253"
 "FIREBRAND
-Hero",1 B 1 E,1 AMS 2 E,,2 E,1 B 1 E,,,,,"130 - 340
+Hero",1 B 1 E,1 AMS 2 E,,2 E,1 B 1 E,,No,No,No,"130 - 340
 XL 280",,"6
  2
  0","100° / 0°
 20° / 35°","4,875"
-JM6-S,2 B,1 AMS 2 E,,2 E,2 B,,,,,"130 - 315
+JM6-S,2 B,1 AMS 2 E,,2 E,2 B,,No,No,No,"130 - 315
 STD 260",,"4
  4
  0","110° / 0°
 20° / 35°","20,855,201,918"
 ROUGHNECK (65),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-RGH-1A,1 B,1 AMS 2 M (20x2),,2 B,1 B,1 E,,,,"130 - 315
+RGH-1A,1 B,1 AMS 2 M (20x2),,2 B,1 B,1 E,No,No,No,"130 - 315
 STD 260",,"1
  4
  2","100° / 20°
 20° / 25°","5,154,547"
 "RGH-1A(C)
-Champion",1 B,1 AMS 2 M (20x2),,2 B,1 B,1 E,,,,"130 - 315
+Champion",1 B,1 AMS 2 M (20x2),,2 B,1 B,1 E,No,No,No,"130 - 315
 STD 225",,"1
  4
  2","100° / 20°
 20° / 25°",n/a
-RGH-1B,1 B,1 AMS 2 M (20x2),,1 M (20),2 B,1 E,,,,"130 - 315
+RGH-1B,1 B,1 AMS 2 M (20x2),,1 M (20),2 B,1 E,No,No,No,"130 - 315
 STD 260",,"1
  3
  3","100° / 20°
 20° / 25°","5,193,047"
-RGH-1C,1 B 1 M (20),1 AMS 2 M (20x2),,1 B,1 B 1 M (20),,,,,"130 - 315
+RGH-1C,1 B 1 M (20),1 AMS 2 M (20x2),,1 B,1 B 1 M (20),,No,No,No,"130 - 315
 STD 260",,"0
  3
  4","100° / 20°
 20° / 25°","5,382,615"
-RGH-2A,1 B,1 AMS 1 M (20),2 E,1 B,1 B,1 E,,,,"130 - 315
+RGH-2A,1 B,1 AMS 1 M (20),2 E,1 B,1 B,1 E,No,No,No,"130 - 315
 XL 260",,"3
  3
  1","100° / 20°
 20° / 25°","7,858,972"
-RGH-3A,1 E,1 AMS 2 E,,2 E,1 E,1 E,,,,"130 - 315
+RGH-3A,1 E,1 AMS 2 E,,2 E,1 E,1 E,No,No,No,"130 - 315
 STD 260",,"7
  0
  0","100° / 20°
 20° / 25°","5,535,547"
 "POWERHOUSE
-Hero",2 E,1 AMS 2 M (20x2),1 M (10),1 B,2 B,,,,,"130 - 315
+Hero",2 E,1 AMS 2 M (20x2),1 M (10),1 B,2 B,,No,No,No,"130 - 315
 XL 260",,"2
  3
  3","100° / 20°
 20° / 25°",n/a
 "REAVER
-Hero",1 B,1 AMS 2 E,1 M (10),2 E,1 B,,,,,"130 - 315
+Hero",1 B,1 AMS 2 E,1 M (10),2 E,1 B,,No,No,No,"130 - 315
 XL 260",,"4
  2
  1","100° / 20°
 20° / 25°",n/a
 THUNDERBOLT (65),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-TDR-5S,2 B,3 E,,"1 AMS 2 M (20, 10)",1 E,,,,,"130 - 315
+TDR-5S,2 B,3 E,,"1 AMS 2 M (20, 10)",1 E,,No,No,No,"130 - 315
 STD 260",,"4
  2
  2","90° / 20°
 20° / 30°","21,005,241,175"
 "TOP DOG
-Hero",,4 E,,1 AMS 4 E,1 E,,,,,"130 - 315
+Hero",,4 E,,1 AMS 4 E,1 E,,No,No,No,"130 - 315
 STD 260",,"9
  0
  0","80° / 20°
 20° / 30°","4,875"
-TDR-5SS,,3 E 1 M (10),,1 AMS 2 E,2 E,,,,,"130 - 315
+TDR-5SS,,3 E 1 M (10),,1 AMS 2 E,2 E,,No,No,No,"130 - 315
 STD 260",,"7
  0
  1","90° / 20°
 20° / 30°","20,805,188,055"
-TDR-9S,2 B,1 AMS 3 E 2 M (10),,1 AMS 2 E,1 E,,,,,"130 - 315
+TDR-9S,2 B,1 AMS 3 E 2 M (10),,1 AMS 2 E,1 E,,No,No,No,"130 - 315
 STD 260",,"6
  2
  2","80° / 20°
 20° / 30°","23,905,964,933"
-TDR-9SE,,3 E 2 M (10x2),,1 AMS,2 E,,4,,,"130 - 315
+TDR-9SE,,3 E 2 M (10x2),,1 AMS,2 E,,4,No,No,"130 - 315
 STD 260",,"5
  0
  2","90° / 20°
 20° / 30°","23,355,835,993"
 "TDR-9SE(C)
-Champion",,3 E 2 M (10x2),,1 AMS,2 E,,4,,,"130 - 315
+Champion",,3 E 2 M (10x2),,1 AMS,2 E,,4,No,No,"130 - 315
 STD 290",,"5
  0
  2","90° / 20°
 20° / 30°","2,865"
 ARCHER (70),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-ARC-2R,2 E,2 M (20x2),2 E,1 AMS 1 M (20),2 E,,,,,"140 - 340
+ARC-2R,2 E,2 M (20x2),2 E,1 AMS 1 M (20),2 E,,No,No,No,"140 - 340
 STD 280",,"6
  0
  3","110° / 20°
 25° / 30°","25,056,261,235"
-ARC-5S,1 E 1 M (20),2 M (20x2),2 E,1 AMS 1 M (20),1 E 1 M (20),,,,,"140 - 340
+ARC-5S,1 E 1 M (20),2 M (20x2),2 E,1 AMS 1 M (20),1 E 1 M (20),,No,No,No,"140 - 340
 XL 280",,"4
  0
  5","120° / 20°
 25° / 30°","38,259,551,235"
-ARC-5W,2 M (20x2),2 M (20x2),1 M (10),1 AMS 2 M (20x2),2 M (20x2),,,,,"140 - 340
+ARC-5W,2 M (20x2),2 M (20x2),1 M (10),1 AMS 2 M (20x2),2 M (20x2),,No,No,No,"140 - 340
 XL 280",,"0
  0
  9","100° / 20°
 25° / 30°","38,059,503,235"
 "TEMPEST
-Hero",2 E,1 ECM 1 M (20),2 E 1 M (10),1 AMS 1 M (20),2 E,,,,,"140 - 340
+Hero",2 E,1 ECM 1 M (20),2 E 1 M (10),1 AMS 1 M (20),2 E,,No,Yes,No,"140 - 340
 STD 280",,"6
  0
  3","100° / 20°
 25° / 30°","5,250"
 CATAPHRACT (70),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-CTF-0XP,2 E,1 ECM 1 AMS,,1 B,2 E,,,,,"140 - 340
+CTF-0XP,2 E,1 ECM 1 AMS,,1 B,2 E,,No,Yes,No,"140 - 340
 STD 280",,"4
  1
  0","90° / 20°
 20° / 30°","25,856,458,479"
-CTF-1X,1 E,1 AMS 1 E,,1 B 1 E,2 E,,,,,"140 - 340
+CTF-1X,1 E,1 AMS 1 E,,1 B 1 E,2 E,,No,No,No,"140 - 340
 STD 280",,"5
  1
  0","90° / 20°
 20° / 30°","23,855,950,963"
-CTF-2X,2 M (6x2),1 AMS 1 E,,1 B 1 E,1 E,,,,,"140 - 340
+CTF-2X,2 M (6x2),1 AMS 1 E,,1 B 1 E,1 E,,No,No,No,"140 - 340
 STD 280",,"3
  1
  2","90° / 20°
 20° / 30°","23,055,755,995"
-CTF-3D,1 E,1 AMS 1 E,,1 B 1 E,1 B 1 E,,4,,,"140 - 340
+CTF-3D,1 E,1 AMS 1 E,,1 B 1 E,1 B 1 E,,4,No,No,"140 - 340
 XL 280",,"4
  2
  0","90° / 20°
 20° / 30°","39,559,881,953"
 "CTF-3D(C)
-Champion",1 E,1 AMS 1 E,,1 B 1 E,1 B 1 E,,4,,,"140 - 340
+Champion",1 E,1 AMS 1 E,,1 B 1 E,1 B 1 E,,4,No,No,"140 - 340
 STD 300",,"4
  2
  0","90° / 20°
 20° / 30°","4,945"
-CTF-3L,1 E,1 AMS 1 E,,1 B 1 E,2 E,,,,,"140 - 340
+CTF-3L,1 E,1 AMS 1 E,,1 B 1 E,2 E,,No,No,Yes,"140 - 340
 XL 280",,"5
  1
  0","90° / 10°
 20° / 30°",n/a
 "CTF-3L(L)
-Special",1 E,1 AMS 1 E,,1 B 1 E,2 E,,,,,"140 - 340
+Special",1 E,1 AMS 1 E,,1 B 1 E,2 E,,No,No,Yes,"140 - 340
 XL 280",,"5
  1
  0","90° / 10°
 20° / 30°",n/a
-CTF-4X,2 B,1 AMS,2 E,,2 B,1 M (5),,,,"140 - 255
+CTF-4X,2 B,1 AMS,2 E,,2 B,1 M (5),No,No,No,"140 - 255
 STD 210",,"2
  4
  1","90° / 20°
 20° / 30°","20,955,229,289"
 "ILYA MUROMETS
-Hero",1 B,1 AMS 1 E,,1 B 1 E,1 B 1 E,,,,,"140 - 340
+Hero",1 B,1 AMS 1 E,,1 B 1 E,1 B 1 E,,No,No,No,"140 - 340
 XL 280",,"3
  3
  0","90° / 20°
 20° / 30°","5,250"
 GRASSHOPPER (70),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-GHR-5H,1 E,1 AMS 2 E,1 E,2 E,1 E,1 M (5),4,,,"140 - 340
+GHR-5H,1 E,1 AMS 2 E,1 E,2 E,1 E,1 M (5),4,No,No,"140 - 340
 STD 280",,"7
  0
  1","120° / 30°
 20° / 30°","23,655,911,055"
 "GHR-5H(C)
-Champion",1 E,1 AMS 2 E,1 E,2 E,1 E,1 M (5),4,,,"140 - 340
+Champion",1 E,1 AMS 2 E,1 E,2 E,1 E,1 M (5),4,No,No,"140 - 340
 XL 340",,"7
  0
  1","120° / 30°
 20° / 30°","2,960"
-GHR-5J,2 E,1 AMS,2 E,1 AMS,2 E,1 M (5),6,,,"140 - 365
+GHR-5J,2 E,1 AMS,2 E,1 AMS,2 E,1 M (5),6,No,No,"140 - 365
 STD 280",,"6
  0
  1","120° / 30°
 20° / 30°","24,856,200,995"
-GHR-5N,2 E,1 AMS 1 E,,2 E,2 E,1 E,4,,,"140 - 340
+GHR-5N,2 E,1 AMS 1 E,,2 E,2 E,1 E,4,No,No,"140 - 340
 STD 280",,"8
  0
  0","120° / 30°
 20° / 30°","24,456,100,995"
-GHR-5P,,1 AMS 3 E,1 E,3 E,,1 E,4,,,"140 - 340
+GHR-5P,,1 AMS 3 E,1 E,3 E,,1 E,4,No,No,"140 - 340
 STD 280",,"8
  0
  0","120° / 30°
 20° / 30°","26,206,542,003"
 "MJÖLNIR
-Hero",1 B,1 AMS 2 E,1 E,2 E,2 E,,4,,,"140 - 340
+Hero",1 B,1 AMS 2 E,1 E,2 E,2 E,,4,No,No,"140 - 340
 XL 280",,"7
  1
  0","120° / 30°
 20° / 30°",n/a
 WARHAMMER (70),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-WHM-4L,2 E,1 AMS 1 E,1 ECM,1 M (20),2 E,1 E,,,,"140 - 340
+WHM-4L,2 E,1 AMS 1 E,1 ECM,1 M (20),2 E,1 E,No,Yes,No,"140 - 340
 XL 280",,"6
  0
  1","110° / 25°
 25° / 25°",n/a
-WHM-6D,2 E,3 E,1 AMS,2 E,2 E,,,,,"140 - 340
+WHM-6D,2 E,3 E,1 AMS,2 E,2 E,,No,No,No,"140 - 340
 STD 280",,"9
  0
  0","110° / 25°
 25° / 25°","23,505,871,629"
 "WHM-6D(C)
-Champion",2 E,3 E,1 AMS,2 E,2 E,,,,,"140 - 340
+Champion",2 E,3 E,1 AMS,2 E,2 E,,No,No,No,"140 - 340
 STD 300",,"9
  0
  0","110° / 25°
 25° / 25°",n/a
-WHM-6R,1 E,1 B 2 E,1 AMS,1 B 2 E 1 M (20),1 E,,,,,"140 - 340
+WHM-6R,1 E,1 B 2 E,1 AMS,1 B 2 E 1 M (20),1 E,,No,No,No,"140 - 340
 STD 280",,"6
  2
  1","110° / 25°
 25° / 25°","24,156,036,947"
-WHM-7S,1 E,2 E 1 M (20),1 AMS,2 E 2 M (20x2),1 E,,,,,"140 - 340
+WHM-7S,1 E,2 E 1 M (20),1 AMS,2 E 2 M (20x2),1 E,,No,No,No,"140 - 340
 STD 280",,"6
  0
  3","110° / 25°
 25° / 25°","25,956,485,947"
 "BLACK WIDOW
-Hero",1 E,2 B 1 E,1 AMS,2 B 1 E 1 M (20),1 E,,,,,"140 - 340
+Hero",1 E,2 B 1 E,1 AMS,2 B 1 E 1 M (20),1 E,,No,No,No,"140 - 340
 XL 280",,"4
  4
  1","110° / 25°
 25° / 25°","5,250"
 BLACK KNIGHT (75),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-BL-6-KNT,1 E,1 AMS 2 E,,1 AMS 2 E,2 E,1 E,,,,"150 - 360
+BL-6-KNT,1 E,1 AMS 2 E,,1 AMS 2 E,2 E,1 E,No,No,No,"150 - 360
 STD 300",,"8
  0
  0","110° / 20°
 20° / 25°","27,806,949,667"
-BL-6B-KNT,2 E,1 AMS 2 E,,2 E,2 E,1 E,,,,"150 - 360
+BL-6B-KNT,2 E,1 AMS 2 E,,2 E,2 E,1 E,No,No,No,"150 - 360
 STD 300",,"9
  0
  0","110° / 10°
 20° / 25°","29,957,481,667"
-BL-7-KNT,1 E,1 AMS 2 E,,3 E,2 E,1 E,,,,"150 - 360
+BL-7-KNT,1 E,1 AMS 2 E,,3 E,2 E,1 E,No,No,No,"150 - 360
 STD 300",,"9
  0
  0","110° / 10°
 20° / 25°","26,156,529,635"
-BL-7-KNT-L,1 E,1 AMS 2 E,,2 E,2 E,1 E,,,,"150 - 385
+BL-7-KNT-L,1 E,1 AMS 2 E,,2 E,2 E,1 E,No,No,No,"150 - 385
 STD 300",,"8
  0
  0","110° / 10°
 20° / 25°","25,406,337,635"
 "PARTISAN
-Hero",1 B 1 M (20),1 AMS 2 E,,2 E,2 E,,,,,"150 - 360
+Hero",1 B 1 M (20),1 AMS 2 E,,2 E,2 E,,No,No,No,"150 - 360
 STD 300",,"6
  1
  1","110° / 10°
 20° / 25°",n/a
 MARAUDER (75),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-MAD-3R,2 E,1 AMS,,3 B,2 E,,,,,"150 - 360
+MAD-3R,2 E,1 AMS,,3 B,2 E,,No,No,No,"150 - 360
 STD 300",,"4
  3
  0","85° / 20°
 20° / 30°","26,406,590,643"
-MAD-5D,2 E,1 AMS 2 M (20x2),,1 E,2 E,,4,,,"150 - 360
+MAD-5D,2 E,1 AMS 2 M (20x2),,1 E,2 E,,4,No,No,"150 - 360
 XL 300",,"5
  0
  2","85° / 20°
 20° / 30°","437,010,915,183"
-MAD-5M,3 E,1 AMS,,2 B,2 E,,4,,,"150 - 360
+MAD-5M,3 E,1 AMS,,2 B,2 E,,4,No,No,"150 - 360
 XL 300",,"5
  2
  0","85° / 20°
 20° / 30°","431,510,776,138"
 "BOUNTY HUNTER II
-Hero",3 E,1 AMS,,1 B,3 E,1 E,4,,,"150 - 300
+Hero",3 E,1 AMS,,1 B,3 E,1 E,4,No,No,"150 - 300
 XL 225",,"7
  1
  0","95° / 0°
 20° / 40°","5,625"
 ORION (75),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-ON1-K,2 E,"1 AMS 2 M (20, 10)",,1 B,2 E,,,,,"150 - 360
+ON1-K,2 E,"1 AMS 2 M (20, 10)",,1 B,2 E,,No,No,No,"150 - 360
 STD 300",,"4
  1
  2","90° / 20°
 20° / 30°","26,056,510,685"
 "ON1-K(C)
-Champion",2 E,"1 AMS 2 M (20, 10)",,1 B,2 E,,,,,"150 - 360
+Champion",2 E,"1 AMS 2 M (20, 10)",,1 B,2 E,,No,No,No,"150 - 360
 STD 300",,"4
  1
  2","90° / 20°
 20° / 30°","3,260"
-ON1-M,1 E 1 M (15),1 AMS 1 M (20),1 M (6),1 B,2 E,,,,,"150 - 360
+ON1-M,1 E 1 M (15),1 AMS 1 M (20),1 M (6),1 B,2 E,,No,No,No,"150 - 360
 XL 300",,"3
  1
  3","90° / 20°
 20° / 30°","429,010,715,293"
 "PROTECTOR
-Hero",1 E,"1 AMS 1 E 2 M (20, 10)",,2 B,1 E,,,,,"150 - 360
+Hero",1 E,"1 AMS 1 E 2 M (20, 10)",,2 B,1 E,,No,No,No,"150 - 360
 STD 300",,"3
  2
  2","90° / 20°
 20° / 30°","5,625"
-ON1-V,1 E 1 M (15),1 AMS 1 M (20),,2 B,1 E 1 M (15),,,,,"150 - 360
+ON1-V,1 E 1 M (15),1 AMS 1 M (20),,2 B,1 E 1 M (15),,No,No,No,"150 - 360
 STD 300",,"2
  2
  3","90° / 20°
 20° / 30°","26,556,628,263"
-ON1-VA,"1 E 2 M (15, 10)",1 AMS,,1 B,"1 E 2 M (15, 10)",,,,,"150 - 360
+ON1-VA,"1 E 2 M (15, 10)",1 AMS,,1 B,"1 E 2 M (15, 10)",,No,No,No,"150 - 360
 STD 300",,"2
  1
  4","90° / 20°
 20° / 30°","25,006,247,565"
 THANATOS (75),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-TNS-4P,2 B,1 ECM 2 E,,1 AMS 2 E,1 M (20),,5,,,"150 - 360
+TNS-4P,2 B,1 ECM 2 E,,1 AMS 2 E,1 M (20),,5,Yes,No,"150 - 360
 XL 300",,"4
  2
  1","110° / 10°
 20° / 30°",n/a
-TNS-4S,2 E,1 ECM 1 E,,1 AMS 1 E,2 M (20x2),,5,,,"150 - 400
+TNS-4S,2 E,1 ECM 1 E,,1 AMS 1 E,2 M (20x2),,5,Yes,No,"150 - 400
 XL 375",,"4
  0
  2","105° / 20°
 20° / 30°",n/a
-TNS-5P,1 B 1 M (20),1 ECM 1 M (20),,1 AMS 1 M (20),3 E,,5,,,"150 - 360
+TNS-5P,1 B 1 M (20),1 ECM 1 M (20),,1 AMS 1 M (20),3 E,,5,Yes,No,"150 - 360
 STD 300",,"3
  1
  3","110° / 20°
 20° / 30°",n/a
-TNS-5S,2 E,1 ECM 1 B,,1 AMS 1 B,2 M (20x2),,5,,,"150 - 360
+TNS-5S,2 E,1 ECM 1 B,,1 AMS 1 B,2 M (20x2),,5,Yes,No,"150 - 360
 XL 300",,"2
  2
  2","110° / 20°
 20° / 30°",n/a
-TNS-5T,2 M (20x2),1 ECM 1 M (20),,1 AMS 1 M (20),2 M (20x2),,5,,,"150 - 360
+TNS-5T,2 M (20x2),1 ECM 1 M (20),,1 AMS 1 M (20),2 M (20x2),,5,Yes,No,"150 - 360
 STD 300",,"0
  0
  6","110° / 20°
 20° / 30°",n/a
 "HANGOVER
-Hero",2 E,1 ECM 1 E,1 E,1 AMS 1 E,"5 M (20x3, 10, 5)",,5,,,"150 - 400
+Hero",2 E,1 ECM 1 E,1 E,1 AMS 1 E,"5 M (20x3, 10, 5)",,5,Yes,No,"150 - 400
 XL 375",,"5
  0
  5","105° / 20°
 20° / 30°",n/a
-"Heavy
-Clan",,,,,,,,,,,,,,
 HELLFIRE (60),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-HLF-1,3 E,1 E 1 M (20),,1 AMS 2 M (20x2),3 E,,,,,"120 - 290
+HLF-1,3 E,1 E 1 M (20),,1 AMS 2 M (20x2),3 E,,No,No,Yes,"120 - 290
 STD 240",,"7
  0
  3","85° / 20°
 20° / 30°",n/a
-HLF-2,3 E,1 E 1 M (20),,1 AMS 1 M (20),2 E,,,,,"120 - 360
+HLF-2,3 E,1 E 1 M (20),,1 AMS 1 M (20),2 E,,No,No,Yes,"120 - 360
 XL 300",,"6
  0
  2","85° / 20°
 20° / 30°",n/a
-HLF-A,2 E,2 M (20x2),,1 AMS 1 B 2 M (20x2),2 E,,,,,"120 - 290
+HLF-A,2 E,2 M (20x2),,1 AMS 1 B 2 M (20x2),2 E,,No,No,Yes,"120 - 290
 XL 240",,"4
  1
  4","85° / 20°
 20° / 30°",n/a
-HLF-B,2 E,1 E 1 M (20),,1 AMS 2 M (20x2),2 E,,,,,"120 - 360
+HLF-B,2 E,1 E 1 M (20),,1 AMS 2 M (20x2),2 E,,No,No,Yes,"120 - 360
 XL 300",,"5
  0
  3","85° / 20°
 20° / 30°",n/a
-HLF-C,2 E,2 M (20x2),,1 AMS 2 M (20x2),2 E,,,,,"120 - 360
+HLF-C,2 E,2 M (20x2),,1 AMS 2 M (20x2),2 E,,No,No,Yes,"120 - 360
 XL 300",,"4
  0
  4","85° / 20°
 20° / 30°",n/a
 "VOID
-Hero",1 B,2 E,,1 AMS 1 B 1 M (20),3 E,,,,,"120 - 360
+Hero",1 B,2 E,,1 AMS 1 B 1 M (20),3 E,,No,No,Yes,"120 - 360
 XL 300",,"5
  2
  1","85° / 20°
 20° / 30°",n/a
 MAD DOG (60),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-MDD-A,1 B,"3 M (20, 10x2)",,"3 M (20, 10x2)",1 E,,,,,XL 300,,"1
+MDD-A,1 B,"3 M (20, 10x2)",,"3 M (20, 10x2)",1 E,,No,No,No,XL 300,,"1
  1
  6","95° / 30°
 20° / 30°","475,511,886,819"
-MDD-B,2 E,1 M (20),,"2 M (20, 10)",3 E,,,,,XL 300,,"5
+MDD-B,2 E,1 M (20),,"2 M (20, 10)",3 E,,No,No,No,XL 300,,"5
  0
  3","95° / 30°
 20° / 30°","482,012,042,879"
 "BANDIT
-Hero",2 E,1 B,,1 B,2 E,,,,,XL 300,,"4
+Hero",2 E,1 B,,1 B,2 E,,No,No,No,XL 300,,"4
  2
  0","95° / 30°
 20° / 30°",n/a
-MDD-C,1 B,,,,1 B,,,,,XL 300,,"0
+MDD-C,1 B,,,,1 B,,No,No,No,XL 300,,"0
  2
  0","95° / 30°
 20° / 30°","439,010,968,755"
 "MDD-C(C)
-Champion",1 B,,,,1 B,,,,,XL 300,,"0
+Champion",1 B,,,,1 B,,No,No,No,XL 300,,"0
  2
  0","95° / 30°
 20° / 30°",n/a
-MDD-H,3 E,1 M (20),,1 M (20),1 E,,,,,XL 300,,"4
+MDD-H,3 E,1 M (20),,1 M (20),1 E,,No,No,No,XL 300,,"4
  0
  2","95° / 30°
 20° / 30°",n/a
-MDD-PRIME,2 E,1 AMS 1 M (20),,1 M (20),2 E,,,,,XL 300,,"4
+MDD-PRIME,2 E,1 AMS 1 M (20),,1 M (20),2 E,,No,No,No,XL 300,,"4
  0
  2","95° / 30°
 20° / 30°","468,011,688,879"
 "REVENANT
-Hero",1 E,"2 M (20, 10)",2 E,"2 M (20, 10)",1 E,,,,,XL 300,,"4
+Hero",1 E,"2 M (20, 10)",2 E,"2 M (20, 10)",1 E,,No,No,No,XL 300,,"4
  0
  4","95° / 30°
 20° / 30°",n/a
 EBON JAGUAR (65),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-EBJ-A,1 B 2 E,3 E,,1 B,1 B 2 E,,,,,XL 325,,"7
+EBJ-A,1 B 2 E,3 E,,1 B,1 B 2 E,,No,No,No,XL 325,,"7
  3
  0","90° / 20°
 25° / 30°","526,013,141,764"
-EBJ-B,2 E,2 E,,1 E,2 E,,,,,XL 325,,"7
+EBJ-B,2 E,2 E,,1 E,2 E,,No,No,No,XL 325,,"7
  0
  0","90° / 20°
 25° / 30°","533,013,324,809"
-EBJ-C,1 B 1 M (20),1 M (20),,1 M (20),1 B 1 M (20),,,,,XL 325,,"0
+EBJ-C,1 B 1 M (20),1 M (20),,1 M (20),1 B 1 M (20),,No,No,No,XL 325,,"0
  2
  4","90° / 20°
 25° / 30°","497,012,415,149"
-EBJ-D,1 B,1 E,,2 E,1 B,,,,,XL 325,,"3
+EBJ-D,1 B,1 E,,2 E,1 B,,No,No,No,XL 325,,"3
  2
  0","90° / 20°
 25° / 30°",n/a
 "ESPRIT DE CORPS
-Hero",1 E 1 M (20),1 B,,1 E,1 E 1 M (20),,,,,XL 325,,"3
+Hero",1 E 1 M (20),1 B,,1 E,1 E 1 M (20),,No,No,No,XL 325,,"3
  1
  2","90° / 20°
 25° / 30°",n/a
-EBJ-PRIME,1 B,1 E 1 M (20),,1 AMS 1 M (20),1 B,,,,,XL 325,,"1
+EBJ-PRIME,1 B,1 E 1 M (20),,1 AMS 1 M (20),1 B,,No,No,No,XL 325,,"1
  2
  2","90° / 20°
 25° / 30°","493,012,321,989"
 "EBJ-PRIME(C)
-Champion",1 B,3 E,,1 B,1 B,,,,,XL 325,,"3
+Champion",1 B,3 E,,1 B,1 B,,No,No,No,XL 325,,"3
  3
  0","90° / 20°
 25° / 30°",n/a
 HELLBRINGER (65),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-HBR-A,2 E,1 M (20),,2 B 1 M (20),1 B,1 E,,,,XL 325,,"3
+HBR-A,2 E,1 M (20),,2 B 1 M (20),1 B,1 E,No,No,No,XL 325,,"3
  3
  2","90° / 20°
 20° / 30°","526,513,151,413"
-HBR-B,1 B,1 E,,2 M (20x2),1 B,,,,,XL 325,,"1
+HBR-B,1 B,1 E,,2 M (20x2),1 B,,No,No,No,XL 325,,"1
  2
  2","90° / 20°
 20° / 30°","496,512,403,883"
-HBR-F,1 B 1 E,1 E,,1 E 1 M (20),1 B 1 E,,,,,XL 325,,"4
+HBR-F,1 B 1 E,1 E,,1 E 1 M (20),1 B 1 E,,No,No,No,XL 325,,"4
  2
  1","90° / 20°
 20° / 30°",n/a
 "HBR-F(C)
-Champion",1 B 1 E,1 ECM 3 E,,1 E 1 M (20),1 B 1 E,1 E,,,,XL 325,,"7
+Champion",1 B 1 E,1 ECM 3 E,,1 E 1 M (20),1 B 1 E,1 E,No,Yes,No,XL 325,,"7
  2
  1","90° / 20°
 20° / 30°",n/a
 "HBR-F(L)
-Special",1 B 1 E,1 E,,1 E 1 M (20),1 B 1 E,,,,,XL 325,,"4
+Special",1 B 1 E,1 E,,1 E 1 M (20),1 B 1 E,,No,No,No,XL 325,,"4
  2
  1","90° / 20°
 20° / 30°",n/a
-HBR-P,2 E,1 M (20),,2 E,1 E,,,,,XL 325,,"5
+HBR-P,2 E,1 M (20),,2 E,1 E,,No,No,No,XL 325,,"5
  0
  1","90° / 20°
 20° / 30°",n/a
-HBR-PRIME,1 E,1 ECM 3 E,,2 B 1 M (20),1 E,1 AMS,,,,XL 325,,"5
+HBR-PRIME,1 E,1 ECM 3 E,,2 B 1 M (20),1 E,1 AMS,No,Yes,No,XL 325,,"5
  2
  1","90° / 20°
 20° / 30°","548,013,695,385"
 "VIRAGO
-Hero",2 E,2 E,,2 E,2 M (20x2),,,,,XL 325,,"6
+Hero",2 E,2 E,,2 E,2 M (20x2),,No,No,No,XL 325,,"6
  0
  2","90° / 20°
 20° / 30°",n/a
 LINEBACKER (65),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-LBK-A,1 E,1 M (20),,2 E 1 M (20),1 E,,,,,XL 390,,"4
+LBK-A,1 E,1 M (20),,2 E 1 M (20),1 E,,No,No,No,XL 390,,"4
  0
  2","90° / 20°
 25° / 30°","5,395"
-LBK-B,2 E,1 AMS 1 E,,1 B,1 E,,,,,XL 390,,"4
+LBK-B,2 E,1 AMS 1 E,,1 B,1 E,,No,No,No,XL 390,,"4
  1
  0","90° / 20°
 25° / 30°","5,200"
-LBK-C,2 E,3 E,,2 B 1 E,1 B,,,,,XL 390,,"6
+LBK-C,2 E,3 E,,2 B 1 E,1 B,,No,No,No,XL 390,,"6
  3
  0","90° / 20°
 25° / 30°","5,340"
-LBK-D,2 M (20x2),2 E,,1 E,2 M (20x2),,,,,XL 390,,"3
+LBK-D,2 M (20x2),2 E,,1 E,2 M (20x2),,No,No,No,XL 390,,"3
  0
  4","90° / 20°
 25° / 30°","5,330"
-LBK-H,1 E,1 E,1 E,1 E,1 E,,,,,XL 390,,"5
+LBK-H,1 E,1 E,1 E,1 E,1 E,,No,No,No,XL 390,,"5
  0
  0","90° / 20°
 25° / 30°",n/a
 "LBK-H(L)
-Special",1 E,1 E,1 E,1 E,1 E,,,,,XL 390,,"5
+Special",1 E,1 E,1 E,1 E,1 E,,No,No,No,XL 390,,"5
  0
  0","90° / 20°
 25° / 30°",n/a
-LBK-PRIME,1 E,1 M (20),,1 E 1 M (20),1 E,,,,,XL 390,,"3
+LBK-PRIME,1 E,1 M (20),,1 E 1 M (20),1 E,,No,No,No,XL 390,,"3
  0
  2","90° / 20°
 25° / 30°","5,365"
 "REDLINE
-Hero",1 B,2 E,,3 E,1 M (20),,,,,XL 390,,"5
+Hero",1 B,2 E,,3 E,1 M (20),,No,No,No,XL 390,,"5
  1
  1","90° / 20°
 25° / 30°","6,095"
 RIFLEMAN IIC (65),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-RFL-IIC,3 E,,1 AMS,,3 E,1 E,3,,,"130 - 235
+RFL-IIC,3 E,,1 AMS,,3 E,1 E,3,No,No,"130 - 235
 STD 195",,"7
  0
  0","100° / 0°
 20° / 50°",n/a
-RFL-IIC-2,3 B,,1 AMS,,3 B,,3,,,"130 - 315
+RFL-IIC-2,3 B,,1 AMS,,3 B,,3,No,No,"130 - 315
 STD 260",,"0
  6
  0","100° / 0°
 20° / 50°",n/a
-RFL-IIC-3,2 B 1 E,,1 AMS,,2 B 1 E,,3,,,"130 - 235
+RFL-IIC-3,2 B 1 E,,1 AMS,,2 B 1 E,,3,No,No,"130 - 235
 STD 195",,"2
  4
  0","100° / 0°
 20° / 50°",n/a
-RFL-IIC-4,1 E 2 M (20x2),,1 AMS,,1 E 2 M (20x2),,3,,,"130 - 235
+RFL-IIC-4,1 E 2 M (20x2),,1 AMS,,1 E 2 M (20x2),,3,No,No,"130 - 235
 STD 195",,"2
  0
  4","100° / 0°
 20° / 50°",n/a
-RFL-IIC-A,1 B 1 E,1 E,1 AMS,1 E,1 B 1 E,,,,,"130 - 315
+RFL-IIC-A,1 B 1 E,1 E,1 AMS,1 E,1 B 1 E,,No,No,No,"130 - 315
 XL 260",,"4
  2
  0","100° / 0°
 20° / 50°",n/a
 "CHIRONEX
-Hero",1 B 1 M (20),1 E,1 AMS,1 E,1 B 1 M (20),1 E,3,,,"130 - 235
+Hero",1 B 1 M (20),1 E,1 AMS,1 E,1 B 1 M (20),1 E,3,No,No,"130 - 235
 STD 195",,"3
  2
  2","100° / 0°
 20° / 50°",n/a
 NOVA CAT (70),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-NCT-A,2 E,,,,2 E,,,,,XL 280,,"4
+NCT-A,2 E,,,,2 E,,No,No,No,XL 280,,"4
  0
  0","100° / 20°
 25° / 25°",n/a
-NCT-B,"3 M (20x2, 15)",1 E,,1 E,"3 M (20x2, 15)",,,,,XL 280,,"2
+NCT-B,"3 M (20x2, 15)",1 E,,1 E,"3 M (20x2, 15)",,No,No,No,XL 280,,"2
  0
  6","100° / 20°
 25° / 25°",n/a
-NCT-C,2 E,,,,3 B,,,,,XL 280,,"2
+NCT-C,2 E,,,,3 B,,No,No,No,XL 280,,"2
  3
  0","100° / 20°
 25° / 25°",n/a
 "COBRA CAT
-Hero","1 E 2 M (20, 15)",1 E,,1 E,"1 E 2 M (20, 15)",,,,,XL 280,,"4
+Hero","1 E 2 M (20, 15)",1 E,,1 E,"1 E 2 M (20, 15)",,No,No,No,XL 280,,"4
  0
  4","100° / 20°
 25° / 25°",n/a
-NCT-D,1 B 1 E,,,,2 E,,,,,XL 280,,"3
+NCT-D,1 B 1 E,,,,2 E,,No,No,No,XL 280,,"3
  1
  0","100° / 20°
 25° / 25°",n/a
-NCT-PRIME,3 E,,,1 AMS,2 E,,,,,XL 280,,"5
+NCT-PRIME,3 E,,,1 AMS,2 E,,No,No,No,XL 280,,"5
  0
  0","100° / 20°
 25° / 25°",n/a
 SUMMONER (70),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-SMN-B,2 M (10x2),1 AMS 1 M (20),,,2 M (10x2),,5,,,XL 350,,"0
+SMN-B,2 M (10x2),1 AMS 1 M (20),,,2 M (10x2),,5,No,No,XL 350,,"0
  0
  5","80° / 20°
 20° / 30°","563,014,069,481"
-SMN-C,1 B,1 M (20),,,2 E,,5,,,XL 350,,"2
+SMN-C,1 B,1 M (20),,,2 E,,5,No,No,XL 350,,"2
  1
  1","80° / 20°
 20° / 30°","558,513,957,711"
-SMN-D,2 E,1 AMS 1 B,,1 AMS 1 B,2 E,,5,,,XL 350,,"4
+SMN-D,2 E,1 AMS 1 B,,1 AMS 1 B,2 E,,5,No,No,XL 350,,"4
  2
  0","80° / 20°
 20° / 30°","556,013,899,241"
-SMN-F,1 B 1 E,1 M (20),,1 E,1 B 1 E,,5,,,XL 350,,"3
+SMN-F,1 B 1 E,1 M (20),,1 E,1 B 1 E,,5,No,No,XL 350,,"3
  2
  1","80° / 20°
 20° / 30°",n/a
 "SMN-F(L)
-Special",1 B 1 E,1 M (20),,1 E,1 B 1 E,,5,,,XL 350,,"3
+Special",1 B 1 E,1 M (20),,1 E,1 B 1 E,,5,No,No,XL 350,,"3
  2
  1","80° / 20°
 20° / 30°",n/a
-SMN-M,1 B,1 E 1 M (20),,,1 E,,5,,,XL 350,,"2
+SMN-M,1 B,1 E 1 M (20),,,1 E,,5,No,No,XL 350,,"2
  1
  1","80° / 20°
 20° / 30°",n/a
 "SMN-M(L)
-Special",1 B,1 E 1 M (20),,,1 E,,5,,,XL 350,,"2
+Special",1 B,1 E 1 M (20),,,1 E,,5,No,No,XL 350,,"2
  1
  1","80° / 20°
 20° / 30°",n/a
 "PRIDE
-Hero",2 B,1 AMS 1 E,,,1 E,,5,,,XL 350,,"2
+Hero",2 B,1 AMS 1 E,,,1 E,,5,No,No,XL 350,,"2
  2
  0","80° / 20°
 20° / 30°",n/a
-SMN-PRIME,1 B,1 M (20),,,1 E,,5,,,XL 350,,"1
+SMN-PRIME,1 B,1 M (20),,,1 E,,5,No,No,XL 350,,"1
  1
  1","80° / 20°
 20° / 30°","563,014,071,353"
 SUN SPIDER (70),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-SNS-A,1 E,2 B,,2 B,1 E,,,,,XL 350,,"2
+SNS-A,1 E,2 B,,2 B,1 E,,No,No,No,XL 350,,"2
  4
  0","80° / 0°
 20° / 30°",n/a
-SNS-B,1 E 1 M (20),1 AMS 1 E,,1 B,1 E 1 M (20),,,,,XL 350,,"3
+SNS-B,1 E 1 M (20),1 AMS 1 E,,1 B,1 E 1 M (20),,No,No,No,XL 350,,"3
  1
  2","80° / 0°
 20° / 30°",n/a
-SNS-C,2 M (20x2),1 M (20),,1 M (20),2 M (20x2),,,,,XL 350,,"0
+SNS-C,2 M (20x2),1 M (20),,1 M (20),2 M (20x2),,No,No,No,XL 350,,"0
  0
  6","80° / 0°
 20° / 30°",n/a
-SNS-D,1 B,1 ECM,,2 B,1 B,,,,,XL 350,,"0
+SNS-D,1 B,1 ECM,,2 B,1 B,,No,Yes,No,XL 350,,"0
  4
  0","80° / 0°
 20° / 30°",n/a
 "MANUL
-Hero",2 E,1 E,,1 AMS,2 E,,,,,XL 350,,"5
+Hero",2 E,1 E,,1 AMS,2 E,,No,No,No,XL 350,,"5
  0
  0","80° / 0°
 20° / 30°",n/a
-SNS-PRIME,2 M (20x2),1 E,,1 B,2 M (20x2),,,,,XL 350,,"1
+SNS-PRIME,2 M (20x2),1 E,,1 B,2 M (20x2),,No,No,No,XL 350,,"1
  1
  4","80° / 0°
 20° / 30°",n/a
 "VANGUARD
-Hero",1 M (20),1 B 1 E,,1 B,2 M (20x2),,,,,XL 350,,"1
+Hero",1 M (20),1 B 1 E,,1 B,2 M (20x2),,No,No,No,XL 350,,"1
  2
  3","80° / 0°
 20° / 30°",n/a
 NIGHT GYR (75),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-NTG-A,3 E,1 M (20),,1 M (20),1 B,1 E,4,,,XL 300,,"4
+NTG-A,3 E,1 M (20),,1 M (20),1 B,1 E,4,No,No,XL 300,,"4
  1
  2","70° / 20°
 15° / 30°","566,014,144,563"
-NTG-B,1 B,1 B,,1 B,1 B,1 AMS,4,,,XL 300,,"0
+NTG-B,1 B,1 B,,1 B,1 B,1 AMS,4,No,No,XL 300,,"0
  4
  0","70° / 20°
 15° / 30°","548,013,695,908"
-NTG-C,3 B,1 E,,,2 E,1 E,4,,,XL 300,,"4
+NTG-C,3 B,1 E,,,2 E,1 E,4,No,No,XL 300,,"4
  3
  0","70° / 20°
 15° / 30°","554,013,846,708"
-NTG-D,1 M (20),1 M (20),1 E,1 M (20),1 M (20),1 E,4,,,XL 300,,"2
+NTG-D,1 M (20),1 M (20),1 E,1 M (20),1 M (20),1 E,4,No,No,XL 300,,"2
  0
  4","65° / 20°
 15° / 30°","603,015,063,328"
-NTG-H,1 B,1 E,,1 ECM,1 B,1 E,4,,,XL 300,,"2
+NTG-H,1 B,1 E,,1 ECM,1 B,1 E,4,Yes,No,XL 300,,"2
  2
  0","70° / 20°
 15° / 30°",n/a
 "JADE KITE
-Hero",2 B,2 B,,"2 M (20, 15)",2 E,,4,,,XL 300,,"2
+Hero",2 B,2 B,,"2 M (20, 15)",2 E,,4,No,No,XL 300,,"2
  4
  2","70° / 20°
 15° / 30°","7,035"
-NTG-PRIME,2 E,1 E,,1 E,1 B,1 E,4,,,XL 300,,"5
+NTG-PRIME,2 E,1 E,,1 E,1 B,1 E,4,No,No,XL 300,,"5
  1
  0","70° / 20°
 15° / 30°","566,514,152,608"
 ORION IIC (75),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-ON1-IIC,1 E 1 M (20),1 AMS 2 M (20x2),,1 B,2 E,,,,,"150 - 360
+ON1-IIC,1 E 1 M (20),1 AMS 2 M (20x2),,1 B,2 E,,No,No,No,"150 - 360
 STD 300",,"3
  1
  3","85° / 20°
 20° / 30°","30,807,694,819"
-ON1-IIC-A,1 E 2 M (20x2),1 AMS 2 M (20x2),,1 B,1 E,,,,,"150 - 360
+ON1-IIC-A,1 E 2 M (20x2),1 AMS 2 M (20x2),,1 B,1 E,,No,No,No,"150 - 360
 STD 300",,"2
  1
  4","85° / 20°
 20° / 30°","31,407,849,879"
 "ON1-IIC-A(C)
-Champion",1 E 2 M (20x2),1 AMS 2 M (20x2),,1 B,1 E,,,,,"150 - 360
+Champion",1 E 2 M (20x2),1 AMS 2 M (20x2),,1 B,1 E,,No,No,No,"150 - 360
 XL 360",,"2
  1
  4","85° / 20°
 20° / 30°","3,925"
-ON1-IIC-B,2 E 1 M (20),1 AMS 1 M (20),,1 B,2 E,,,,,"150 - 360
+ON1-IIC-B,2 E 1 M (20),1 AMS 1 M (20),,1 B,2 E,,No,No,No,"150 - 360
 XL 300",,"4
  1
  2","85° / 20°
 20° / 30°","451,011,265,639"
-ON1-IIC-C,1 E 1 M (20),1 AMS 2 M (20x2),,2 B,1 E,,,,,"150 - 360
+ON1-IIC-C,1 E 1 M (20),1 AMS 2 M (20x2),,2 B,1 E,,No,No,No,"150 - 360
 XL 300",,"2
  2
  3","85° / 20°
 20° / 30°","451,511,286,759"
 "SKÖLL
-Hero",1 E,1 AMS 1 E 1 M (20),,1 B,2 E,,,,,"150 - 360
+Hero",1 E,1 AMS 1 E 1 M (20),,1 B,2 E,,No,No,Yes,"150 - 360
 STD 300",,"4
  1
  1","85° / 20°
 20° / 30°",n/a
 TIMBER WOLF (75),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-TBR-A,1 E,3 E,1 E,1 M (20),1 E,,,,,XL 375,,"6
+TBR-A,1 E,3 E,1 E,1 M (20),1 E,,No,No,No,XL 375,,"6
  0
  1","80° / 25°
 20° / 30°","591,014,769,027"
-TBR-C,2 E,1 AMS 1 M (20),1 E,1 M (20),1 B,,,,,XL 375,,"3
+TBR-C,2 E,1 AMS 1 M (20),1 E,1 M (20),1 B,,No,No,No,XL 375,,"3
  1
  2","80° / 25°
 20° / 30°","607,015,163,647"
 "TBR-C(C)
-Champion",2 E,1 E 1 M (20),1 E,"1 B 1 E 2 M (20, 15)",1 B,,,,,XL 375,,"5
+Champion",2 E,1 E 1 M (20),1 E,"1 B 1 E 2 M (20, 15)",1 B,,No,No,No,XL 375,,"5
  2
  3","80° / 25°
 20° / 30°","7,590"
-TBR-D,1 E,"2 M (20, 15)",1 E,"2 M (20, 15)",1 E,,,,,XL 375,,"3
+TBR-D,1 E,"2 M (20, 15)",1 E,"2 M (20, 15)",1 E,,No,No,No,XL 375,,"3
  0
  4","80° / 25°
 20° / 30°","607,515,177,027"
-TBR-PRIME,2 E,1 E 1 M (20),1 B,1 B 1 M (20),2 E,,,,,XL 375,,"5
+TBR-PRIME,2 E,1 E 1 M (20),1 B,1 B 1 M (20),2 E,,No,No,No,XL 375,,"5
  2
  2","80° / 25°
 20° / 30°","607,515,178,647"
-TBR-S,1 E,"1 B 2 M (20, 15)",,"1 B 1 E 2 M (20, 15)",2 E,,,,,XL 375,,"4
+TBR-S,1 E,"1 B 2 M (20, 15)",,"1 B 1 E 2 M (20, 15)",2 E,,No,No,No,XL 375,,"4
  2
  4","80° / 25°
 20° / 30°","591,014,766,027"
 "WARRANT
-Hero",1 B,1 E 1 M (20),,1 E 1 M (20),2 E,,,,,XL 375,,"4
+Hero",1 B,1 E 1 M (20),,1 E 1 M (20),2 E,,No,No,No,XL 375,,"4
  1
  2","80° / 25°
 20° / 30°",n/a
-"Assault
-InnerSphere",,,,,,,,,,,,,,
 AWESOME (80),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-AWS-8Q,,2 E,,1 AMS 2 E,2 E,1 E,,,,"160 - 300
+AWS-8Q,,2 E,,1 AMS 2 E,2 E,1 E,No,No,No,"160 - 300
 STD 240",,"7
  0
  0","100° / 40°
 20° / 30°","27,106,764,270"
-AWS-8R,,2 M (20x2),,1 AMS 2 M (20x2),2 E,1 E,,,,"160 - 300
+AWS-8R,,2 M (20x2),,1 AMS 2 M (20x2),2 E,1 E,No,No,No,"160 - 300
 STD 240",,"3
  0
  4","100° / 40°
 20° / 30°","26,106,524,390"
-AWS-8T,2 E,1 M (20),,1 AMS 1 M (20),2 E,1 E,,,,"160 - 300
+AWS-8T,2 E,1 M (20),,1 AMS 1 M (20),2 E,1 E,No,No,No,"160 - 300
 STD 240",,"5
  0
  2","100° / 40°
 20° / 30°","26,856,704,390"
-AWS-8V,,2 E,,"1 AMS 3 M (20x2, 15)",1 E,1 E,,,,"160 - 300
+AWS-8V,,2 E,,"1 AMS 3 M (20x2, 15)",1 E,1 E,No,No,No,"160 - 300
 STD 240",,"4
  0
  3","100° / 40°
 20° / 30°","26,306,574,390"
-AWS-9M,1 M (20),1 E,"2 E 2 M (10, 5)",1 AMS 1 E,1 E,1 E,,,,"160 - 385
+AWS-9M,1 M (20),1 E,"2 E 2 M (10, 5)",1 AMS 1 E,1 E,1 E,No,No,No,"160 - 385
 XL 320",,"6
  0
  3","100° / 40°
 20° / 30°","461,511,534,852"
 "AWS-9M(C)
-Champion",1 M (20),1 E,"2 E 2 M (10, 5)",1 AMS 1 E,1 E,1 E,,,,"160 - 385
+Champion",1 M (20),1 E,"2 E 2 M (10, 5)",1 AMS 1 E,1 E,1 E,No,No,No,"160 - 385
 STD 315",,"6
  0
  3","100° / 40°
 20° / 30°","5,715"
 "PRETTY BABY
-Hero",2 M (4x2),1 E,,1 AMS 1 M (15),1 E,1 E,,,,"160 - 400
+Hero",2 M (4x2),1 E,,1 AMS 1 M (15),1 E,1 E,No,No,No,"160 - 400
 XL 340",,"3
  0
  3","100° / 40°
 20° / 30°","6,000"
 CHARGER (80),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-CGR-1A1,1 E,2 E,,2 E,1 AMS 1 E,1 E,,,,"200 - 400
+CGR-1A1,1 E,2 E,,2 E,1 AMS 1 E,1 E,No,No,No,"200 - 400
 STD 400",,"7
  0
  0","100° / 30°
 25° / 30°",n/a
-CGR-1A5,,3 M (20x3),1 E,2 B,1 AMS,1 E,,,,"200 - 385
+CGR-1A5,,3 M (20x3),1 E,2 B,1 AMS,1 E,No,No,No,"200 - 385
 STD 320",,"2
  2
  3","100° / 30°
 25° / 30°",n/a
-CGR-3K,1 E,1 E,,1 E 2 M (20x2),1 AMS 1 E,,5,,,"200 - 400
+CGR-3K,1 E,1 E,,1 E 2 M (20x2),1 AMS 1 E,,5,No,No,"200 - 400
 XL 400",,"4
  0
  2","100° / 30°
 25° / 30°",n/a
 "NUMBER SEVEN
-Hero",1 E,1 E,,2 E,1 AMS 1 E,1 E,5,,,"200 - 385
+Hero",1 E,1 E,,2 E,1 AMS 1 E,1 E,5,No,No,"200 - 385
 STD 320",,"6
  0
  0","100° / 30°
 25° / 30°",n/a
 HATAMOTO-CHI (80),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-HTM-27T,2 E,2 M (20x2),,2 M (20x2),1 AMS 1 E,,,,,"200 - 385
+HTM-27T,2 E,2 M (20x2),,2 M (20x2),1 AMS 1 E,,No,No,No,"200 - 385
 STD 320",,"3
  0
  4","100° / 30°
 25° / 30°",n/a
-HATAMOTO-KU HTM-27W,2 E,,,3 B,1 AMS 2 E,,,,,"200 - 385
+HATAMOTO-KU HTM-27W,2 E,,,3 B,1 AMS 2 E,,No,No,No,"200 - 385
 STD 320",,"4
  3
  0","100° / 30°
 25° / 30°",n/a
-HTM-28TR,2 E,1 ECM 1 M (20),,1 M (20),1 AMS 2 E,,3,,,"200 - 290
+HTM-28TR,2 E,1 ECM 1 M (20),,1 M (20),1 AMS 2 E,,3,Yes,No,"200 - 290
 STD 240",,"4
  0
  2","100° / 30°
 25° / 30°",n/a
 "SHUGO
-Hero",2 B,2 M (20x2),,2 M (20x2),1 AMS 2 B,,,,,"200 - 290
+Hero",2 B,2 M (20x2),,2 M (20x2),1 AMS 2 B,,No,No,No,"200 - 290
 STD 240",,"0
  4
  4","100° / 30°
 25° / 30°",n/a
 VICTOR (80),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-VTR-9A1,3 E,1 B 1 M (20),,1 AMS 1 B,1 B,,4,,,"160 - 385
+VTR-9A1,3 E,1 B 1 M (20),,1 AMS 1 B,1 B,,4,No,No,"160 - 385
 STD 320",,"3
  3
  1","90° / 10°
 20° / 30°",n/a
 "VTR-9A1(L)
-Special",3 E,1 B 1 M (20),,1 AMS 1 B,1 B,,4,,,"160 - 385
+Special",3 E,1 B 1 M (20),,1 AMS 1 B,1 B,,4,No,No,"160 - 385
 STD 320",,"3
  3
  1","90° / 10°
 20° / 30°",n/a
-VTR-9B,2 E,"2 M (10, 5)",,1 AMS,3 B,,4,,,"160 - 385
+VTR-9B,2 E,"2 M (10, 5)",,1 AMS,3 B,,4,No,No,"160 - 385
 STD 320",,"2
  3
  2","90° / 10°
 20° / 30°","29,657,410,423"
-VTR-9K,3 E,"2 M (10, 5)",,1 AMS,1 B,,6,,,"160 - 385
+VTR-9K,3 E,"2 M (10, 5)",,1 AMS,1 B,,6,No,No,"160 - 385
 STD 320",,"3
  1
  2","90° / 20°
 20° / 30°","30,857,710,430"
-VTR-9S,2 E,"3 M (10, 5, 2)",,1 AMS,2 B,,4,,,"160 - 385
+VTR-9S,2 E,"3 M (10, 5, 2)",,1 AMS,2 B,,4,No,No,"160 - 385
 STD 320",,"2
  2
  3","90° / 10°
 20° / 30°","29,807,440,407"
 "VTR-9S(C)
-Champion",2 E,"3 M (10, 5, 2)",,1 AMS,2 B,,4,,,"160 - 385
+Champion",2 E,"3 M (10, 5, 2)",,1 AMS,2 B,,4,No,No,"160 - 385
 XL 340",,"2
  2
  3","90° / 10°
 20° / 30°","3,725"
 "DRAGON SLAYER
-Hero",1 E,"2 M (10, 5)",,1 AMS 2 E,2 B,,4,,,"160 - 400
+Hero",1 E,"2 M (10, 5)",,1 AMS 2 E,2 B,,4,No,No,"160 - 400
 XL 330",,"3
  2
  2","90° / 20°
 20° / 30°","6,000"
 ZEUS (80),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-ZEU-5S,1 B,2 E,1 E,1 AMS,"3 M (20, 15x2)",,,,,"160 - 390
+ZEU-5S,1 B,2 E,1 E,1 AMS,"3 M (20, 15x2)",,No,No,No,"160 - 390
 STD 320",,"3
  1
  3","90° / 20°
 20° / 30°","29,857,461,534"
-ZEU-6S,2 B,3 E,1 E,1 AMS,1 M (20),,,,,"160 - 390
+ZEU-6S,2 B,3 E,1 E,1 AMS,1 M (20),,No,No,No,"160 - 390
 STD 320",,"4
  2
  1","90° / 20°
 20° / 30°","27,806,947,974"
-ZEU-6T,1 E,2 E,1 E,1 AMS,"3 M (20, 15x2)",,,,,"160 - 390
+ZEU-6T,1 E,2 E,1 E,1 AMS,"3 M (20, 15x2)",,No,No,No,"160 - 390
 STD 320",,"4
  0
  3","90° / 20°
 20° / 30°","28,457,101,474"
 "ZEU-6T(C)
-Champion",1 E,2 E,1 E,1 AMS,"3 M (20, 15x2)",,,,,"160 - 390
+Champion",1 E,2 E,1 E,1 AMS,"3 M (20, 15x2)",,No,No,No,"160 - 390
 XL 380",,"4
  0
  3","90° / 20°
 20° / 30°","3,560"
-ZEU-9S,3 E,2 E,1 E,1 AMS,1 M (20),,,,,"160 - 390
+ZEU-9S,3 E,2 E,1 E,1 AMS,1 M (20),,No,No,No,"160 - 390
 STD 320",,"6
  0
  1","90° / 20°
 20° / 30°","31,357,834,142"
-ZEU-9S2,2 B,2 E,,1 AMS,"3 M (20, 15x2)",,,,,"160 - 390
+ZEU-9S2,2 B,2 E,,1 AMS,"3 M (20, 15x2)",,No,No,No,"160 - 390
 XL 320",,"2
  2
  3","90° / 20°
 20° / 30°","451,511,278,322"
 "ZEU-9S2(L)
-Special",2 B,2 E,,1 AMS,"3 M (20, 15x2)",,,,,"160 - 390
+Special",2 B,2 E,,1 AMS,"3 M (20, 15x2)",,No,No,No,"160 - 390
 XL 320",,"2
  2
  3","90° / 20°
 20° / 30°",n/a
 "SKOKOMISH
-Hero",1 B,1 E 2 M (20x2),1 E,1 AMS,"2 M (20, 15)",,,,,"160 - 400
+Hero",1 B,1 E 2 M (20x2),1 E,1 AMS,"2 M (20, 15)",,No,No,Yes,"160 - 400
 XL 320",,"2
  1
  4","90° / 20°
 20° / 30°",n/a
 BATTLEMASTER (85),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-BLR-1D,3 B,2 E,,1 AMS 2 E,1 E,,,,,"170 - 400
+BLR-1D,3 B,2 E,,1 AMS 2 E,1 E,,No,No,No,"170 - 400
 STD 340",,"5
  3
  0","80° / 30°
 20° / 30°","29,507,363,725"
-BLR-1G,2 B,3 E 1 M (10),,1 AMS 3 E,1 E,,,,,"170 - 400
+BLR-1G,2 B,3 E 1 M (10),,1 AMS 3 E,1 E,,No,No,No,"170 - 400
 STD 340",,"7
  2
  1","60° / 30°
 20° / 30°","30,857,703,709"
 "HELLSLINGER
-Hero",1 E,2 E 3 M (10x3),,1 AMS 2 E,1 E,,,,,"170 - 400
+Hero",1 E,2 E 3 M (10x3),,1 AMS 2 E,1 E,,No,No,No,"170 - 400
 STD 340",,"6
  0
  3","75° / 30°
 20° / 30°","6,375"
-BLR-1S,1 M (15),2 E 2 M (10x2),,1 AMS 2 E,1 M (15),,,,,"170 - 400
+BLR-1S,1 M (15),2 E 2 M (10x2),,1 AMS 2 E,1 M (15),,No,No,No,"170 - 400
 STD 340",,"4
  0
  4","80° / 30°
 20° / 30°","29,857,452,829"
-BLR-2C,1 AMS,3 E 2 M (10x2),,1 AMS 2 E,1 E,,,,,"170 - 400
+BLR-2C,1 AMS,3 E 2 M (10x2),,1 AMS 2 E,1 E,,No,No,No,"170 - 400
 STD 340",,"6
  0
  2","80° / 30°
 20° / 30°","37,209,292,709"
 "BLR-2C(C)
-Champion",1 AMS,3 E 2 M (20x2),,1 AMS 2 E,1 E,,,,,"170 - 400
+Champion",1 AMS,3 E 2 M (20x2),,1 AMS 2 E,1 E,,No,No,No,"170 - 400
 STD 315",,"6
  0
  2","80° / 30°
 20° / 30°","4,650"
-BLR-3M,1 B,3 E 1 M (10),,1 AMS 3 E,2 E,,,,,"170 - 400
+BLR-3M,1 B,3 E 1 M (10),,1 AMS 3 E,2 E,,No,No,No,"170 - 400
 STD 340",,"8
  1
  1","60° / 30°
 20° / 30°","32,758,177,709"
-BLR-3S,,3 E 1 M (10),,1 AMS 3 E,1 M (15),,,,,"170 - 400
+BLR-3S,,3 E 1 M (10),,1 AMS 3 E,1 M (15),,No,No,No,"170 - 400
 XL 340",,"6
  0
  2","80° / 30°
 20° / 30°","470,511,760,821"
 STALKER (85),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-STK-3F,2 E 1 M (10),1 E 1 M (6),,1 AMS 1 E 1 M (6),2 E 1 M (10),,,,,"80 - 310
+STK-3F,2 E 1 M (10),1 E 1 M (6),,1 AMS 1 E 1 M (6),2 E 1 M (10),,No,No,No,"80 - 310
 STD 255",,"6
  0
  4","85° / 0°
 20° / 30°","30,507,618,480"
-STK-3FB,2 E 1 M (20),1 E,1 ECM,1 AMS 1 E,2 E 1 M (20),,,,,"80 - 310
+STK-3FB,2 E 1 M (20),1 E,1 ECM,1 AMS 1 E,2 E 1 M (20),,No,Yes,No,"80 - 310
 STD 255",,"6
  0
  2","85° / 0°
 20° / 30°",n/a
 "STK-3FB(L)
-Special",2 E 1 M (20),1 E,1 ECM,1 AMS 1 E,2 E 1 M (20),,,,,"80 - 310
+Special",2 E 1 M (20),1 E,1 ECM,1 AMS 1 E,2 E 1 M (20),,No,Yes,No,"80 - 310
 STD 255",,"6
  0
  2","85° / 0°
 20° / 30°",n/a
 "STK-3F(C)
-Champion",2 E 1 M (10),1 E 1 M (6),,1 AMS 1 E 1 M (6),2 E 1 M (10),,,,,"80 - 310
+Champion",2 E 1 M (10),1 E 1 M (6),,1 AMS 1 E 1 M (6),2 E 1 M (10),,No,No,No,"80 - 310
 STD 290",,"6
  0
  4","85° / 0°
 20° / 30°","3,815"
-STK-3H,2 E 1 M (20),1 M (6),,1 AMS 1 M (6),2 E 1 M (20),,,,,"80 - 310
+STK-3H,2 E 1 M (20),1 M (6),,1 AMS 1 M (6),2 E 1 M (20),,No,No,No,"80 - 310
 STD 255",,"4
  0
  4","60° / 0°
 20° / 30°","31,307,818,480"
-STK-4N,2 E,1 E 1 M (6),,1 AMS 1 E 1 M (6),2 E 1 M (10),,,,,"80 - 310
+STK-4N,2 E,1 E 1 M (6),,1 AMS 1 E 1 M (6),2 E 1 M (10),,No,No,No,"80 - 310
 STD 255",,"6
  0
  3","60° / 0°
 20° / 30°","29,657,412,420"
-STK-5M,2 E 1 M (10),2 M (6x2),1 E,1 AMS 1 M (6),2 E 1 M (10),,,,,"80 - 310
+STK-5M,2 E 1 M (10),2 M (6x2),1 E,1 AMS 1 M (6),2 E 1 M (10),,No,No,No,"80 - 310
 STD 255",,"5
  0
  5","60° / 0°
 20° / 30°","32,308,064,616"
-STK-5S,2 E 1 M (10),1 AMS 1 E 1 M (6),,1 AMS 1 E 1 M (6),2 E 1 M (10),,,,,"80 - 310
+STK-5S,2 E 1 M (10),1 AMS 1 E 1 M (6),,1 AMS 1 E 1 M (6),2 E 1 M (10),,No,No,No,"80 - 310
 XL 255",,"6
  0
  4","60° / 0°
 20° / 30°","437,010,921,480"
 "MISERY
-Hero",2 E,1 B,1 E,1 AMS 1 M (6),2 E,,,,,"80 - 310
+Hero",2 E,1 B,1 E,1 AMS 1 M (6),2 E,,No,No,No,"80 - 310
 STD 255",,"5
  1
  1","65° / 0°
 20° / 30°","6,375"
 CYCLOPS (90),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-CP-10-Q,1 E,"1 AMS 3 M (20x2, 15)",1 M (10),"1 E 3 M (20x2, 15)",1 E,,,,,"180 - 400
+CP-10-Q,1 E,"1 AMS 3 M (20x2, 15)",1 M (10),"1 E 3 M (20x2, 15)",1 E,,No,No,No,"180 - 400
 STD 360",,"3
  0
  7","80° / 20°
 20° / 30°","32,558,123,100"
-CP-10-Z,3 E,1 AMS 1 M (20),1 M (10),1 B,3 E,,,,,"180 - 400
+CP-10-Z,3 E,1 AMS 1 M (20),1 M (10),1 B,3 E,,No,No,No,"180 - 400
 STD 360",,"6
  1
  2","80° / 20°
 20° / 30°","33,308,322,820"
-CP-11-A,1 E,1 AMS 2 M (20x2),1 M (10),3 B,2 E,,,,,"180 - 400
+CP-11-A,1 E,1 AMS 2 M (20x2),1 M (10),3 B,2 E,,No,No,No,"180 - 400
 STD 360",,"3
  3
  3","80° / 20°
 20° / 30°","33,458,352,868"
-CP-11-A-DC,1 E,"1 AMS 3 M (20x2, 15)",1 M (10),1 AMS 2 B,1 E,,,,,"180 - 400
+CP-11-A-DC,1 E,"1 AMS 3 M (20x2, 15)",1 M (10),1 AMS 2 B,1 E,,No,No,No,"180 - 400
 STD 360",,"2
  2
  4","80° / 20°
 20° / 30°","37,209,298,808"
-CP-11-P,2 E,1 ECM 1 AMS 1 M (20),1 M (10),2 B,2 E,,,,,"180 - 400
+CP-11-P,2 E,1 ECM 1 AMS 1 M (20),1 M (10),2 B,2 E,,No,Yes,No,"180 - 400
 STD 360",,"4
  2
  2","80° / 20°
 20° / 30°","35,308,814,706"
 "SLEIPNIR
-Hero",1 E,1 AMS 2 B,1 M (10),2 B,2 E,1 E,,,,"180 - 400
+Hero",1 E,1 AMS 2 B,1 M (10),2 B,2 E,1 E,No,No,No,"180 - 400
 XL 360",,"4
  4
  1","80° / 20°
 20° / 30°","6,750"
 HIGHLANDER (90),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-HGN-732,2 M (10x2),1 AMS 1 M (20),,3 E,1 B,,3,,,"180 - 325
+HGN-732,2 M (10x2),1 AMS 1 M (20),,3 E,1 B,,3,No,No,"180 - 325
 STD 270",,"3
  1
  3","90° / 20°
 20° / 30°","36,159,032,840"
-HGN-732B,1 M (10),1 AMS 1 M (20),,3 E,2 B,,3,,,"180 - 325
+HGN-732B,1 M (10),1 AMS 1 M (20),,3 E,2 B,,3,No,No,"180 - 325
 STD 270",,"3
  2
  2","90° / 20°
 20° / 30°","37,509,364,960"
-HGN-733,2 M (10x2),"1 AMS 2 M (20, 10)",,2 E,1 B,,3,,,"180 - 325
+HGN-733,2 M (10x2),"1 AMS 2 M (20, 10)",,2 E,1 B,,3,No,No,"180 - 325
 STD 270",,"2
  1
  4","90° / 20°
 20° / 30°","34,058,504,422"
-HGN-733C,1 M (10),"1 AMS 2 M (20, 10)",,2 E,2 B,,4,,,"180 - 325
+HGN-733C,1 M (10),"1 AMS 2 M (20, 10)",,2 E,2 B,,4,No,No,"180 - 325
 STD 270",,"2
  2
  3","90° / 10°
 20° / 30°","34,658,655,368"
 "HGN-733C(C)
-Champion",1 M (10),"1 AMS 2 M (20, 10)",,2 E,2 B,,4,,,"180 - 325
+Champion",1 M (10),"1 AMS 2 M (20, 10)",,2 E,2 B,,4,No,No,"180 - 325
 STD 325",,"2
  2
  3","90° / 10°
 20° / 30°","4,335"
-HGN-733P,1 M (10),"1 AMS 2 M (20, 10)",,2 E,2 E,,3,,,"180 - 325
+HGN-733P,1 M (10),"1 AMS 2 M (20, 10)",,2 E,2 E,,3,No,No,"180 - 325
 STD 270",,"4
  0
  3","90° / 20°
 20° / 30°","34,108,520,422"
 "HEAVY METAL
-Hero",3 E,"1 AMS 2 M (20, 10)",,,2 B,,5,,,"180 - 330
+Hero",3 E,"1 AMS 2 M (20, 10)",,,2 B,,5,No,No,"180 - 330
 XL 275",,"3
  2
  2","90° / 20°
 20° / 30°","6,750"
 MAULER (90),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-MAL-1P,1 AMS 2 E,2 B 1 M (20),,2 B 1 M (20),2 E,,,,,"180 - 325
+MAL-1P,1 AMS 2 E,2 B 1 M (20),,2 B 1 M (20),2 E,,No,No,No,"180 - 325
 XL 270",,"4
  4
  2","70° / 25°
 20° / 35°","464,511,603,674"
-MAL-1R,1 AMS 1 E,2 B 2 M (20x2),,2 B 2 M (20x2),1 E,,,,,"180 - 325
+MAL-1R,1 AMS 1 E,2 B 2 M (20x2),,2 B 2 M (20x2),1 E,,No,No,No,"180 - 325
 XL 270",,"2
  4
  4","70° / 25°
 20° / 35°","476,511,903,674"
-MAL-2P,1 AMS 3 E,1 B 1 M (20),,1 B 1 M (20),3 E,,,,,"180 - 325
+MAL-2P,1 AMS 3 E,1 B 1 M (20),,1 B 1 M (20),3 E,,No,No,No,"180 - 325
 STD 270",,"6
  2
  2","70° / 25°
 20° / 35°","35,358,834,724"
 "KNOCKOUT
-Hero",1 AMS 1 B,2 E 2 M (20x2),,2 E 2 M (20x2),1 B,,,,,"180 - 325
+Hero",1 AMS 1 B,2 E 2 M (20x2),,2 E 2 M (20x2),1 B,,No,No,No,"180 - 325
 XL 270",,"4
  2
  4","70° / 25°
 20° / 35°",n/a
-MAL-MX90,1 AMS 1 E,3 B 1 M (20),,3 B 1 M (20),1 E,,,,,"180 - 325
+MAL-MX90,1 AMS 1 E,3 B 1 M (20),,3 B 1 M (20),1 E,,No,No,No,"180 - 325
 STD 270",,"2
  6
  2","70° / 25°
 20° / 35°","33,058,250,810"
 "MAL-MX90(C)
-Champion",1 AMS 1 E,3 B 1 M (20),,3 B 1 M (20),1 E,,,,,"180 - 325
+Champion",1 AMS 1 E,3 B 1 M (20),,3 B 1 M (20),1 E,,No,No,No,"180 - 325
 STD 300",,"2
  6
  2","70° / 25°
 20° / 35°",n/a
 BANSHEE (95),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-BNC-3E,,4 B,1 AMS,3 E,,1 E,,,,"190 - 400
+BNC-3E,,4 B,1 AMS,3 E,,1 E,No,No,No,"190 - 400
 STD 380",,"4
  4
  0","90° / 20°
 20° / 30°","34,208,542,695"
-BNC-3M,,3 E,1 AMS,4 E,,1 E,,,,"190 - 400
+BNC-3M,,3 E,1 AMS,4 E,,1 E,No,No,No,"190 - 400
 STD 380",,"8
  0
  0","90° / 20°
 20° / 30°","35,408,848,195"
 "BNC-3M(C)
-Champion",,3 E,1 AMS,4 E,,1 E,,,,"190 - 400
+Champion",,3 E,1 AMS,4 E,,1 E,No,No,No,"190 - 400
 STD 350",,"8
  0
  0","90° / 20°
 20° / 30°","4,425"
-BNC-3S,1 E,1 B,1 AMS 1 E,5 E 1 M (20),,1 E,,,,"190 - 345
+BNC-3S,1 E,1 B,1 AMS 1 E,5 E 1 M (20),,1 E,No,No,No,"190 - 345
 STD 285",,"8
  1
  1","90° / 20°
 20° / 30°","36,309,067,028"
 "LA MALINCHE
-Hero",1 E,1 B 1 E,1 AMS,1 M (20),1 E,1 E,,,,"190 - 400
+Hero",1 E,1 B 1 E,1 AMS,1 M (20),1 E,1 E,No,No,No,"190 - 400
 XL 380",,"4
  1
  1","90° / 20°
 20° / 30°","7,125"
 "SIREN
-Hero",3 E,2 B,1 AMS,1 E,1 M (20),,4,,,"190 - 400
+Hero",3 E,2 B,1 AMS,1 E,1 M (20),,4,No,No,"190 - 400
 XL 380",,"4
  2
  1","90° / 20°
 20° / 30°",n/a
 CORSAIR (95),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-COR-5R,1 E 1 M (20),1 AMS 2 E,2 E,1 B 1 M (20),,,,,,"200 - 345
+COR-5R,1 E 1 M (20),1 AMS 2 E,2 E,1 B 1 M (20),,,No,No,No,"200 - 345
 STD 285",,"5
  1
  2","95° / 12.5°
 20° / 25°",n/a
-COR-5T,3 B,1 AMS 1 E,2 E,1 E,3 B,,,,,"200 - 345
+COR-5T,3 B,1 AMS 1 E,2 E,1 E,3 B,,No,No,No,"200 - 345
 STD 285",,"4
  6
  0","95° / 25°
 20° / 25°",n/a
-COR-6R,1 E 1 M (20),1 AMS 1 B 1 M (20),1 E,1 B 1 M (20),1 E,,,,,"200 - 345
+COR-6R,1 E 1 M (20),1 AMS 1 B 1 M (20),1 E,1 B 1 M (20),1 E,,No,No,No,"200 - 345
 STD 285",,"3
  2
  3","95° / 12.5°
 20° / 25°",n/a
-COR-7A,1 AMS 2 B,1 AMS 2 E,,1 AMS 1 B,1 AMS 2 E,,,,,"200 - 345
+COR-7A,1 AMS 2 B,1 AMS 2 E,,1 AMS 1 B,1 AMS 2 E,,No,No,No,"200 - 345
 STD 285",,"4
  3
  0","95° / 0°
 20° / 25°",n/a
-COR-7R,1 M (20),1 AMS 1 M (20),"2 M (10, 5)",1 B,2 E,1 M (5),,,,"200 - 345
+COR-7R,1 M (20),1 AMS 1 M (20),"2 M (10, 5)",1 B,2 E,1 M (5),No,No,No,"200 - 345
 STD 285",,"2
  1
  5","95° / 0°
 20° / 25°",n/a
 "BROADSIDE
-Hero",1 B,1 AMS 1 B,1 M (10),1 AMS 1 E 1 M (20),2 E,1 M (5),,,,"200 - 345
+Hero",1 B,1 AMS 1 B,1 M (10),1 AMS 1 E 1 M (20),2 E,1 M (5),No,No,No,"200 - 345
 XL 285",,"3
  2
  3","95° / 25°
 20° / 25°",n/a
 "RAVAGER
-Hero",1 B 1 E,1 AMS 1 E,1 E,1 B,2 E,1 E,,,,"200 - 345
+Hero",1 B 1 E,1 AMS 1 E,1 E,1 B,2 E,1 E,No,No,No,"200 - 345
 XL 285",,"6
  2
  0","95° / 12.5°
 20° / 25°",n/a
 NIGHTSTAR (95),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-NSR-10P,2 B,1 ECM 1 AMS,,1 E,2 B,1 E,,,,"190 - 345
+NSR-10P,2 B,1 ECM 1 AMS,,1 E,2 B,1 E,No,Yes,No,"190 - 345
 STD 285",,"2
  4
  0","95° / 30°
 25° / 30°",n/a
-NSR-9FC,1 B 1 E,1 AMS,,2 E,1 B 1 E,1 E,,,,"190 - 400
+NSR-9FC,1 B 1 E,1 AMS,,2 E,1 B 1 E,1 E,No,No,No,"190 - 400
 XL 380",,"5
  2
  0","95° / 30°
 25° / 30°",n/a
-NSR-9J,1 B 2 E,1 AMS,,1 E,1 B 2 E,1 E,,,,"190 - 345
+NSR-9J,1 B 2 E,1 AMS,,1 E,1 B 2 E,1 E,No,No,No,"190 - 345
 XL 285",,"6
  2
  0","95° / 30°
 25° / 30°",n/a
-NSR-9P,1 B 1 E,1 AMS 1 B,1 M (10),1 B,1 B 1 E,1 AMS,,,,"190 - 345
+NSR-9P,1 B 1 E,1 AMS 1 B,1 M (10),1 B,1 B 1 E,1 AMS,No,No,No,"190 - 345
 XL 285",,"2
  4
  1","95° / 30°
 25° / 30°",n/a
 "NSR-9P(C)
-Champion",1 B 1 E,1 AMS 1 B,1 M (10),1 B,1 B 1 E,1 AMS,,,,"190 - 345
+Champion",1 B 1 E,1 AMS 1 B,1 M (10),1 B,1 B 1 E,1 AMS,No,No,No,"190 - 345
 STD 270",,"2
  4
  1","95° / 30°
 25° / 30°",n/a
-NSR-9S,1 B,1 AMS 1 E,1 E,1 E,1 B,1 E,4,,,"190 - 345
+NSR-9S,1 B,1 AMS 1 E,1 E,1 E,1 B,1 E,4,No,No,"190 - 345
 XL 285",,"4
  2
  0","95° / 0°
 25° / 30°",n/a
 "WOLF PHOENIX
-Hero",2 E,1 AMS 2 M (20x2),,2 M (20x2),2 E,,,,,"190 - 345
+Hero",2 E,1 AMS 2 M (20x2),,2 M (20x2),2 E,,No,No,No,"190 - 345
 STD 285",,"4
  0
  4","95° / 30°
 25° / 30°",n/a
 ANNIHILATOR (100),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-ANH-1A,1 B 1 E,2 B,2 E,1 AMS 1 B,1 B 2 E,,,,,"200 - 300
+ANH-1A,1 B 1 E,2 B,2 E,1 AMS 1 B,1 B 2 E,,No,No,No,"200 - 300
 STD 200",,"5
  5
  0","90° / 40°
 20° / 25°",n/a
-ANH-1E,3 E,,2 E,1 AMS,3 E,1 AMS,,,,"200 - 300
+ANH-1E,3 E,,2 E,1 AMS,3 E,1 AMS,No,No,No,"200 - 300
 STD 200",,"8
  0
  0","90° / 40°
 20° / 25°",n/a
-ANH-1P,2 B,2 E,2 E,1 AMS 2 E,2 B,,,,,"200 - 300
+ANH-1P,2 B,2 E,2 E,1 AMS 2 E,2 B,,No,No,No,"200 - 300
 STD 300",,"6
  4
  0","90° / 0°
 20° / 25°",n/a
-ANH-1X,1 B 2 E,1 B,2 E,1 AMS 1 B,1 B 2 E,1 E,,,,"200 - 300
+ANH-1X,1 B 2 E,1 B,2 E,1 AMS 1 B,1 B 2 E,1 E,No,No,No,"200 - 300
 STD 200",,"7
  4
  0","90° / 40°
 20° / 25°",n/a
-ANH-2A,1 B 1 E,2 B,2 E,1 AMS 2 B,1 B 1 E,,,,,"200 - 300
+ANH-2A,1 B 1 E,2 B,2 E,1 AMS 2 B,1 B 1 E,,No,No,No,"200 - 300
 STD 200",,"4
  6
  0","90° / 40°
 20° / 25°",n/a
 "MEAN BABY
-Hero",2 E,2 M (20x2),1 E,1 AMS 2 M (20x2),2 E,1 E,,,,"200 - 300
+Hero",2 E,2 M (20x2),1 E,1 AMS 2 M (20x2),2 E,1 E,No,No,No,"200 - 300
 XL 300",,"6
  0
  4","90° / 40°
 20° / 25°",n/a
 ATLAS (100),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
 "BOAR'S HEAD
-Hero",1 AMS 3 E,1 M (10),,1 B,3 E,,,,,"200 - 400
+Hero",1 AMS 3 E,1 M (10),,1 B,3 E,,No,No,No,"200 - 400
 XL 400",,"6
  1
  1","85° / 35°
 16° / 30°","7,500"
-AS7-D,1 AMS 1 E,"2 M (10, 6)",2 E,2 B,1 E,,,,,"200 - 360
+AS7-D,1 AMS 1 E,"2 M (10, 6)",2 E,2 B,1 E,,No,No,No,"200 - 360
 STD 300",,"4
  2
  2","90° / 40°
 16° / 30°","38,759,676,072"
-AS7-D-DC,1 AMS 1 E,"1 ECM 3 M (10, 6x2)",,2 B,1 E,,,,,"200 - 360
+AS7-D-DC,1 AMS 1 E,"1 ECM 3 M (10, 6x2)",,2 B,1 E,,No,Yes,No,"200 - 360
 STD 300",,"2
  2
  3","90° / 40°
 16° / 30°","419,510,486,012"
-AS7-K,1 AMS 1 E,1 M (10),2 E,1 B,1 AMS 1 E,,,,,"200 - 360
+AS7-K,1 AMS 1 E,1 M (10),2 E,1 B,1 AMS 1 E,,No,No,No,"200 - 360
 XL 300",,"4
  1
  1","90° / 40°
 16° / 30°","548,013,691,066"
 "KRAKEN
-Hero",1 AMS 1 E,2 M (10x2),2 E,1 B,2 E,,,,,"200 - 360
+Hero",1 AMS 1 E,2 M (10x2),2 E,1 B,2 E,,No,No,No,"200 - 360
 XL 300",,"5
  1
  2","90° / 40°
 16° / 30°",n/a
-AS7-RS,1 AMS 2 E,"2 M (10, 6)",,1 B,2 E,,,,,"200 - 360
+AS7-RS,1 AMS 2 E,"2 M (10, 6)",,1 B,2 E,,No,No,No,"200 - 360
 STD 300",,"4
  1
  2","90° / 40°
 16° / 30°","37,459,358,066"
 "AS7-RS(C)
-Champion",1 AMS 2 E,"2 M (10, 6)",,1 B,2 E,,,,,"200 - 360
+Champion",1 AMS 2 E,"2 M (10, 6)",,1 B,2 E,,No,No,No,"200 - 360
 STD 350",,"4
  1
  2","90° / 40°
 16° / 30°","4,685"
-AS7-S,1 AMS 1 E,"4 M (10, 6x3)",2 E,1 B,1 E,,,,,"200 - 360
+AS7-S,1 AMS 1 E,"4 M (10, 6x3)",2 E,1 B,1 E,,No,No,No,"200 - 360
 STD 300",,"4
  1
  4","85° / 35°
 16° / 30°","39,309,820,075"
 FAFNIR (100),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-FNR-5,1 E,1 AMS 2 B,1 ECM,2 B,1 E,1 E,,,,"200 - 325
+FNR-5,1 E,1 AMS 2 B,1 ECM,2 B,1 E,1 E,No,Yes,No,"200 - 325
 STD 300",,"3
  4
  0","100° / 0°
 20° / 30°",n/a
-FNR-5B,2 E,1 AMS 1 B,1 ECM,1 B,2 E,1 E,,,,"200 - 325
+FNR-5B,2 E,1 AMS 1 B,1 ECM,1 B,2 E,1 E,No,Yes,No,"200 - 325
 STD 300",,"5
  2
  0","100° / 0°
 20° / 30°",n/a
-FNR-5E,2 M (20x2),2 B,,2 B,2 M (20x2),1 AMS,,,,"200 - 325
+FNR-5E,2 M (20x2),2 B,,2 B,2 M (20x2),1 AMS,No,No,No,"200 - 325
 STD 300",,"0
  4
  4","100° / 0°
 20° / 30°",n/a
-FNR-6R,1 E 1 M (20),1 B 1 E,,1 B 1 E,1 E 1 M (20),1 AMS,,,,"200 - 325
+FNR-6R,1 E 1 M (20),1 B 1 E,,1 B 1 E,1 E 1 M (20),1 AMS,No,No,No,"200 - 325
 STD 300",,"4
  2
  2","100° / 0°
 20° / 30°",n/a
-FNR-6U,2 B,2 E,,2 E,2 B,1 AMS,,,,"200 - 325
+FNR-6U,2 B,2 E,,2 E,2 B,1 AMS,No,No,No,"200 - 325
 STD 300",,"4
  4
  0","100° / 0°
 20° / 30°",n/a
 "WRATH
-Hero",1 E 1 M (20),1 AMS 2 E 2 M (20x2),1 ECM,1 B,1 E 1 M (20),1 E,,,,"200 - 325
+Hero",1 E 1 M (20),1 AMS 2 E 2 M (20x2),1 ECM,1 B,1 E 1 M (20),1 E,No,Yes,No,"200 - 325
 STD 300",,"5
  1
  4","100° / 0°
 20° / 30°",n/a
 KING CRAB (100),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-KGC-000,3 B,2 M (20x2),1 AMS,2 E,3 B,,,,,"200 - 360
+KGC-000,3 B,2 M (20x2),1 AMS,2 E,3 B,,No,No,No,"200 - 360
 STD 300",,"2
  6
  2","100° / 0°
 25° / 30°","404,010,097,884"
-KGC-0000,1 B,"4 M (20x2, 15x2)",1 AMS,4 E,1 B,,,,,"200 - 360
+KGC-0000,1 B,"4 M (20x2, 15x2)",1 AMS,4 E,1 B,,No,No,No,"200 - 360
 STD 300",,"4
  2
  4","100° / 0°
 25° / 30°","39,009,748,980"
-KGC-000B,2 B,"3 M (20x2, 15)",1 AMS,3 E,2 B,,,,,"200 - 360
+KGC-000B,2 B,"3 M (20x2, 15)",1 AMS,3 E,2 B,,No,No,No,"200 - 360
 STD 300",,"3
  4
  3","100° / 0°
 25° / 30°","410,510,251,950"
 "KGC-000B(C)
-Champion",2 B,"3 M (20x2, 15)",1 AMS,3 E,2 B,,,,,"200 - 360
+Champion",2 B,"3 M (20x2, 15)",1 AMS,3 E,2 B,,No,No,No,"200 - 360
 STD 310",,"3
  4
  3","100° / 0°
 25° / 30°","5,135"
 "KAIJU
-Hero",3 E,2 M (20x2),1 AMS,2 B,3 E,,,,,"200 - 360
+Hero",3 E,2 M (20x2),1 AMS,2 B,3 E,,No,No,No,"200 - 360
 STD 300",,"6
  2
  2","100° / 0°
 25° / 30°",n/a
 MARAUDER II (100),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-MAD-4A,3 E,1 AMS,,3 E,2 E,,3,,,"200 - 360
+MAD-4A,3 E,1 AMS,,3 E,2 E,,3,No,No,"200 - 360
 STD 300",,"8
  0
  0","70° / 20°
 20° / 30°",n/a
-MAD-4HP,2 E,4 M (20x4),1 AMS,4 M (20x4),2 E,1 M (5),3,,,"200 - 360
+MAD-4HP,2 E,4 M (20x4),1 AMS,4 M (20x4),2 E,1 M (5),3,No,No,"200 - 360
 STD 300",,"4
  0
  9","70° / 20°
 20° / 30°",n/a
-MAD-4L,2 B,1 ECM 1 AMS,,2 E,2 B,,3,,,"200 - 360
+MAD-4L,2 B,1 ECM 1 AMS,,2 E,2 B,,3,Yes,No,"200 - 360
 STD 300",,"2
  4
  0","70° / 20°
 20° / 30°",n/a
-MAD-5A,3 E,1 AMS,,2 B,3 E,,3,,,"200 - 360
+MAD-5A,3 E,1 AMS,,2 B,3 E,,3,No,No,"200 - 360
 XL 300",,"6
  2
  0","70° / 20°
 20° / 30°",n/a
-MAD-6S,2 E,1 AMS,2 E,1 B,2 E,1 AMS,4,,,"200 - 360
+MAD-6S,2 E,1 AMS,2 E,1 B,2 E,1 AMS,4,No,No,"200 - 360
 STD 300",,"6
  1
  0","70° / 20°
 20° / 30°",n/a
 "ALPHA
-Hero",2 B,2 M (20x2),1 AMS,2 E,2 B,,3,,,"200 - 360
+Hero",2 B,2 M (20x2),1 AMS,2 E,2 B,,3,No,No,"200 - 360
 XL 300",,"2
  4
  2","70° / 20°
 20° / 30°",n/a
-"Assault
-Clan",,,,,,,,,,,,,,
 GARGOYLE (80),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-GAR-A,4 E,,,,2 E,,,,,XL 400,,"6
+GAR-A,4 E,,,,2 E,,No,No,No,XL 400,,"6
  0
  0","90° / 20°
 20° / 30°","624,015,593,762"
-GAR-B,2 M (20x2),,,,1 B,,,,,XL 400,,"0
+GAR-B,2 M (20x2),,,,1 B,,No,No,No,XL 400,,"0
  1
  2","90° / 20°
 20° / 30°","601,015,015,380"
-GAR-C,1 B,,,,6 E,,,,,XL 400,,"6
+GAR-C,1 B,,,,6 E,,No,No,No,XL 400,,"6
  1
  0","90° / 20°
 20° / 30°","629,515,733,594"
-GAR-D,2 E,,2 E,,2 E,,,,,XL 400,,"6
+GAR-D,2 E,,2 E,,2 E,,No,No,No,XL 400,,"6
  0
  0","90° / 20°
 20° / 30°","601,515,031,762"
-GAR-E,2 E,2 E 1 M (20),,2 E,1 M (20),,,,,XL 400,,"6
+GAR-E,2 E,2 E 1 M (20),,2 E,1 M (20),,No,No,No,XL 400,,"6
  0
  2","90° / 20°
 20° / 30°",n/a
 "KIN WOLF
-Hero",1 B,2 M (20x2),1 E,1 M (20),1 B,,,,,XL 400,,"1
+Hero",1 B,2 M (20x2),1 E,1 M (20),1 B,,No,No,No,XL 400,,"1
  2
  3","90° / 20°
 20° / 30°",n/a
-GAR-PRIME,1 B 1 M (20),1 AMS,1 E,,1 B 1 M (20),,,,,XL 400,,"1
+GAR-PRIME,1 B 1 M (20),1 AMS,1 E,,1 B 1 M (20),,No,No,No,XL 400,,"1
  2
  2","90° / 20°
 20° / 30°","607,015,167,822"
 WARHAMMER IIC (80),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-WHM-IIC,1 E,2 E,1 AMS,2 E 1 M (20),1 E,1 E,,,,"160 - 385
+WHM-IIC,1 E,2 E,1 AMS,2 E 1 M (20),1 E,1 E,No,No,No,"160 - 385
 STD 320",,"7
  0
  1","75° / 30°
 20° / 30°",n/a
-WHM-IIC-10,2 E,2 M (20x2),1 AMS,1 M (20),2 E,1 E,,,,"160 - 385
+WHM-IIC-10,2 E,2 M (20x2),1 AMS,1 M (20),2 E,1 E,No,No,No,"160 - 385
 STD 320",,"5
  0
  3","75° / 0°
 20° / 30°",n/a
-WHM-IIC-2,1 E,2 M (20x2),1 AMS,3 M (20x3),1 E,,,,,"160 - 385
+WHM-IIC-2,1 E,2 M (20x2),1 AMS,3 M (20x3),1 E,,No,No,No,"160 - 385
 STD 320",,"2
  0
  5","75° / 30°
 20° / 30°",n/a
-WHM-IIC-3,1 E,2 E,1 AMS,2 E,1 E,1 E,,,,"160 - 385
+WHM-IIC-3,1 E,2 E,1 AMS,2 E,1 E,1 E,No,No,No,"160 - 385
 STD 320",,"7
  0
  0","75° / 30°
 20° / 30°",n/a
-WHM-IIC-4,2 E,2 M (20x2),1 AMS,2 M (20x2),1 E,1 E,,,,"160 - 385
+WHM-IIC-4,2 E,2 M (20x2),1 AMS,2 M (20x2),1 E,1 E,No,No,No,"160 - 385
 STD 320",,"4
  0
  4","75° / 30°
 20° / 30°",n/a
-WHM-IIC-A,1 B,1 E 2 M (20x2),1 AMS 1 E,1 E 1 M (20),1 B,,,,,"160 - 385
+WHM-IIC-A,1 B,1 E 2 M (20x2),1 AMS 1 E,1 E 1 M (20),1 B,,No,No,No,"160 - 385
 STD 320",,"3
  2
  3","75° / 30°
 20° / 30°",n/a
 "BLUDGEON
-Hero",1 E,1 E,1 AMS,1 E 1 M (20),1 E,1 E,4,,,"160 - 385
+Hero",1 E,1 E,1 AMS,1 E 1 M (20),1 E,1 E,4,No,No,"160 - 385
 STD 320",,"5
  0
  1","75° / 30°
 20° / 30°",n/a
 "MAUL
-Hero",1 E,1 B 1 E 1 M (20),1 AMS,1 B 1 E 1 M (20),1 E,,,,,"160 - 385
+Hero",1 E,1 B 1 E 1 M (20),1 AMS,1 B 1 E 1 M (20),1 E,,No,No,No,"160 - 385
 STD 320",,"4
  2
  2","75° / 30°
 20° / 30°",n/a
 MARAUDER IIC (85),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-MAD-IIC,2 E,1 AMS 2 E,2 E,1 E,2 E,,,,,"170 - 400
+MAD-IIC,2 E,1 AMS 2 E,2 E,1 E,2 E,,No,No,No,"170 - 400
 STD 340",,"9
  0
  0","70° / 20°
 20° / 30°",n/a
-MAD-IIC-8,2 E,1 AMS 2 E 1 M (20),1 E,1 E,1 E,,,,,"170 - 400
+MAD-IIC-8,2 E,1 AMS 2 E 1 M (20),1 E,1 E,1 E,,No,No,No,"170 - 400
 STD 340",,"7
  0
  1","70° / 20°
 20° / 30°",n/a
-MAD-IIC-A,2 E,1 AMS,,3 B,2 E,,,,,"170 - 400
+MAD-IIC-A,2 E,1 AMS,,3 B,2 E,,No,No,No,"170 - 400
 STD 340",,"4
  3
  0","70° / 20°
 20° / 30°",n/a
-MAD-IIC-B,2 E,1 AMS 2 M (20x2),,1 E,2 E,,4,,,"170 - 400
+MAD-IIC-B,2 E,1 AMS 2 M (20x2),,1 E,2 E,,4,No,No,"170 - 400
 XL 340",,"5
  0
  2","70° / 20°
 20° / 30°",n/a
-MAD-IIC-C,3 E,1 AMS,,2 B,2 E,,4,,,"170 - 400
+MAD-IIC-C,3 E,1 AMS,,2 B,2 E,,4,No,No,"170 - 400
 XL 340",,"5
  2
  0","70° / 20°
 20° / 30°",n/a
-MAD-IIC-D,1 B 1 M (20),1 AMS,1 ECM,1 E,1 B 1 M (20),1 E,,,,"170 - 340
+MAD-IIC-D,1 B 1 M (20),1 AMS,1 ECM,1 E,1 B 1 M (20),1 E,No,Yes,No,"170 - 340
 XL 255",,"2
  2
  2","70° / 20°
 20° / 30°",n/a
 "SCORCH
-Hero",1 B 1 E,1 AMS 2 M (20x2),,2 M (20x2),1 B 1 E,,,,,"170 - 400
+Hero",1 B 1 E,1 AMS 2 M (20x2),,2 M (20x2),1 B 1 E,,No,No,No,"170 - 400
 XL 340",,"2
  2
  4","70° / 20°
 20° / 30°",n/a
-MAD-IIC-2,3 E,1 AMS,2 E,,2 E,,4,,,"170 - 400
+MAD-IIC-2,3 E,1 AMS,2 E,,2 E,,4,No,No,"170 - 400
 STD 340",,"7
  0
  0","70° / 20°
 20° / 30°",n/a
 WARHAWK (85),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-WHK-A,2 E 1 M (20),,,1 M (20),1 B,,,,,XL 340,,"2
+WHK-A,2 E 1 M (20),,,1 M (20),1 B,,No,No,No,XL 340,,"2
  1
  2","90° / 20°
 20° / 30°","633,015,816,221"
-WHK-B,1 B 1 E,,1 M (15),"2 M (20, 15)",3 E,,,,,XL 340,,"4
+WHK-B,1 B 1 E,,1 M (15),"2 M (20, 15)",3 E,,No,No,No,XL 340,,"4
  1
  3","90° / 20°
 20° / 30°","612,515,311,701"
-WHK-C,2 E,,1 E,,2 E,,,,,XL 340,,"5
+WHK-C,2 E,,1 E,,2 E,,No,No,No,XL 340,,"5
  0
  0","90° / 20°
 20° / 30°","619,015,473,201"
 "WHK-C(C)
-Champion",1 B 1 E,,1 E,,3 E,,,,,XL 340,,"5
+Champion",1 B 1 E,,1 E,,3 E,,No,No,No,XL 340,,"5
  1
  0","90° / 20°
 20° / 30°","7,740"
 "NANUQ
-Hero",3 E,,,1 M (20),2 B,,,,,XL 340,,"3
+Hero",3 E,,,1 M (20),2 B,,No,No,No,XL 340,,"3
  2
  1","90° / 20°
 20° / 30°",n/a
-WHK-PRIME,2 E 1 M (20),,,1 AMS,2 E,,,,,XL 340,,"4
+WHK-PRIME,2 E 1 M (20),,,1 AMS,2 E,,No,No,No,XL 340,,"4
  0
  1","90° / 20°
 20° / 30°","646,516,152,261"
 BLOOD ASP (90),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-BAS-A,2 E,,1 ECM,,2 E,,,,,XL 360,,"4
+BAS-A,2 E,,1 ECM,,2 E,,No,Yes,No,XL 360,,"4
  0
  0","80° / 20°
 20° / 20°",n/a
-BAS-B,1 M (20),4 E,1 ECM,1 B,1 M (20),,,,,XL 360,,"4
+BAS-B,1 M (20),4 E,1 ECM,1 B,1 M (20),,No,Yes,No,XL 360,,"4
  1
  2","80° / 20°
 20° / 20°",n/a
-BAS-C,1 B,1 B,,1 B,1 E,,,,,XL 360,,"1
+BAS-C,1 B,1 B,,1 B,1 E,,No,No,No,XL 360,,"1
  3
  0","80° / 20°
 20° / 20°",n/a
-BAS-D,2 E,1 B,,3 B,2 E,,,,,XL 360,,"4
+BAS-D,2 E,1 B,,3 B,2 E,,No,No,No,XL 360,,"4
  4
  0","80° / 20°
 20° / 20°",n/a
-BAS-PRIME,3 E,1 B,1 M (15),1 AMS 1 B,3 E,,,,,XL 360,,"6
+BAS-PRIME,3 E,1 B,1 M (15),1 AMS 1 B,3 E,,No,No,No,XL 360,,"6
  2
  1","80° / 20°
 20° / 20°",n/a
 "RANCOR
-Hero",2 E,1 E 1 M (20),,1 E 1 M (20),2 E,,,,,XL 360,,"6
+Hero",2 E,1 E 1 M (20),,1 E 1 M (20),2 E,,No,No,No,XL 360,,"6
  0
  2","80° / 20°
 20° / 20°",n/a
 HIGHLANDER IIC (90),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-HGN-IIC,2 M (20x2),1 AMS 3 E,,1 M (20),1 B,,3,,,"180 - 325
+HGN-IIC,2 M (20x2),1 AMS 3 E,,1 M (20),1 B,,3,No,No,"180 - 325
 STD 270",,"3
  1
  3","85° / 20°
 20° / 30°","38,709,670,316"
-HGN-IIC-A,1 M (20),1 AMS 2 E,,2 M (20x2),2 E,,3,,,"180 - 325
+HGN-IIC-A,1 M (20),1 AMS 2 E,,2 M (20x2),2 E,,3,No,No,"180 - 325
 STD 270",,"4
  0
  3","85° / 20°
 20° / 30°","401,010,024,040"
-HGN-IIC-B,2 M (20x2),1 AMS 2 E,,2 M (20x2),1 B,,3,,,"180 - 325
+HGN-IIC-B,2 M (20x2),1 AMS 2 E,,2 M (20x2),1 B,,3,No,No,"180 - 325
 STD 270",,"2
  1
  4","85° / 20°
 20° / 30°","37,909,468,100"
-HGN-IIC-C,1 M (20),1 AMS 3 E,,1 M (20),2 B,,3,,,"180 - 325
+HGN-IIC-C,1 M (20),1 AMS 3 E,,1 M (20),2 B,,3,No,No,"180 - 325
 XL 270",,"3
  2
  2","85° / 20°
 20° / 30°","506,512,656,076"
 "HGN-IIC-C(C)
-Champion",1 M (20),1 AMS 3 E,,1 M (20),2 B,,3,,,"180 - 325
+Champion",1 M (20),1 AMS 3 E,,1 M (20),2 B,,3,No,No,"180 - 325
 XL 325",,"3
  2
  2","85° / 20°
 20° / 30°","6,335"
 "KEEPER
-Hero",1 E 2 M (20x2),1 AMS 1 B,,2 M (20x2),1 B,,3,,,"180 - 325
+Hero",1 E 2 M (20x2),1 AMS 1 B,,2 M (20x2),1 B,,3,No,No,"180 - 325
 XL 270",,"1
  2
  4","85° / 20°
 20° / 30°",n/a
 MAD CAT MK II (90),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-MCII-1,1 B,2 E 1 M (20),1 AMS,2 E 1 M (20),1 B,,3,,,"180 - 400
+MCII-1,1 B,2 E 1 M (20),1 AMS,2 E 1 M (20),1 B,,3,No,No,"180 - 400
 XL 360",,"4
  2
  2","85° / 0°
 20° / 30°",n/a
-MCII-2,1 B,1 E 2 M (20x2),1 AMS,1 E 2 M (20x2),1 B,,3,,,"180 - 400
+MCII-2,1 B,1 E 2 M (20x2),1 AMS,1 E 2 M (20x2),1 B,,3,No,No,"180 - 400
 XL 360",,"2
  2
  4","85° / 0°
 20° / 30°",n/a
-MCII-4,2 E,2 M (20x2),1 AMS,2 M (20x2),2 E,,4,,,"180 - 400
+MCII-4,2 E,2 M (20x2),1 AMS,2 M (20x2),2 E,,4,No,No,"180 - 400
 XL 360",,"4
  0
  4","85° / 20°
 20° / 30°",n/a
-MCII-A,2 E,1 AMS 1 E 1 M (20),1 B,1 B 1 M (20),2 E,,3,,,"180 - 400
+MCII-A,2 E,1 AMS 1 E 1 M (20),1 B,1 B 1 M (20),2 E,,3,No,No,"180 - 400
 XL 360",,"5
  2
  2","85° / 20°
 20° / 30°",n/a
-MCII-B,2 B,1 AMS 1 E,"2 M (15, 10)",1 E,2 B,,3,,,"180 - 400
+MCII-B,2 B,1 AMS 1 E,"2 M (15, 10)",1 E,2 B,,3,No,No,"180 - 400
 XL 360",,"2
  4
  2","85° / 20°
 20° / 30°",n/a
 "DEATHSTRIKE
-Hero",1 B 1 E,2 E,1 AMS,2 E,1 B 1 E,,3,,,"180 - 400
+Hero",1 B 1 E,2 E,1 AMS,2 E,1 B 1 E,,3,No,No,"180 - 400
 XL 360",,"6
  2
  0","85° / 0°
 20° / 30°",n/a
 SUPERNOVA (90),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-SNV-1,4 E,1 AMS,,,4 E,,3,,,"180 - 325
+SNV-1,4 E,1 AMS,,,4 E,,3,No,No,"180 - 325
 STD 270",,"8
  0
  0","85° / 20°
 25° / 30°",n/a
-SNV-3,2 E,1 AMS,2 E,,2 E,1 E,3,,,"180 - 325
+SNV-3,2 E,1 AMS,2 E,,2 E,1 E,3,No,No,"180 - 325
 STD 270",,"7
  0
  0","85° / 20°
 25° / 30°",n/a
-SNV-A,2 E,2 M (20x2),1 AMS,2 M (20x2),2 E,,3,,,"180 - 325
+SNV-A,2 E,2 M (20x2),1 AMS,2 M (20x2),2 E,,3,No,No,"180 - 325
 STD 270",,"4
  0
  4","85° / 20°
 25° / 30°",n/a
-SNV-B,3 E,1 AMS,1 E,,3 E,1 E,3,,,"180 - 325
+SNV-B,3 E,1 AMS,1 E,,3 E,1 E,3,No,No,"180 - 325
 STD 270",,"8
  0
  0","85° / 20°
 25° / 30°",n/a
 "BOILER
-Hero",1 B,3 M (20x3),1 AMS,3 E,1 B,,3,,,"180 - 325
+Hero",1 B,3 M (20x3),1 AMS,3 E,1 B,,3,No,No,"180 - 325
 STD 270",,"3
  2
  3","85° / 20°
 25° / 30°",n/a
-SNV-C,2 E,2 E,1 AMS,2 E,2 E,,3,,,"180 - 325
+SNV-C,2 E,2 E,1 AMS,2 E,2 E,,3,No,No,"180 - 325
 STD 270",,"8
  0
  0","85° / 20°
 25° / 30°",n/a
 EXECUTIONER (95),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-EXE-A,3 E,,,2 B,4 E,,4,,,XL 380,,"7
+EXE-A,3 E,,,2 B,4 E,,4,No,Yes,XL 380,,"7
  2
  0","80° / 30°
 25° / 30°","717,017,924,467"
-EXE-B,1 B,,,1 AMS 1 E,1 E,,4,,,XL 380,,"2
+EXE-B,1 B,,,1 AMS 1 E,1 E,,4,No,Yes,XL 380,,"2
  1
  0","80° / 30°
 25° / 30°","728,018,194,422"
-EXE-C,1 M (20),1 E,,,1 B,,4,,,XL 380,,"1
+EXE-C,1 M (20),1 E,,,1 B,,4,No,Yes,XL 380,,"1
  1
  1","80° / 30°
 25° / 30°","720,017,999,162"
 "CHERBI
-Hero",3 E,1 M (20),,1 M (20),1 B,,4,,,XL 380,,"3
+Hero",3 E,1 M (20),,1 M (20),1 B,,4,No,Yes,XL 380,,"3
  1
  2","80° / 30°
 25° / 30°",n/a
 "EXE-C(L)
-Special",1 M (20),1 E,,,1 B,,4,,,XL 380,,"1
+Special",1 M (20),1 E,,,1 B,,4,No,Yes,XL 380,,"1
  1
  1","80° / 30°
 25° / 30°",n/a
-EXE-D,2 M (20x2),1 E,,2 E,7 E,,4,,,XL 380,,"10
+EXE-D,2 M (20x2),1 E,,2 E,7 E,,4,No,Yes,XL 380,,"10
  0
  2","80° / 30°
 25° / 30°","700,517,505,967"
-EXE-E,2 M (20x2),,,3 E,2 E,,4,,,XL 380,,"5
+EXE-E,2 M (20x2),,,3 E,2 E,,4,No,Yes,XL 380,,"5
  0
  2","80° / 30°
 25° / 30°",n/a
-EXE-PRIME,1 B,,,2 B,2 E,,4,,,XL 380,,"2
+EXE-PRIME,1 B,,,2 B,2 E,,4,No,Yes,XL 380,,"2
  3
  0","80° / 30°
 25° / 30°","707,017,674,467"
 DIRE WOLF (100),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-DWF-A,1 B,2 M (20x2),,1 AMS,3 E,,,,,XL 300,,"3
+DWF-A,1 B,2 M (20x2),,1 AMS,3 E,,No,No,No,XL 300,,"3
  1
  2","60° / 30°
 20° / 30°","686,017,149,906"
-DWF-B,4 E,2 B,1 E,2 B,1 B,,,,,XL 300,,"5
+DWF-B,4 E,2 B,1 E,2 B,1 B,,No,No,No,XL 300,,"5
  5
  0","60° / 30°
 20° / 30°","714,017,838,493"
-DWF-PRIME,1 B 4 E,1 M (20),,,1 B 4 E,,,,,XL 300,,"8
+DWF-PRIME,1 B 4 E,1 M (20),,,1 B 4 E,,No,No,No,XL 300,,"8
  2
  1","60° / 30°
 20° / 30°","711,517,785,963"
-DWF-S,1 E,1 B 2 E 1 M (20),1 M (15),1 B 2 E,1 B,1 E,,,,XL 300,,"6
+DWF-S,1 E,1 B 2 E 1 M (20),1 M (15),1 B 2 E,1 B,1 E,No,No,No,XL 300,,"6
  3
  2","60° / 30°
 20° / 30°","695,017,367,846"
 "ULTRAVIOLET
-Hero",2 B,2 E,1 M (15),2 E,2 B,,,,,XL 300,,"4
+Hero",2 B,2 E,1 M (15),2 E,2 B,,No,No,No,XL 300,,"4
  4
  1","60° / 30°
 20° / 30°",n/a
-DWF-W,1 B,1 M (20),2 E,1 B,1 E,1 E,,,,XL 300,,"4
+DWF-W,1 B,1 M (20),2 E,1 B,1 E,1 E,No,No,No,XL 300,,"4
  2
  1","60° / 30°
 20° / 30°","701,517,536,496"
 "DWF-W(C)
-Champion",1 B 4 E,1 M (20),2 E,,1 B,1 E,,,,XL 300,,"7
+Champion",1 B 4 E,1 M (20),2 E,,1 B,1 E,No,No,No,XL 300,,"7
  2
  1","60° / 30°
 20° / 30°","8,770"
 KODIAK (100),Left Arm,Left Torso,Center,Right Torso,Right Arm,Head,JJ,ECM,MASC,Engines,,Hardpoints,Torso/Arm,Costs
-KDK-1,4 E,2 M (20x2),1 E,1 AMS 1 B,4 E,,,,,"200 - 400
+KDK-1,4 E,2 M (20x2),1 E,1 AMS 1 B,4 E,,No,No,No,"200 - 400
 XL 400",,"9
  1
  2","70° / 30°
 20° / 30°","641,016,015,225"
-KDK-2,2 E,1 M (20),2 E,1 AMS 1 B,2 E,,4,,,"200 - 400
+KDK-2,2 E,1 M (20),2 E,1 AMS 1 B,2 E,,4,No,No,"200 - 400
 XL 400",,"6
  1
  1","70° / 30°
 20° / 30°","628,015,689,225"
-KDK-3,2 E,2 B,,1 AMS 2 B,2 E,,,,,"200 - 400
+KDK-3,2 E,2 B,,1 AMS 2 B,2 E,,No,No,No,"200 - 400
 XL 400",,"4
  4
  0","60° / 30°
 16° / 30°","642,016,039,165"
 "KDK-3(C)
-Champion",2 E,2 B,,1 AMS 2 B,2 E,,,,,"200 - 400
+Champion",2 E,2 B,,1 AMS 2 B,2 E,,No,No,No,"200 - 400
 XL 375",,"4
  4
  0","60° / 30°
 16° / 30°",n/a
-KDK-4,2 E 1 M (20),,,1 AMS 2 B,2 E 1 M (20),,,,,"200 - 400
+KDK-4,2 E 1 M (20),,,1 AMS 2 B,2 E 1 M (20),,No,No,No,"200 - 400
 XL 400",,"4
  2
  2","70° / 30°
 20° / 30°","644,016,095,705"
-KDK-5,5 E,,1 E,1 AMS 1 B,5 E,,,,,"200 - 400
+KDK-5,5 E,,1 E,1 AMS 1 B,5 E,,No,No,No,"200 - 400
 XL 400",,"11
  1
  0","70° / 30°
 20° / 30°","627,015,663,255"
 "SPIRIT BEAR
-Hero",1 E,3 M (20x3),1 M (15),1 AMS 1 B,1 E,,,,,"200 - 400
+Hero",1 E,3 M (20x3),1 M (15),1 AMS 1 B,1 E,,No,No,Yes,"200 - 400
 XL 400",,"2
  1
  4","70° / 30°

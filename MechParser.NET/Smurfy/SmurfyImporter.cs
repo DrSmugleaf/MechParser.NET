@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Text;
 using CsvHelper;
 using CsvHelper.Configuration;
 using JetBrains.Annotations;
@@ -156,6 +155,7 @@ namespace MechParser.NET.Smurfy
 
             foreach (var smurfyMech in smurfyMechs)
             {
+                var name = smurfyMech.Name;
                 var model = smurfyMech.Model
                     .Replace("\nHero", string.Empty)
                     .Replace("\nChampion", string.Empty);
@@ -170,7 +170,11 @@ namespace MechParser.NET.Smurfy
                     parts.Add(type, part);
                 }
 
-                yield return new Mech(smurfyMech.Name, model, parts);
+                int.TryParse(smurfyMech.JJ, out var jumpJets);
+                var ecm = smurfyMech.ECM.Equals("yes", StringComparison.InvariantCultureIgnoreCase);
+                var masc = smurfyMech.MASC.Equals("no", StringComparison.InvariantCultureIgnoreCase);
+
+                yield return new Mech(smurfyMech.Name, model, parts, jumpJets, ecm, masc);
             }
         }
     }

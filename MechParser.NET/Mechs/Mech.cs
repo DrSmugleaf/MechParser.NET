@@ -9,11 +9,20 @@ namespace MechParser.NET.Mechs
     [PublicAPI]
     public record Mech
     {
-        public Mech(string name, string model, Dictionary<PartType, Part> parts)
+        public Mech(
+            string name,
+            string model,
+            Dictionary<PartType, Part> parts,
+            int jumpJets,
+            bool ecm,
+            bool masc)
         {
             Name = name;
             Model = model;
             Parts = parts;
+            JumpJets = jumpJets;
+            Ecm = ecm;
+            Masc = masc;
         }
 
         [JsonPropertyName("name")]
@@ -24,6 +33,15 @@ namespace MechParser.NET.Mechs
 
         [JsonPropertyName("parts")]
         public Dictionary<PartType, Part> Parts { get; set; }
+
+        [JsonPropertyName("jj")]
+        public int JumpJets { get; set; }
+
+        [JsonPropertyName("ecm")]
+        public bool Ecm { get; set; }
+
+        [JsonPropertyName("masc")]
+        public bool Masc { get; set; }
 
         public override string ToString()
         {

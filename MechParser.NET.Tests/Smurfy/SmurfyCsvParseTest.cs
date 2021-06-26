@@ -12,7 +12,7 @@ namespace MechParser.NET.Tests.Smurfy
         {
             var mechs = SmurfyImporter.ParseCsvPaste("mwomechs.csv").ToArray();
 
-            Assert.That(mechs.Length, Is.EqualTo(701));
+            Assert.That(mechs.Length, Is.EqualTo(694));
         }
     }
 }
