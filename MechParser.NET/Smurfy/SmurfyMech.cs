@@ -6,49 +6,49 @@ namespace MechParser.NET.Smurfy
 {
     public record SmurfyMech
     {
-        public string Name { get; internal set; }
+        public string Name { get; internal set; } = string.Empty;
 
         [Index(0)]
-        public string Model { get; set; }
+        public string Model { get; set; } = string.Empty;
 
         [Index(1)]
-        public string LeftArm { get; set; }
+        public string LeftArm { get; set; } = string.Empty;
 
         [Index(2)]
-        public string LeftTorso { get; set; }
+        public string LeftTorso { get; set; } = string.Empty;
 
         [Index(3)]
-        public string Center { get; set; }
+        public string Center { get; set; } = string.Empty;
 
         [Index(4)]
-        public string RightTorso { get; set; }
+        public string RightTorso { get; set; } = string.Empty;
 
         [Index(5)]
-        public string RightArm { get; set; }
+        public string RightArm { get; set; } = string.Empty;
 
         [Index(6)]
-        public string Head { get; set; }
+        public string Head { get; set; } = string.Empty;
 
         [Index(7)]
-        public string JJ { get; set; }
+        public string JJ { get; set; } = string.Empty;
 
         [Index(8)]
-        public string ECM { get; set; }
+        public string ECM { get; set; } = string.Empty;
 
         [Index(9)]
-        public string MASC { get; set; }
+        public string MASC { get; set; } = string.Empty;
 
         [Index(10)]
-        public string Engines { get; set; }
+        public string Engines { get; set; } = string.Empty;
 
         [Index(11)]
-        public string Hardpoints { get; set; }
+        public string Hardpoints { get; set; } = string.Empty;
 
         [Index(12)]
-        public string TorsoArm { get; set; }
+        public string TorsoArm { get; set; } = string.Empty;
 
         [Index(13)]
-        public string Costs { get; set; }
+        public string Costs { get; set; } = string.Empty;
 
         public string GetPartString(PartType type)
         {

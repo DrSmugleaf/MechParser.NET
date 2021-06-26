@@ -45,51 +45,56 @@ namespace MechParser.NET.Smurfy
             }
         }
 
-        public static List<ModuleSlot> ParseMissile(string text, ref int i)
+        private static List<ModuleSlot> ParseMissiles(string text, ref int i)
         {
             var missiles = new List<ModuleSlot>();
+
+            text = text.Replace(" ", "");
 
             var openingIndex = text.IndexOf('(', i);
             var closingIndex = text.IndexOf(')', i);
             var sizeString = text.Substring(openingIndex + 1, closingIndex - 1 - openingIndex);
+            var sizes = new List<int>();
 
             for (var j = 0; j < sizeString.Length; j++)
             {
-                var missileSizeString = new StringBuilder();
-                var currentSizeChar = sizeString[j];
+                var missileSizeString = sizeString.TakeWhile(char.IsDigit).ToArray();
+                var size = int.Parse(missileSizeString);
 
-                if (currentSizeChar == ')')
+                j += missileSizeString.Length;
+
+                if (sizeString.Length <= j)
                 {
+                    sizes.Add(size);
                     break;
                 }
 
-                while (sizeString.Length > j && char.IsDigit(sizeString[j]))
-                {
-                    missileSizeString.Append(currentSizeChar);
-                    j++;
-                }
-
-                var missileSize = int.Parse(missileSizeString.ToString());
-
-                switch (currentSizeChar)
+                switch (sizeString[j])
                 {
                     case 'x':
-                        var amountChars = sizeString
-                            .Substring(j)
+                        var setsChars = sizeString
+                            .Substring(j + 1)
                             .TakeWhile(char.IsDigit)
                             .ToArray();
-                        var amountString = new string(amountChars);
-                        var amount = int.Parse(amountString);
+                        var sets = int.Parse(setsChars);
 
-                        for (var l = 0; l < amount; l++)
+                        for (var k = 0; k < sets; k++)
                         {
-                            var missile = new ModuleSlot(ModuleType.Missile, missileSize);
-                            missiles.Add(missile);
+                            sizes.Add(size);
                         }
 
-                        j += amountChars.Length;
+                        j += setsChars.Length;
+                        break;
+                    default:
+                        sizes.Add(size);
                         break;
                 }
+            }
+
+            foreach (var width in sizes)
+            {
+                var missile = new ModuleSlot(ModuleType.Missile, width);
+                missiles.Add(missile);
             }
 
             i = closingIndex;
@@ -113,7 +118,7 @@ namespace MechParser.NET.Smurfy
                 if (char.IsDigit(character))
                 {
                     var amount = (int) char.GetNumericValue(character);
-                    var moduleTypeChar = text[++i];
+                    var moduleTypeChar = text[i + 1];
                     var moduleType = moduleTypeChar switch
                     {
                         'b' => ModuleType.Ballistic,
@@ -128,7 +133,7 @@ namespace MechParser.NET.Smurfy
 
                     if (moduleType == ModuleType.Missile)
                     {
-                        var missiles = ParseMissile(text, ref i);
+                        var missiles = ParseMissiles(text, ref i);
                         modules.AddRange(missiles);
                         continue;
                     }
