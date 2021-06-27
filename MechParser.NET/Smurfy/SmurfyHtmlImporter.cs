@@ -7,7 +7,7 @@ using MechParser.NET.Mechs;
 
 namespace MechParser.NET.Smurfy
 {
-    public class SmurfyHtmlImporter
+    public static class SmurfyHtmlImporter
     {
         public static IEnumerable<Mech> ParseDocument(IDocument document)
         {

@@ -35,5 +35,21 @@ namespace MechParser.NET.Mechs.Parts
                 _ => throw new ArgumentOutOfRangeException(nameof(type), type, null)
             };
         }
+
+        public static int Slots(this PartType type)
+        {
+            return (int) (type switch
+            {
+                PartType.Head => PartSlots.Head,
+                PartType.LeftArm => PartSlots.Arm,
+                PartType.LeftTorso => PartSlots.Side,
+                PartType.Center => PartSlots.Center,
+                PartType.RightTorso => PartSlots.Side,
+                PartType.RightArm => PartSlots.Arm,
+                PartType.LeftLeg => PartSlots.Leg,
+                PartType.RightLeg => PartSlots.Leg,
+                _ => throw new ArgumentOutOfRangeException(nameof(type), type, null)
+            });
+        }
     }
 }

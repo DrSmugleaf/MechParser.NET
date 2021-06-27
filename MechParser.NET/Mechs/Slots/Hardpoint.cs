@@ -5,9 +5,9 @@ using JetBrains.Annotations;
 namespace MechParser.NET.Mechs.Slots
 {
     [PublicAPI]
-    public record ModuleSlot
+    public record Hardpoint
     {
-        public ModuleSlot(ModuleType type, int? size)
+        public Hardpoint(ModuleType type, int? size)
         {
             Name = type.Name();
             Abbreviation = type.Abbreviation();

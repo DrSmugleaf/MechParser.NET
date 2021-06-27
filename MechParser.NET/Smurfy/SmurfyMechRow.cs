@@ -92,7 +92,7 @@ namespace MechParser.NET.Smurfy
             return int.Parse(element.QuerySelector("span.count")!.TextContent);
         }
 
-        private IEnumerable<ModuleSlot> ParseMissiles(string text)
+        private IEnumerable<Hardpoint> ParseMissiles(string text)
         {
             text = text.Replace(" ", "");
 
@@ -138,13 +138,13 @@ namespace MechParser.NET.Smurfy
 
             foreach (var width in sizes)
             {
-                yield return new ModuleSlot(ModuleType.Missile, width);
+                yield return new Hardpoint(ModuleType.Missile, width);
             }
         }
 
-        private List<ModuleSlot> ParseModules(IHtmlTableCellElement cell)
+        private List<Hardpoint> ParseModules(IHtmlTableCellElement cell)
         {
-            var modules = new List<ModuleSlot>();
+            var hardpoints = new List<Hardpoint>();
 
             if (cell.QuerySelector(BallisticSpanSelector) is { } ballisticSpan)
             {
@@ -152,8 +152,8 @@ namespace MechParser.NET.Smurfy
 
                 for (var i = 0; i < count; i++)
                 {
-                    var module = new ModuleSlot(ModuleType.Ballistic, null);
-                    modules.Add(module);
+                    var hardpoint = new Hardpoint(ModuleType.Ballistic, null);
+                    hardpoints.Add(hardpoint);
                 }
             }
 
@@ -163,8 +163,8 @@ namespace MechParser.NET.Smurfy
 
                 for (var i = 0; i < count; i++)
                 {
-                    var module = new ModuleSlot(ModuleType.Energy, null);
-                    modules.Add(module);
+                    var hardpoint = new Hardpoint(ModuleType.Energy, null);
+                    hardpoints.Add(hardpoint);
                 }
             }
 
@@ -172,7 +172,7 @@ namespace MechParser.NET.Smurfy
             {
                 foreach (var missile in ParseMissiles(missileSpan))
                 {
-                    modules.Add(missile);
+                    hardpoints.Add(missile);
                 }
             }
 
@@ -182,8 +182,8 @@ namespace MechParser.NET.Smurfy
 
                 for (var i = 0; i < count; i++)
                 {
-                    var module = new ModuleSlot(ModuleType.Ams, null);
-                    modules.Add(module);
+                    var hardpoint = new Hardpoint(ModuleType.Ams, null);
+                    hardpoints.Add(hardpoint);
                 }
             }
 
@@ -193,12 +193,12 @@ namespace MechParser.NET.Smurfy
 
                 for (var i = 0; i < count; i++)
                 {
-                    var module = new ModuleSlot(ModuleType.Ecm, null);
-                    modules.Add(module);
+                    var hardpoint = new Hardpoint(ModuleType.Ecm, null);
+                    hardpoints.Add(hardpoint);
                 }
             }
 
-            return modules;
+            return hardpoints;
         }
 
         private IHtmlTableCellElement? GetPartCell(PartType type)
@@ -227,7 +227,7 @@ namespace MechParser.NET.Smurfy
 
                 if (cell == null)
                 {
-                    parts.Add(type, new Part(type, new List<ModuleSlot>()));
+                    parts.Add(type, new Part(type, new List<Hardpoint>()));
                     continue;
                 }
 

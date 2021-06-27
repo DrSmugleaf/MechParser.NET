@@ -9,11 +9,12 @@ namespace MechParser.NET.Mechs.Parts
     [PublicAPI]
     public record Part
     {
-        public Part(PartType type, List<ModuleSlot> slots)
+        public Part(PartType type, List<Hardpoint> hardpoints)
         {
             Name = type.Name();
             Type = type;
-            Slots = slots;
+            Hardpoints = hardpoints;
+            Slots = type.Slots();
         }
 
         [JsonPropertyName("name")]
@@ -22,14 +23,17 @@ namespace MechParser.NET.Mechs.Parts
         [JsonPropertyName("type")]
         public PartType Type { get; }
 
+        [JsonPropertyName("hardpoints")]
+        public List<Hardpoint> Hardpoints { get; }
+
         [JsonPropertyName("slots")]
-        public List<ModuleSlot> Slots { get; }
+        public int Slots { get; }
 
         public override string ToString()
         {
             var str = new StringBuilder(Name);
 
-            if (Slots.Count == 0)
+            if (Hardpoints.Count == 0)
             {
                 return str.ToString();
             }
@@ -37,7 +41,7 @@ namespace MechParser.NET.Mechs.Parts
             str.Append(": ");
             var slotAmount = new Dictionary<ModuleType, int>();
 
-            foreach (var slot in Slots)
+            foreach (var slot in Hardpoints)
             {
                 if (!slotAmount.ContainsKey(slot.Type))
                 {

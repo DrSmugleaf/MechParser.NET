@@ -55,55 +55,55 @@ namespace MechParser.NET.Mechs
         public Faction Faction { get; }
 
         [JsonPropertyName("variant")]
-        public string Variant { get; set; }
+        public string Variant { get; }
 
         [JsonPropertyName("model")]
-        public string Model { get; set; }
+        public string Model { get; }
 
         [JsonPropertyName("tonnage")]
-        public int Tonnage { get; set; }
+        public int Tonnage { get; }
 
         [JsonPropertyName("parts")]
-        public Dictionary<PartType, Part> Parts { get; set; }
+        public Dictionary<PartType, Part> Parts { get; }
 
         [JsonPropertyName("jumpjets")]
-        public int JumpJets { get; set; }
+        public int JumpJets { get; }
 
         [JsonPropertyName("ecm")]
-        public bool Ecm { get; set; }
+        public bool Ecm { get; }
 
         [JsonPropertyName("masc")]
-        public bool Masc { get; set; }
+        public bool Masc { get; }
 
         [JsonPropertyName("minimumEngine")]
-        public int MinimumEngine { get; set; }
+        public int MinimumEngine { get; }
 
         [JsonPropertyName("maximumEngine")]
-        public int MaximumEngine { get; set; }
+        public int MaximumEngine { get; }
 
         [JsonPropertyName("defaultEngine")]
-        public Engine DefaultEngine { get; set; }
+        public Engine DefaultEngine { get; }
 
         [JsonPropertyName("hardpoints")]
-        public Dictionary<ModuleType, int> HardPoints { get; set; }
+        public Dictionary<ModuleType, int> HardPoints { get; }
 
         [JsonPropertyName("torsoYaw")]
-        public double TorsoYaw { get; set; }
+        public double TorsoYaw { get; }
 
         [JsonPropertyName("torsoPitch")]
-        public double TorsoPitch { get; set; }
+        public double TorsoPitch { get; }
 
         [JsonPropertyName("armYaw")]
-        public double ArmYaw { get; set; }
+        public double ArmYaw { get; }
 
         [JsonPropertyName("armPitch")]
-        public double ArmPitch { get; set; }
+        public double ArmPitch { get; }
 
         [JsonPropertyName("mcCost")]
-        public int? McCost { get; set; }
+        public int? McCost { get; }
 
         [JsonPropertyName("cBillsCost")]
-        public int? CBillsCost { get; set; }
+        public int? CBillsCost { get; }
 
         public override string ToString()
         {
@@ -118,7 +118,7 @@ namespace MechParser.NET.Mechs
 
             foreach (var part in Parts.Values)
             {
-                if (part.Slots.Count == 0)
+                if (part.Hardpoints.Count == 0)
                 {
                     continue;
                 }
