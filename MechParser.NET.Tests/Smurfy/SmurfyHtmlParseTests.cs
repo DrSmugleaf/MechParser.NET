@@ -8,7 +8,7 @@ using NUnit.Framework;
 namespace MechParser.NET.Tests.Smurfy
 {
     [TestFixture]
-    public class SmurfyHtmlParseTest
+    public class SmurfyHtmlParseTests
     {
         [Test]
         public void ParseUrlTest()
