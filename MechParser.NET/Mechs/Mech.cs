@@ -21,7 +21,11 @@ namespace MechParser.NET.Mechs
             int minimumEngine,
             int maximumEngine,
             Engine defaultEngine,
-            Dictionary<ModuleType, int> hardPoints)
+            Dictionary<ModuleType, int> hardPoints,
+            double torsoYaw,
+            double torsoPitch,
+            double armYaw,
+            double armPitch)
         {
             Variant = variant;
             Model = model;
@@ -33,6 +37,10 @@ namespace MechParser.NET.Mechs
             MaximumEngine = maximumEngine;
             DefaultEngine = defaultEngine;
             HardPoints = hardPoints;
+            TorsoYaw = torsoYaw;
+            TorsoPitch = torsoPitch;
+            ArmYaw = armYaw;
+            ArmPitch = armPitch;
         }
 
         [JsonPropertyName("variant")]
@@ -64,6 +72,18 @@ namespace MechParser.NET.Mechs
 
         [JsonPropertyName("hardpoints")]
         public Dictionary<ModuleType, int> HardPoints { get; set; }
+
+        [JsonPropertyName("torsoYaw")]
+        public double TorsoYaw { get; set; }
+
+        [JsonPropertyName("torsoPitch")]
+        public double TorsoPitch { get; set; }
+
+        [JsonPropertyName("armYaw")]
+        public double ArmYaw { get; set; }
+
+        [JsonPropertyName("armPitch")]
+        public double ArmPitch { get; set; }
 
         public override string ToString()
         {

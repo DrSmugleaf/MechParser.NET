@@ -181,6 +181,17 @@ namespace MechParser.NET.Smurfy
                 hardpoints[ModuleType.Ballistic] = int.Parse(hardpointsString[1]);
                 hardpoints[ModuleType.Missile] = int.Parse(hardpointsString[2]);
 
+                var twistStrings = smurfyMech.TorsoArm.Replace("°", " ").Split('\n');
+
+                var torsoStrings = twistStrings[0].Split('/');
+                var armStrings = twistStrings[1].Split('/');
+
+                var torsoYaw = double.Parse(torsoStrings[0]);
+                var torsoPitch = double.Parse(armStrings[0]);
+
+                var armYaw = double.Parse(torsoStrings[1]);
+                var armPitch = double.Parse(armStrings[1]);
+
                 yield return new Mech(
                     variant,
                     model,
@@ -191,7 +202,11 @@ namespace MechParser.NET.Smurfy
                     minEngine,
                     maxEngine,
                     defaultEngine,
-                    hardpoints);
+                    hardpoints,
+                    torsoYaw,
+                    torsoPitch,
+                    armYaw,
+                    armPitch);
             }
         }
     }
