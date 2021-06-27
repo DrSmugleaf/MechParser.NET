@@ -24,7 +24,7 @@ namespace MechParser.NET.Smurfy
                     continue;
                 }
 
-                if (row.GetAttribute("data-mechfilter-faction") is not { } faction)
+                if (row.GetAttribute("data-mechfilter-faction") == null)
                 {
                     var family = row.QuerySelector("th.mechs_family")?.TextContent.Trim();
 
@@ -43,6 +43,7 @@ namespace MechParser.NET.Smurfy
                 }
 
                 var mechRow = new SmurfyMechRow(row);
+                var faction = mechRow.ParseFaction();
                 var model = mechRow.ParseModel();
                 var parts = mechRow.ParseParts();
                 var jumpJets = mechRow.ParseJumpJets();
@@ -55,6 +56,7 @@ namespace MechParser.NET.Smurfy
                 var (mcCost, cBillsCost) = mechRow.ParseCost();
 
                 yield return new Mech(
+                    faction,
                     variant,
                     model,
                     parts,

@@ -4,6 +4,7 @@ using System.Linq;
 using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
 using MechParser.NET.Extensions;
+using MechParser.NET.Mechs;
 using MechParser.NET.Mechs.Engines;
 using MechParser.NET.Mechs.Parts;
 using MechParser.NET.Mechs.Slots;
@@ -70,6 +71,16 @@ namespace MechParser.NET.Smurfy
         private IHtmlTableCellElement TorsoArm { get; }
 
         private IHtmlTableCellElement Cost { get; }
+
+        public Faction ParseFaction()
+        {
+            return Model.ParentElement!.GetAttribute("data-mechfilter-faction")!.ToLowerInvariant() switch
+            {
+                "innersphere" => Faction.InnerSphere,
+                "clan" => Faction.Clan,
+                _ => throw new ArgumentOutOfRangeException()
+            };
+        }
 
         public string ParseModel()
         {

@@ -12,6 +12,7 @@ namespace MechParser.NET.Mechs
     public record Mech
     {
         public Mech(
+            Faction faction,
             string variant,
             string model,
             Dictionary<PartType, Part> parts,
@@ -29,6 +30,7 @@ namespace MechParser.NET.Mechs
             int? mcCost,
             int? cBillsCost)
         {
+            Faction = faction;
             Variant = variant;
             Model = model;
             Parts = parts;
@@ -46,6 +48,9 @@ namespace MechParser.NET.Mechs
             McCost = mcCost;
             CBillsCost = cBillsCost;
         }
+
+        [JsonPropertyName("faction")]
+        public Faction Faction { get; }
 
         [JsonPropertyName("variant")]
         public string Variant { get; set; }
