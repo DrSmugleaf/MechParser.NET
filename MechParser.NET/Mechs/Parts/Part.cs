@@ -39,7 +39,7 @@ namespace MechParser.NET.Mechs.Parts
             }
 
             str.Append(": ");
-            var slotAmount = new Dictionary<ModuleType, int>();
+            var slotAmount = new Dictionary<HardpointType, int>();
 
             foreach (var slot in Hardpoints)
             {

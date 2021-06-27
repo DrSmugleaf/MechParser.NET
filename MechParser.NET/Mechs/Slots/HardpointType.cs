@@ -3,7 +3,7 @@
 namespace MechParser.NET.Mechs.Slots
 {
     [PublicAPI]
-    public enum ModuleType
+    public enum HardpointType
     {
         Energy,
         Ballistic,

@@ -87,7 +87,7 @@ namespace MechParser.NET.Smurfy
             return Model.QuerySelector("a")!.TextContent;
         }
 
-        private int ParseModuleCount(IElement element)
+        private int ParseHardpointCount(IElement element)
         {
             return int.Parse(element.QuerySelector("span.count")!.TextContent);
         }
@@ -138,32 +138,32 @@ namespace MechParser.NET.Smurfy
 
             foreach (var width in sizes)
             {
-                yield return new Hardpoint(ModuleType.Missile, width);
+                yield return new Hardpoint(HardpointType.Missile, width);
             }
         }
 
-        private List<Hardpoint> ParseModules(IHtmlTableCellElement cell)
+        private List<Hardpoint> ParseHardpoints(IHtmlTableCellElement cell)
         {
             var hardpoints = new List<Hardpoint>();
 
             if (cell.QuerySelector(BallisticSpanSelector) is { } ballisticSpan)
             {
-                var count = ParseModuleCount(ballisticSpan);
+                var count = ParseHardpointCount(ballisticSpan);
 
                 for (var i = 0; i < count; i++)
                 {
-                    var hardpoint = new Hardpoint(ModuleType.Ballistic, null);
+                    var hardpoint = new Hardpoint(HardpointType.Ballistic, null);
                     hardpoints.Add(hardpoint);
                 }
             }
 
             if (cell.QuerySelector(EnergySpanSelector) is { } energySpan)
             {
-                var count = ParseModuleCount(energySpan);
+                var count = ParseHardpointCount(energySpan);
 
                 for (var i = 0; i < count; i++)
                 {
-                    var hardpoint = new Hardpoint(ModuleType.Energy, null);
+                    var hardpoint = new Hardpoint(HardpointType.Energy, null);
                     hardpoints.Add(hardpoint);
                 }
             }
@@ -178,22 +178,22 @@ namespace MechParser.NET.Smurfy
 
             if (cell.QuerySelector(AmsSpanSelector) is { } amsSpan)
             {
-                var count = ParseModuleCount(amsSpan);
+                var count = ParseHardpointCount(amsSpan);
 
                 for (var i = 0; i < count; i++)
                 {
-                    var hardpoint = new Hardpoint(ModuleType.Ams, null);
+                    var hardpoint = new Hardpoint(HardpointType.Ams, null);
                     hardpoints.Add(hardpoint);
                 }
             }
 
             if (cell.QuerySelector(EcmSpanSelector) is { } ecmSpan)
             {
-                var count = ParseModuleCount(ecmSpan);
+                var count = ParseHardpointCount(ecmSpan);
 
                 for (var i = 0; i < count; i++)
                 {
-                    var hardpoint = new Hardpoint(ModuleType.Ecm, null);
+                    var hardpoint = new Hardpoint(HardpointType.Ecm, null);
                     hardpoints.Add(hardpoint);
                 }
             }
@@ -231,8 +231,8 @@ namespace MechParser.NET.Smurfy
                     continue;
                 }
 
-                var modules = ParseModules(cell);
-                parts.Add(type, new Part(type, modules));
+                var hardpoints = ParseHardpoints(cell);
+                parts.Add(type, new Part(type, hardpoints));
             }
 
             return parts;
@@ -288,18 +288,18 @@ namespace MechParser.NET.Smurfy
             return new Engine(engineType, engineLevel);
         }
 
-        public Dictionary<ModuleType, int> ParseHardpoints()
+        public Dictionary<HardpointType, int> ParseHardpoints()
         {
-            var hardpoints = new Dictionary<ModuleType, int>();
+            var hardpoints = new Dictionary<HardpointType, int>();
 
             var ballistic = int.Parse(Hardpoints.QuerySelector(BallisticHardpointSelector)!.TextContent);
-            hardpoints.Add(ModuleType.Ballistic, ballistic);
+            hardpoints.Add(HardpointType.Ballistic, ballistic);
 
             var energy = int.Parse(Hardpoints.QuerySelector(EnergyHardpointSelector)!.TextContent);
-            hardpoints.Add(ModuleType.Energy, energy);
+            hardpoints.Add(HardpointType.Energy, energy);
 
             var missile = int.Parse(Hardpoints.QuerySelector(MissileHardpointSelector)!.TextContent);
-            hardpoints.Add(ModuleType.Missile, missile);
+            hardpoints.Add(HardpointType.Missile, missile);
 
             return hardpoints;
         }

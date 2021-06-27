@@ -23,7 +23,7 @@ namespace MechParser.NET.Mechs
             int minimumEngine,
             int maximumEngine,
             Engine defaultEngine,
-            Dictionary<ModuleType, int> hardPoints,
+            Dictionary<HardpointType, int> hardPoints,
             double torsoYaw,
             double torsoPitch,
             double armYaw,
@@ -85,7 +85,7 @@ namespace MechParser.NET.Mechs
         public Engine DefaultEngine { get; }
 
         [JsonPropertyName("hardpoints")]
-        public Dictionary<ModuleType, int> HardPoints { get; }
+        public Dictionary<HardpointType, int> HardPoints { get; }
 
         [JsonPropertyName("torsoYaw")]
         public double TorsoYaw { get; }

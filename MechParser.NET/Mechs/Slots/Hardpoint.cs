@@ -7,7 +7,7 @@ namespace MechParser.NET.Mechs.Slots
     [PublicAPI]
     public record Hardpoint
     {
-        public Hardpoint(ModuleType type, int? size)
+        public Hardpoint(HardpointType type, int? size)
         {
             Name = type.Name();
             Abbreviation = type.Abbreviation();
@@ -23,7 +23,7 @@ namespace MechParser.NET.Mechs.Slots
         public string Abbreviation { get; set; }
 
         [JsonPropertyName("type")]
-        public ModuleType Type { get; set; }
+        public HardpointType Type { get; set; }
 
         [JsonPropertyName("color")]
         public Color Color { get; set; }
