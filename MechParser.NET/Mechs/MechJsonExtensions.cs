@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Text.Json;
-using MechParser.NET.Mechs;
 
-namespace MechParser.NET.Json
+namespace MechParser.NET.Mechs
 {
-    public static class JsonExtensions
+    public static class MechJsonExtensions
     {
         public static string SerializeJson(this Mech mech, JsonSerializerOptions? options = null)
         {
@@ -16,12 +15,12 @@ namespace MechParser.NET.Json
             return JsonSerializer.Serialize(mech, options);
         }
 
-        public static Mech? DeserializeSingleMech(this string json, JsonSerializerOptions? options = null)
+        public static Mech? DeserializeMech(this string json, JsonSerializerOptions? options = null)
         {
             return JsonSerializer.Deserialize<Mech>(json, options);
         }
 
-        public static List<Mech>? DeserializeList(this string json, JsonSerializerOptions? options = null)
+        public static List<Mech>? DeserializeMechList(this string json, JsonSerializerOptions? options = null)
         {
             return JsonSerializer.Deserialize<List<Mech>>(json, options);
         }

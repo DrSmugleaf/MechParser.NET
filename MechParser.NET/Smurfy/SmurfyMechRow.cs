@@ -25,7 +25,6 @@ namespace MechParser.NET.Smurfy
 
         public SmurfyMechRow(IHtmlTableRowElement row)
         {
-            Row = row;
             Model = row.Cells[0];
             LeftArm = row.Cells[1];
             LeftTorso = row.Cells[2];
@@ -41,8 +40,6 @@ namespace MechParser.NET.Smurfy
             TorsoArm = row.Cells[12];
             Cost = row.Cells[13];
         }
-
-        public IHtmlTableRowElement Row { get; }
 
         private IHtmlTableCellElement Model { get; }
 

@@ -8,15 +8,15 @@ using NUnit.Framework;
 namespace MechParser.NET.Tests.Smurfy
 {
     [TestFixture]
-    public class SmurfyHtmlParseTests
+    public class SmurfyHtmlImportTests
     {
         [Test]
-        public void ParseUrlTest()
+        public void ParseFileTest()
         {
             var stream = File.OpenRead("mechs");
             var html = GZipExtensions.Decompress(stream);
             var document = new HtmlParser().ParseDocument(html);
-            var mechs = SmurfyHtmlImporter.ParseDocument(document).ToArray();
+            var mechs = SmurfyMechImporter.ParseDocument(document).ToArray();
 
             Assert.That(mechs.Length, Is.EqualTo(695));
         }

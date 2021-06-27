@@ -7,7 +7,7 @@ using MechParser.NET.Mechs;
 
 namespace MechParser.NET.Smurfy
 {
-    public static class SmurfyHtmlImporter
+    public static class SmurfyMechImporter
     {
         public static IEnumerable<Mech> ParseDocument(IDocument document)
         {
@@ -43,6 +43,7 @@ namespace MechParser.NET.Smurfy
                 }
 
                 var mechRow = new SmurfyMechRow(row);
+
                 var faction = mechRow.ParseFaction();
                 var model = mechRow.ParseModel();
                 var parts = mechRow.ParseParts();
@@ -77,7 +78,7 @@ namespace MechParser.NET.Smurfy
             }
         }
 
-        public static IEnumerable<Mech> ParseHtml(string url)
+        public static IEnumerable<Mech> ParseHtmlUrl(string url)
         {
             var config = Configuration.Default.WithDefaultLoader();
             var context = BrowsingContext.New(config);
@@ -86,7 +87,7 @@ namespace MechParser.NET.Smurfy
             return ParseDocument(document);
         }
 
-        public static async IAsyncEnumerable<Mech> ParseHtmlAsync(string url)
+        public static async IAsyncEnumerable<Mech> ParseHtmlUrlAsync(string url)
         {
             var config = Configuration.Default.WithDefaultLoader();
             var context = BrowsingContext.New(config);
