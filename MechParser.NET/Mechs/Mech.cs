@@ -4,6 +4,7 @@ using System.Text.Json.Serialization;
 using JetBrains.Annotations;
 using MechParser.NET.Mechs.Engines;
 using MechParser.NET.Mechs.Parts;
+using MechParser.NET.Mechs.Slots;
 
 namespace MechParser.NET.Mechs
 {
@@ -19,7 +20,8 @@ namespace MechParser.NET.Mechs
             bool masc,
             int minimumEngine,
             int maximumEngine,
-            Engine defaultEngine)
+            Engine defaultEngine,
+            Dictionary<ModuleType, int> hardPoints)
         {
             Variant = variant;
             Model = model;
@@ -30,6 +32,7 @@ namespace MechParser.NET.Mechs
             MinimumEngine = minimumEngine;
             MaximumEngine = maximumEngine;
             DefaultEngine = defaultEngine;
+            HardPoints = hardPoints;
         }
 
         [JsonPropertyName("variant")]
@@ -58,6 +61,9 @@ namespace MechParser.NET.Mechs
 
         [JsonPropertyName("defaultEngine")]
         public Engine DefaultEngine { get; set; }
+
+        [JsonPropertyName("hardpoints")]
+        public Dictionary<ModuleType, int> HardPoints { get; set; }
 
         public override string ToString()
         {

@@ -5,8 +5,8 @@ namespace MechParser.NET.Mechs.Slots
     [PublicAPI]
     public enum ModuleType
     {
-        Ballistic,
         Energy,
+        Ballistic,
         Missile,
         Ams,
         Ecm

@@ -13,7 +13,7 @@ using MechParser.NET.Mechs.Slots;
 namespace MechParser.NET.Smurfy
 {
     [PublicAPI]
-    public static class SmurfyImporter
+    public static class SmurfyCsvImporter
     {
         public static IEnumerable<SmurfyMech> ReadCsvPaste(string path, CultureInfo? culture = null)
         {
@@ -175,6 +175,12 @@ namespace MechParser.NET.Smurfy
                 var masc = smurfyMech.Masc.Equals("no", StringComparison.InvariantCultureIgnoreCase);
                 var (minEngine, maxEngine, defaultEngine) = smurfyMech.ParseEngine();
 
+                var hardpoints = new Dictionary<ModuleType, int>();
+                var hardpointsString = smurfyMech.Hardpoints.Split('\n');
+                hardpoints[ModuleType.Energy] = int.Parse(hardpointsString[0]);
+                hardpoints[ModuleType.Ballistic] = int.Parse(hardpointsString[1]);
+                hardpoints[ModuleType.Missile] = int.Parse(hardpointsString[2]);
+
                 yield return new Mech(
                     variant,
                     model,
@@ -184,7 +190,8 @@ namespace MechParser.NET.Smurfy
                     masc,
                     minEngine,
                     maxEngine,
-                    defaultEngine);
+                    defaultEngine,
+                    hardpoints);
             }
         }
     }

@@ -18,7 +18,7 @@ namespace MechParser.NET.Tests.Smurfy
         [TestCase("2 M (6, 10)", 2)]
         public void MissileParseTest(string text, int missileAmount)
         {
-            var missiles = SmurfyImporter
+            var missiles = SmurfyCsvImporter
                 .ParsePart(PartType.Center, text)
                 .Slots
                 .Count(s => s.Type == ModuleType.Missile);
