@@ -20,7 +20,7 @@ namespace MechParser.NET.Smurfy
             culture ??= CultureInfo.InvariantCulture;
 
             using var reader = new StreamReader(path);
-            var configuration = new CsvConfiguration(culture);
+            var configuration = new CsvConfiguration(culture) {HasHeaderRecord = false};
             using var parser = new CsvParser(reader, configuration);
             using var csvReader = new CsvReader(parser);
 
