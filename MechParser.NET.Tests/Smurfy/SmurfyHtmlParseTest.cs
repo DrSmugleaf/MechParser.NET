@@ -5,12 +5,12 @@ using NUnit.Framework;
 namespace MechParser.NET.Tests.Smurfy
 {
     [TestFixture]
-    public class SmurfyCsvParseTest
+    public class SmurfyHtmlParseTest
     {
         [Test]
-        public void ParseTest()
+        public void ParseUrlTest()
         {
-            var mechs = SmurfyCsvImporter.ParseCsvPaste("mwomechs.csv").ToArray();
+            var mechs = SmurfyHtmlImporter.ParseHtml("https://mwo.smurfy-net.de/").ToArray();
 
             Assert.That(mechs.Length, Is.EqualTo(695));
         }
