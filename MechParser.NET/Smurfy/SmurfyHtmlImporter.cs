@@ -13,8 +13,8 @@ namespace MechParser.NET.Smurfy
         {
             var rows = document.Body.SelectNodes("/html/body/div[3]/table[1]//tr");
 
-            string variant = string.Empty;
-            int tonnage;
+            var variant = string.Empty;
+            var tonnage = 0;
 
             foreach (var element in rows)
             {
@@ -59,6 +59,7 @@ namespace MechParser.NET.Smurfy
                     faction,
                     variant,
                     model,
+                    tonnage,
                     parts,
                     jumpJets,
                     ecm,

@@ -15,6 +15,7 @@ namespace MechParser.NET.Mechs
             Faction faction,
             string variant,
             string model,
+            int tonnage,
             Dictionary<PartType, Part> parts,
             int jumpJets,
             bool ecm,
@@ -33,6 +34,7 @@ namespace MechParser.NET.Mechs
             Faction = faction;
             Variant = variant;
             Model = model;
+            Tonnage = tonnage;
             Parts = parts;
             JumpJets = jumpJets;
             Ecm = ecm;
@@ -57,6 +59,9 @@ namespace MechParser.NET.Mechs
 
         [JsonPropertyName("model")]
         public string Model { get; set; }
+
+        [JsonPropertyName("tonnage")]
+        public int Tonnage { get; set; }
 
         [JsonPropertyName("parts")]
         public Dictionary<PartType, Part> Parts { get; set; }
