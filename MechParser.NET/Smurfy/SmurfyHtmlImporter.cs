@@ -2,20 +2,21 @@
 using AngleSharp;
 using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
+using AngleSharp.XPath;
 using MechParser.NET.Mechs;
 
 namespace MechParser.NET.Smurfy
 {
     public class SmurfyHtmlImporter
     {
-        private static IEnumerable<Mech> ParseDocument(IDocument document)
+        public static IEnumerable<Mech> ParseDocument(IDocument document)
         {
-            var mechTable = document.QuerySelectorAll("body > div:nth-child(3) > table:nth-child(8) > tbody > tr");
+            var rows = document.Body.SelectNodes("/html/body/div[3]/table[1]//tr");
 
             string variant = string.Empty;
             int tonnage;
 
-            foreach (var element in mechTable)
+            foreach (var element in rows)
             {
                 if (element is not IHtmlTableRowElement row ||
                     row.ClassList.Contains("hidden"))
@@ -23,7 +24,7 @@ namespace MechParser.NET.Smurfy
                     continue;
                 }
 
-                if (element.GetAttribute("data-mechfilter-faction") is not { } faction)
+                if (row.GetAttribute("data-mechfilter-faction") is not { } faction)
                 {
                     var family = row.QuerySelector("th.mechs_family")?.TextContent.Trim();
 
