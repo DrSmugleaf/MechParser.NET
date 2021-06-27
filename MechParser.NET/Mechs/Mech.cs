@@ -25,7 +25,9 @@ namespace MechParser.NET.Mechs
             double torsoYaw,
             double torsoPitch,
             double armYaw,
-            double armPitch)
+            double armPitch,
+            int? mcCost,
+            int? cBillsCost)
         {
             Variant = variant;
             Model = model;
@@ -41,6 +43,8 @@ namespace MechParser.NET.Mechs
             TorsoPitch = torsoPitch;
             ArmYaw = armYaw;
             ArmPitch = armPitch;
+            McCost = mcCost;
+            CBillsCost = cBillsCost;
         }
 
         [JsonPropertyName("variant")]
@@ -84,6 +88,12 @@ namespace MechParser.NET.Mechs
 
         [JsonPropertyName("armPitch")]
         public double ArmPitch { get; set; }
+
+        [JsonPropertyName("mcCost")]
+        public int? McCost { get; set; }
+
+        [JsonPropertyName("cBillsCost")]
+        public int? CBillsCost { get; set; }
 
         public override string ToString()
         {

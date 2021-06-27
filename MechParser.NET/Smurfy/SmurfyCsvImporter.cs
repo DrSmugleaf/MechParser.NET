@@ -6,6 +6,7 @@ using System.Linq;
 using CsvHelper;
 using CsvHelper.Configuration;
 using JetBrains.Annotations;
+using MechParser.NET.Extensions;
 using MechParser.NET.Mechs;
 using MechParser.NET.Mechs.Parts;
 using MechParser.NET.Mechs.Slots;
@@ -192,6 +193,20 @@ namespace MechParser.NET.Smurfy
                 var armYaw = double.Parse(torsoStrings[1]);
                 var armPitch = double.Parse(armStrings[1]);
 
+                var costStrings = smurfyMech.Costs.Replace(",", "").Split(' ');
+                int? mcCost = null;
+                int? cBillsCost = null;
+
+                if (costStrings.Length > 0)
+                {
+                    mcCost = IntExtensions.ParseOrNull(costStrings[0]);
+                }
+
+                if (costStrings.Length == 2)
+                {
+                    cBillsCost = IntExtensions.ParseOrNull(costStrings[1]);
+                }
+
                 yield return new Mech(
                     variant,
                     model,
@@ -206,7 +221,9 @@ namespace MechParser.NET.Smurfy
                     torsoYaw,
                     torsoPitch,
                     armYaw,
-                    armPitch);
+                    armPitch,
+                    mcCost,
+                    cBillsCost);
             }
         }
     }
