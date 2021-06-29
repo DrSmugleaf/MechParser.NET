@@ -327,5 +327,15 @@ namespace MechParser.NET.Smurfy
 
             return (mcCost, cBills);
         }
+
+        public bool ParseChampion()
+        {
+            return Variant.QuerySelector("small")?.TextContent.ToLowerInvariant() == "champion";
+        }
+
+        public bool ParseHero()
+        {
+            return Variant.QuerySelector("small")?.TextContent.ToLowerInvariant() == "hero";
+        }
     }
 }

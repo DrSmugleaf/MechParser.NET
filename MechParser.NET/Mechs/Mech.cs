@@ -31,7 +31,9 @@ namespace MechParser.NET.Mechs
             double armYaw,
             double armPitch,
             int? mcCost,
-            int? cBillsCost)
+            int? cBillsCost,
+            bool champion,
+            bool hero)
         {
             Faction = faction;
             Model = model;
@@ -51,6 +53,8 @@ namespace MechParser.NET.Mechs
             ArmPitch = armPitch;
             McCost = mcCost;
             CBillsCost = cBillsCost;
+            Champion = champion;
+            Hero = hero;
         }
 
         [JsonPropertyName("faction")]
@@ -123,6 +127,12 @@ namespace MechParser.NET.Mechs
 
         [JsonPropertyName("cBillsCost")]
         public int? CBillsCost { get; }
+
+        [JsonPropertyName("champion")]
+        public bool Champion { get; }
+
+        [JsonPropertyName("hero")]
+        public bool Hero { get; }
 
         public override string ToString()
         {

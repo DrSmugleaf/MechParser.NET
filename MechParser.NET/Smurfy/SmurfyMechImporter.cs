@@ -55,6 +55,8 @@ namespace MechParser.NET.Smurfy
                 var hardpoints = mechRow.ParseHardpoints();
                 var (torsoYaw, torsoPitch, armYaw, armPitch) = mechRow.ParseTwist();
                 var (mcCost, cBillsCost) = mechRow.ParseCost();
+                var champion = mechRow.ParseChampion();
+                var hero = mechRow.ParseHero();
 
                 yield return new Mech(
                     faction,
@@ -74,7 +76,9 @@ namespace MechParser.NET.Smurfy
                     armYaw,
                     armPitch,
                     mcCost,
-                    cBillsCost);
+                    cBillsCost,
+                    champion,
+                    hero);
             }
         }
 
