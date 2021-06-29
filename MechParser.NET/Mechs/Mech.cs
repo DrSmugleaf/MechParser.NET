@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.Json.Serialization;
 using JetBrains.Annotations;
+using MechParser.NET.Json;
 using MechParser.NET.Mechs.Engines;
 using MechParser.NET.Mechs.Parts;
 using MechParser.NET.Mechs.Slots;
@@ -53,6 +54,7 @@ namespace MechParser.NET.Mechs
         }
 
         [JsonPropertyName("faction")]
+        [JsonConverter(typeof(EnumNameConverter<Faction>))]
         public Faction Faction { get; }
 
         [JsonPropertyName("model")]
@@ -64,7 +66,8 @@ namespace MechParser.NET.Mechs
         [JsonPropertyName("tonnage")]
         public int Tonnage { get; }
 
-        [JsonIgnore]
+        [JsonPropertyName("tonnageClass")]
+        [JsonConverter(typeof(EnumNameConverter<TonnageClass>))]
         public TonnageClass TonnageClass
         {
             get

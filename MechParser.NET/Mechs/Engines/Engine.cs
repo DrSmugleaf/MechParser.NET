@@ -1,4 +1,5 @@
 ﻿using System.Text.Json.Serialization;
+using MechParser.NET.Json;
 
 namespace MechParser.NET.Mechs.Engines
 {
@@ -11,6 +12,7 @@ namespace MechParser.NET.Mechs.Engines
         }
 
         [JsonPropertyName("type")]
+        [JsonConverter(typeof(EnumNameConverter<EngineType>))]
         public EngineType Type { get; set; }
 
         [JsonPropertyName("level")]

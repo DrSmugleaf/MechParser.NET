@@ -1,5 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 using JetBrains.Annotations;
+using MechParser.NET.Json;
 using MechParser.NET.Mechs.Slots;
 
 namespace MechParser.NET.Mechs.Weapons
@@ -52,6 +53,7 @@ namespace MechParser.NET.Mechs.Weapons
         }
 
         [JsonPropertyName("type")]
+        [JsonConverter(typeof(EnumNameConverter<HardpointType>))]
         public HardpointType Type { get; }
 
         [JsonPropertyName("faction")]

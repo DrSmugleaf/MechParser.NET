@@ -1,6 +1,7 @@
 ﻿using System.Drawing;
 using System.Text.Json.Serialization;
 using JetBrains.Annotations;
+using MechParser.NET.Json;
 
 namespace MechParser.NET.Mechs.Slots
 {
@@ -23,9 +24,11 @@ namespace MechParser.NET.Mechs.Slots
         public string Abbreviation { get; set; }
 
         [JsonPropertyName("type")]
+        [JsonConverter(typeof(EnumNameConverter<HardpointType>))]
         public HardpointType Type { get; set; }
 
         [JsonPropertyName("color")]
+        [JsonConverter(typeof(ColorHexConverter))]
         public Color Color { get; set; }
 
         [JsonPropertyName("size")]

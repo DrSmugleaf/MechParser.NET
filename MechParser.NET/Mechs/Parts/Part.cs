@@ -2,6 +2,7 @@
 using System.Text;
 using System.Text.Json.Serialization;
 using JetBrains.Annotations;
+using MechParser.NET.Json;
 using MechParser.NET.Mechs.Slots;
 
 namespace MechParser.NET.Mechs.Parts
@@ -21,6 +22,7 @@ namespace MechParser.NET.Mechs.Parts
         public string Name { get; }
 
         [JsonPropertyName("type")]
+        [JsonConverter(typeof(EnumNameConverter<PartType>))]
         public PartType Type { get; }
 
         [JsonPropertyName("hardpoints")]
