@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Text;
 using System.Text.Json.Serialization;
 using JetBrains.Annotations;
@@ -9,7 +10,7 @@ using MechParser.NET.Mechs.Slots;
 namespace MechParser.NET.Mechs
 {
     [PublicAPI]
-    public record Mech
+    public record Mech : IComparable<Mech>
     {
         public Mech(
             Faction faction,
@@ -62,6 +63,21 @@ namespace MechParser.NET.Mechs
 
         [JsonPropertyName("tonnage")]
         public int Tonnage { get; }
+
+        [JsonIgnore]
+        public TonnageClass TonnageClass
+        {
+            get
+            {
+                return Tonnage switch
+                {
+                    < 40 => TonnageClass.Light,
+                    < 60 => TonnageClass.Medium,
+                    < 80 => TonnageClass.Heavy,
+                    _ => TonnageClass.Assault
+                };
+            }
+        }
 
         [JsonPropertyName("parts")]
         public Dictionary<PartType, Part> Parts { get; }
@@ -127,6 +143,20 @@ namespace MechParser.NET.Mechs
             }
 
             return str.ToString().Trim();
+        }
+
+        public int CompareTo(Mech? other)
+        {
+            if (ReferenceEquals(this, other)) return 0;
+            if (ReferenceEquals(null, other)) return 1;
+
+            var factionComparison = Faction.CompareTo(other.Faction);
+            if (factionComparison != 0) return factionComparison;
+            var modelComparison = string.Compare(Model, other.Model, StringComparison.Ordinal);
+            if (modelComparison != 0) return modelComparison;
+            var variantComparison = string.Compare(Variant, other.Variant, StringComparison.Ordinal);
+            if (variantComparison != 0) return variantComparison;
+            return Tonnage.CompareTo(other.Tonnage);
         }
     }
 }
