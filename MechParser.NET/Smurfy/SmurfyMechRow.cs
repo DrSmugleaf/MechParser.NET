@@ -25,7 +25,7 @@ namespace MechParser.NET.Smurfy
 
         public SmurfyMechRow(IHtmlTableRowElement row)
         {
-            Model = row.Cells[0];
+            Variant = row.Cells[0];
             LeftArm = row.Cells[1];
             LeftTorso = row.Cells[2];
             Center = row.Cells[3];
@@ -41,7 +41,7 @@ namespace MechParser.NET.Smurfy
             Cost = row.Cells[13];
         }
 
-        private IHtmlTableCellElement Model { get; }
+        private IHtmlTableCellElement Variant { get; }
 
         private IHtmlTableCellElement LeftArm { get; }
 
@@ -71,7 +71,7 @@ namespace MechParser.NET.Smurfy
 
         public Faction ParseFaction()
         {
-            return Model.ParentElement!.GetAttribute("data-mechfilter-faction")!.ToLowerInvariant() switch
+            return Variant.ParentElement!.GetAttribute("data-mechfilter-faction")!.ToLowerInvariant() switch
             {
                 "innersphere" => Faction.InnerSphere,
                 "clan" => Faction.Clan,
@@ -79,9 +79,9 @@ namespace MechParser.NET.Smurfy
             };
         }
 
-        public string ParseModel()
+        public string ParseVariant()
         {
-            return Model.QuerySelector("a")!.TextContent;
+            return Variant.QuerySelector("a")!.TextContent;
         }
 
         private int ParseHardpointCount(IElement element)

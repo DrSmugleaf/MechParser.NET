@@ -13,8 +13,8 @@ namespace MechParser.NET.Mechs
     {
         public Mech(
             Faction faction,
-            string variant,
             string model,
+            string variant,
             int tonnage,
             Dictionary<PartType, Part> parts,
             int jumpJets,
@@ -32,8 +32,8 @@ namespace MechParser.NET.Mechs
             int? cBillsCost)
         {
             Faction = faction;
-            Variant = variant;
             Model = model;
+            Variant = variant;
             Tonnage = tonnage;
             Parts = parts;
             JumpJets = jumpJets;
@@ -54,11 +54,11 @@ namespace MechParser.NET.Mechs
         [JsonPropertyName("faction")]
         public Faction Faction { get; }
 
-        [JsonPropertyName("variant")]
-        public string Variant { get; }
-
         [JsonPropertyName("model")]
         public string Model { get; }
+
+        [JsonPropertyName("variant")]
+        public string Variant { get; }
 
         [JsonPropertyName("tonnage")]
         public int Tonnage { get; }

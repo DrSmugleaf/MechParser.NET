@@ -23,8 +23,8 @@ namespace MechParser.NET.Tests.Json
 
             Assert.NotNull(deserializedMech);
             Assert.That(mech.Faction, Is.EqualTo(deserializedMech!.Faction));
-            Assert.That(mech.Variant, Is.EqualTo(deserializedMech.Variant));
             Assert.That(mech.Model, Is.EqualTo(deserializedMech.Model));
+            Assert.That(mech.Variant, Is.EqualTo(deserializedMech.Variant));
         }
 
         [Test]

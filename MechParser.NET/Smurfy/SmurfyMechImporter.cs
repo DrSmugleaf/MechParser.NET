@@ -13,7 +13,7 @@ namespace MechParser.NET.Smurfy
         {
             var rows = document.Body.SelectNodes("/html/body/div[3]/table[1]//tr");
 
-            var variant = string.Empty;
+            var model = string.Empty;
             var tonnage = 0;
 
             foreach (var element in rows)
@@ -33,7 +33,7 @@ namespace MechParser.NET.Smurfy
                         var openingParenthesis = family.LastIndexOf('(');
                         var closingParenthesis = family.LastIndexOf(')');
 
-                        variant = family.Substring(0, openingParenthesis - 1);
+                        model = family.Substring(0, openingParenthesis - 1);
 
                         var tonnageString = family.Substring(openingParenthesis + 1, closingParenthesis - openingParenthesis - 1);
                         tonnage = int.Parse(tonnageString);
@@ -45,7 +45,7 @@ namespace MechParser.NET.Smurfy
                 var mechRow = new SmurfyMechRow(row);
 
                 var faction = mechRow.ParseFaction();
-                var model = mechRow.ParseModel();
+                var variant = mechRow.ParseVariant();
                 var parts = mechRow.ParseParts();
                 var jumpJets = mechRow.ParseJumpJets();
                 var ecm = mechRow.ParseEcm();
@@ -58,8 +58,8 @@ namespace MechParser.NET.Smurfy
 
                 yield return new Mech(
                     faction,
-                    variant,
                     model,
+                    variant,
                     tonnage,
                     parts,
                     jumpJets,
